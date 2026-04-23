@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-04-23T16:54:04Z",
+  "total_scraped": 1306,
+  "total_matched": 5,
+  "jobs": [
+    {
+      "title": "Anthropic Fellows Program",
+      "company": "Anthropic",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [
+        "Python",
+        "RL",
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008",
+      "posted_at": "2025-12-11",
+      "match_score": 50,
+      "match_reasoning": "Placeholder until Claude scoring is enabled.",
+      "tier": "stretch",
+      "seniority": "graduate",
+      "flags": [
+        "residency_pipeline"
+      ]
+    },
+    {
+      "title": "Anthropic Fellows Program — AI Safety",
+      "company": "Anthropic",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008",
+      "posted_at": "2026-04-09",
+      "match_score": 50,
+      "match_reasoning": "Placeholder until Claude scoring is enabled.",
+      "tier": "stretch",
+      "seniority": "graduate",
+      "flags": [
+        "residency_pipeline"
+      ]
+    },
+    {
+      "title": "Anthropic Fellows Program — AI Security",
+      "company": "Anthropic",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008",
+      "posted_at": "2025-12-11",
+      "match_score": 50,
+      "match_reasoning": "Placeholder until Claude scoring is enabled.",
+      "tier": "stretch",
+      "seniority": "graduate",
+      "flags": [
+        "residency_pipeline"
+      ]
+    },
+    {
+      "title": "Anthropic Fellows Program — ML Systems & Performance",
+      "company": "Anthropic",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008",
+      "posted_at": "2026-04-09",
+      "match_score": 50,
+      "match_reasoning": "Placeholder until Claude scoring is enabled.",
+      "tier": "stretch",
+      "seniority": "graduate",
+      "flags": [
+        "residency_pipeline"
+      ]
+    },
+    {
+      "title": "Anthropic Fellows Program — Reinforcement Learning",
+      "company": "Anthropic",
+      "location": "London, UK; Ontario, CAN; Remote-Friendly, United States; San Francisco, CA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [
+        "RL"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008",
+      "posted_at": "2026-04-09",
+      "match_score": 50,
+      "match_reasoning": "Placeholder until Claude scoring is enabled.",
+      "tier": "stretch",
+      "seniority": "graduate",
+      "flags": [
+        "residency_pipeline"
+      ]
+    }
+  ]
+}

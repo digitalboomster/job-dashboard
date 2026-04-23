@@ -1,0 +1,15 @@
+Obum Ijere
+Lagos, Nigeria (open to UK relocation)
+
+Profile
+Early-career AI engineer (~1 year professional experience) with an MSc in Data Analytics & Artificial Intelligence (Distinction) from Loughborough University. Dissertation and research interests centred on reinforcement learning and decision-making under uncertainty. Seeking RL research, AI training / evaluation, and applied ML roles that welcome graduate or junior-level candidates. Limited track record shipping production ML systems; stronger on research methodology, experimentation, and Python-based prototyping.
+
+Education
+- MSc Data Analytics & AI, Loughborough University — Distinction. RL-focused dissertation.
+- Prior background includes mechanical engineering and operations coordination (context only).
+
+Technical
+Python, ML fundamentals, RL concepts (e.g. policy optimisation, sim-to-real themes), data pipelines, academic and project-based model work. Interested in growing PyTorch/JAX and production MLOps exposure.
+
+Work authorisation
+Targeting roles in Lagos, UK, or remote; mindful of UK visa and right-to-work constraints on individual postings.

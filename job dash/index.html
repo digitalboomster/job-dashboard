@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Job Dashboard — Obum Ijere</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0b0d0c;
+    --bg-2: #111513;
+    --bg-3: #181d1a;
+    --ink: #e8e6df;
+    --ink-dim: #8a8b84;
+    --ink-faint: #54544e;
+    --line: #23272339;
+    --line-solid: #262a26;
+    --green: #7ec97e;
+    --green-soft: #7ec97e1a;
+    --amber: #e4b455;
+    --amber-soft: #e4b4551a;
+    --coral: #e27a6f;
+    --coral-soft: #e27a6f1a;
+    --blue: #7ab7d4;
+    --accent: #d6ff4b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.005em;
+  }
+  body {
+    background-image:
+      radial-gradient(circle at 15% 10%, #12221e 0%, transparent 45%),
+      radial-gradient(circle at 85% 85%, #1a1410 0%, transparent 55%),
+      var(--bg);
+    min-height: 100vh;
+    padding: 32px 24px 80px;
+  }
+  .container { max-width: 1280px; margin: 0 auto; }
+
+  /* HEADER */
+  .masthead {
+    border-top: 1px solid var(--line-solid);
+    border-bottom: 1px solid var(--line-solid);
+    padding: 28px 0 22px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 40px;
+  }
+  .masthead-left h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: clamp(36px, 5.5vw, 64px);
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+  .masthead-left h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--accent);
+  }
+  .masthead-left .subline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--ink-dim);
+  }
+  .masthead-left .subline span { color: var(--ink); }
+  .masthead-right {
+    text-align: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--ink-dim);
+    line-height: 1.8;
+  }
+  .masthead-right .stamp {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid var(--green);
+    color: var(--green);
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+
+  /* PROFILE STRIP */
+  .profile-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--line-solid);
+    margin-bottom: 40px;
+    border: 1px solid var(--line-solid);
+  }
+  .profile-cell {
+    background: var(--bg-2);
+    padding: 18px 20px;
+  }
+  .profile-cell .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 6px;
+  }
+  .profile-cell .value {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+  .profile-cell .value small {
+    display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ink-dim);
+    margin-top: 4px;
+    letter-spacing: 0;
+  }
+
+  /* NOTICE */
+  .notice {
+    border-left: 2px solid var(--amber);
+    background: var(--amber-soft);
+    padding: 14px 20px;
+    margin-bottom: 48px;
+    font-size: 13px;
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .notice strong {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--amber);
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  /* TOP 5 SECTION */
+  .top-five {
+    background: var(--bg-2);
+    border: 1px solid var(--line-solid);
+    padding: 36px 40px;
+    margin-bottom: 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .top-five::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--accent), var(--green), var(--amber));
+  }
+  .top-five-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .top-five h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+  }
+  .top-five h2 em { color: var(--accent); font-style: italic; }
+  .top-five .count-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+  }
+  .top-five ol { list-style: none; counter-reset: topfive; }
+  .top-five li {
+    counter-increment: topfive;
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 24px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    align-items: center;
+  }
+  .top-five li:last-child { border-bottom: none; padding-bottom: 0; }
+  .top-five li::before {
+    content: counter(topfive, decimal-leading-zero);
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 44px;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .top-five .t5-role {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+  .top-five .t5-role a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .top-five .t5-role a:hover { border-bottom-color: var(--accent); }
+  .top-five .t5-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-dim);
+  }
+  .top-five .t5-meta .pipe { color: var(--ink-faint); margin: 0 8px; }
+  .top-five .t5-why {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--ink-dim);
+    max-width: 720px;
+  }
+  .top-five .t5-score {
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--green);
+    line-height: 1;
+    text-align: right;
+    font-feature-settings: "tnum";
+  }
+  .top-five .t5-score small {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: var(--ink-faint);
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+
+  /* TIER SECTIONS */
+  .tier { margin-bottom: 56px; }
+  .tier-header {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--line-solid);
+  }
+  .tier-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .tier.high .tier-dot { background: var(--green); box-shadow: 0 0 12px var(--green); }
+  .tier.medium .tier-dot { background: var(--amber); box-shadow: 0 0 12px var(--amber); }
+  .tier.stretch .tier-dot { background: var(--coral); box-shadow: 0 0 12px var(--coral); }
+
+  .tier h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+  }
+  .tier h2 em { font-style: italic; }
+  .tier.high h2 em { color: var(--green); }
+  .tier.medium h2 em { color: var(--amber); }
+  .tier.stretch h2 em { color: var(--coral); }
+  .tier-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-dim);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-left: auto;
+  }
+
+  /* TABLE */
+  .jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .jobs-table thead tr {
+    border-bottom: 1px solid var(--line-solid);
+  }
+  .jobs-table th {
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    padding: 12px 16px 12px 0;
+    white-space: nowrap;
+  }
+  .jobs-table th:first-child { padding-left: 4px; }
+  .jobs-table tbody tr {
+    border-bottom: 1px solid var(--line);
+    transition: background 0.15s;
+  }
+  .jobs-table tbody tr:hover {
+    background: var(--bg-2);
+  }
+  .jobs-table td {
+    padding: 18px 16px 18px 0;
+    vertical-align: top;
+    line-height: 1.45;
+  }
+  .jobs-table td:first-child { padding-left: 4px; }
+  .col-role .role-title {
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    line-height: 1.25;
+    color: var(--ink);
+    margin-bottom: 3px;
+  }
+  .col-role .role-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-faint);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .col-company .company {
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .col-company .company-note {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-faint);
+    letter-spacing: 0.08em;
+    margin-top: 3px;
+    text-transform: uppercase;
+  }
+  .col-location .loc-primary {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .col-location .loc-tag {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 2px;
+    margin-top: 4px;
+  }
+  .tag-lagos { background: var(--green-soft); color: var(--green); }
+  .tag-uk { background: #7ab7d41a; color: var(--blue); }
+  .tag-remote { background: #d6ff4b1a; color: var(--accent); }
+
+  .col-salary {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--ink);
+    font-size: 12px;
+    font-feature-settings: "tnum";
+  }
+  .col-salary .currency-note {
+    display: block;
+    color: var(--ink-faint);
+    font-size: 10px;
+    margin-top: 2px;
+  }
+  .col-skills {
+    font-size: 12px;
+    color: var(--ink-dim);
+    max-width: 260px;
+  }
+  .col-link a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--ink-faint);
+    padding-bottom: 1px;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+  .col-link a:hover { border-bottom-color: var(--accent); border-bottom-style: solid; }
+  .col-score {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: right;
+    font-feature-settings: "tnum";
+    padding-right: 8px !important;
+    min-width: 60px;
+  }
+  .score-high { color: var(--green); }
+  .score-medium { color: var(--amber); }
+  .score-stretch { color: var(--coral); }
+  .col-score small {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    color: var(--ink-faint);
+    letter-spacing: 0.15em;
+    margin-top: 2px;
+    text-transform: uppercase;
+  }
+
+  /* FOOTER NOTES */
+  .footer-notes {
+    margin-top: 72px;
+    padding-top: 40px;
+    border-top: 1px solid var(--line-solid);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .footer-notes h3 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line-solid);
+  }
+  .footer-notes p {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--ink-dim);
+    margin-bottom: 10px;
+  }
+  .footer-notes strong { color: var(--ink); font-weight: 500; }
+  .signoff {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: var(--ink-faint);
+    font-size: 14px;
+  }
+  .signoff::before, .signoff::after {
+    content: '—';
+    margin: 0 12px;
+    color: var(--ink-faint);
+  }
+
+  /* MOBILE */
+  @media (max-width: 900px) {
+    .profile-strip { grid-template-columns: repeat(2, 1fr); }
+    .masthead { grid-template-columns: 1fr; gap: 16px; }
+    .masthead-right { text-align: left; }
+    .footer-notes { grid-template-columns: 1fr; }
+    .jobs-table { font-size: 12px; }
+    .jobs-table thead { display: none; }
+    .jobs-table tbody tr {
+      display: block;
+      padding: 20px 0;
+    }
+    .jobs-table td { display: block; padding: 4px 0; }
+    .jobs-table td::before {
+      content: attr(data-label);
+      display: inline-block;
+      width: 90px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--ink-faint);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-right: 12px;
+    }
+    .col-role::before { display: none !important; }
+    .col-score { text-align: left; font-size: 20px; }
+    .top-five li { grid-template-columns: 40px 1fr; gap: 16px; }
+    .top-five li::before { font-size: 28px; }
+    .top-five .t5-score { grid-column: 1 / -1; text-align: left; font-size: 24px; }
+  }
+
+  /* DYNAMIC DASHBOARD (jobs.json) */
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 36px;
+    padding: 14px 18px;
+    background: var(--bg-2);
+    border: 1px solid var(--line-solid);
+    font-size: 13px;
+    color: var(--ink-dim);
+  }
+  .filter-bar label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .filter-bar select {
+    background: var(--bg-3);
+    color: var(--ink);
+    border: 1px solid var(--line-solid);
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    min-width: 220px;
+    cursor: pointer;
+  }
+  .mh-seniority-stats {
+    display: block;
+    margin-top: 6px;
+    color: var(--ink);
+    letter-spacing: 0.06em;
+  }
+  .seniority-pill {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin-left: 8px;
+    vertical-align: middle;
+    border: 1px solid var(--line-solid);
+    color: var(--ink-dim);
+    background: var(--bg-3);
+  }
+  .seniority-pill.intern { color: var(--accent); border-color: var(--accent); background: #d6ff4b12; }
+  .seniority-pill.graduate { color: var(--blue); border-color: var(--blue); background: #7ab7d414; }
+  .seniority-pill.junior { color: var(--green); border-color: var(--green); background: var(--green-soft); }
+  .seniority-pill.entry { color: var(--amber); border-color: var(--amber); background: var(--amber-soft); }
+  .seniority-pill.mid { color: var(--ink-faint); }
+  .seniority-pill.unknown { opacity: 0.7; }
+  .tier.apply-anyway .tier-dot {
+    background: var(--ink-faint);
+    box-shadow: none;
+  }
+  .tier.apply-anyway h2 em { color: var(--ink-faint); font-style: normal; }
+  .score-apply_anyway { color: var(--ink-faint) !important; }
+  .apply-anyway-details {
+    margin-top: 8px;
+    border: 1px solid var(--line-solid);
+    background: var(--bg-2);
+    border-radius: 2px;
+  }
+  .apply-anyway-details summary {
+    cursor: pointer;
+    padding: 14px 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    list-style: none;
+  }
+  .apply-anyway-details summary::-webkit-details-marker { display: none; }
+  .apply-anyway-details[open] summary { border-bottom: 1px solid var(--line-solid); }
+  .apply-anyway-details .jobs-table { margin: 0; }
+  .apply-anyway-details .muted-note {
+    padding: 12px 18px;
+    font-size: 12px;
+    color: var(--ink-faint);
+    border-top: 1px solid var(--line);
+  }
+  tr.job-row-hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="masthead-left">
+      <h1>Daily Job Dashboard <em>— Obum Ijere</em></h1>
+      <div class="subline">AI / ML &middot; Reinforcement Learning &middot; <span>Lagos &amp; UK priority</span></div>
+    </div>
+    <div class="masthead-right">
+      <span class="stamp" id="mh-stamp">&nbsp;Loading…&nbsp;</span><br>
+      <span id="mh-generated">Fetching jobs.json</span><br>
+      <span id="mh-counts">—</span><br>
+      <span id="mh-seniority" class="mh-seniority-stats"></span>
+    </div>
+  </header>
+
+  <!-- PROFILE STRIP -->
+  <section class="profile-strip">
+    <div class="profile-cell">
+      <div class="label">Target tracks</div>
+      <div class="value">RL research<small>+ AI training eng, industrial AI</small></div>
+    </div>
+    <div class="profile-cell">
+      <div class="label">Base / open to</div>
+      <div class="value">Lagos<small>Open to UK relocation</small></div>
+    </div>
+    <div class="profile-cell">
+      <div class="label">Credentials</div>
+      <div class="value">MSc Dist.<small>Loughborough · Data Analytics &amp; AI</small></div>
+    </div>
+    <div class="profile-cell">
+      <div class="label">Experience</div>
+      <div class="value">~1 yr AI eng<small>+ mech eng / ops coord</small></div>
+    </div>
+  </section>
+
+  <!-- NOTICE -->
+  <div class="notice">
+    <strong>Verification &amp; freshness</strong>
+    Data loads from <code style="font-size:12px;color:var(--ink-dim);">jobs.json</code> produced by the daily scraper. Salary fields are often blank on ATS listings. Click through to confirm live status. After GitHub Actions updates the JSON, refresh this page (or wait for the Vercel deploy).
+  </div>
+
+  <div class="filter-bar">
+    <label for="view-filter">Show</label>
+    <select id="view-filter" aria-label="Filter job list">
+      <option value="all">All matching roles</option>
+      <option value="junior">Junior-focused (entry / junior / intern)</option>
+      <option value="graduate">Graduate schemes &amp; fellowships</option>
+      <option value="remote">Remote only</option>
+    </select>
+  </div>
+
+  <!-- TOP 5 -->
+  <section class="top-five">
+    <div class="top-five-header">
+      <h2>Today&rsquo;s Top 5 <em>to apply to</em></h2>
+      <span class="count-badge" id="top5-badge">High tier &middot; by match score</span>
+    </div>
+    <ol id="top5-list"></ol>
+  </section>
+
+  <!-- HIGH PROBABILITY -->
+  <section class="tier high">
+    <div class="tier-header">
+      <span class="tier-dot"></span>
+      <h2>High probability <em>&mdash; 80+</em></h2>
+      <span class="tier-meta" id="meta-high">0 roles</span>
+    </div>
+    <table class="jobs-table">
+      <thead>
+        <tr>
+          <th>Job title</th>
+          <th>Company</th>
+          <th>Location</th>
+          <th>Salary</th>
+          <th>Required skills</th>
+          <th>Apply</th>
+          <th style="text-align:right;">Match</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-high"></tbody>
+    </table>
+  </section>
+
+  <!-- MEDIUM PROBABILITY -->
+  <section class="tier medium">
+    <div class="tier-header">
+      <span class="tier-dot"></span>
+      <h2>Medium probability <em>&mdash; 65&ndash;79</em></h2>
+      <span class="tier-meta" id="meta-medium">0 roles</span>
+    </div>
+    <table class="jobs-table">
+      <thead>
+        <tr>
+          <th>Job title</th>
+          <th>Company</th>
+          <th>Location</th>
+          <th>Salary</th>
+          <th>Required skills</th>
+          <th>Apply</th>
+          <th style="text-align:right;">Match</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-medium"></tbody>
+    </table>
+  </section>
+
+  <!-- STRETCH -->
+  <section class="tier stretch">
+    <div class="tier-header">
+      <span class="tier-dot"></span>
+      <h2>Stretch roles <em>&mdash; below 65</em></h2>
+      <span class="tier-meta" id="meta-stretch">0 roles</span>
+    </div>
+    <table class="jobs-table">
+      <thead>
+        <tr>
+          <th>Job title</th>
+          <th>Company</th>
+          <th>Location</th>
+          <th>Salary</th>
+          <th>Required skills</th>
+          <th>Apply</th>
+          <th style="text-align:right;">Match</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-stretch"></tbody>
+    </table>
+  </section>
+
+  <!-- APPLY ANYWAY -->
+  <section class="tier apply-anyway">
+    <div class="tier-header">
+      <span class="tier-dot"></span>
+      <h2>Apply anyway <em>&mdash; low match, junior-friendly</em></h2>
+      <span class="tier-meta" id="meta-apply-anyway">0 roles</span>
+    </div>
+    <details class="apply-anyway-details" id="apply-anyway-box">
+      <summary id="apply-anyway-summary">Show graduate-scheme long shots</summary>
+      <table class="jobs-table">
+        <thead>
+          <tr>
+            <th>Job title</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Salary</th>
+            <th>Required skills</th>
+            <th>Apply</th>
+            <th style="text-align:right;">Match</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-apply-anyway"></tbody>
+      </table>
+      <p class="muted-note" id="apply-anyway-note"></p>
+    </details>
+  </section>
+
+  <!-- FOOTER NOTES -->
+  <section class="footer-notes">
+    <div>
+      <h3>&sect; UK visa reality check</h3>
+      <p>Your MSc at Loughborough finished in 2024 &mdash; <strong>the UK Graduate Visa gives 2 years of post-study work rights</strong>, so unless yours has lapsed, you can take non-sponsoring London roles (InstaDeep, many startups). If it&rsquo;s expired, filter hard for sponsoring employers: Spotify, ARM, DeepMind, Wise, Revolut, AstraZeneca, Microsoft UK, Amazon UK.</p>
+      <p>The <strong>&pound;41,700 Skilled Worker threshold</strong> in 2026 is above most junior ML bands &mdash; so for sponsored roles you need to come in at mid level or above, which given 1 yr experience is a real push.</p>
+    </div>
+    <div>
+      <h3>&sect; Sharpening the odds</h3>
+      <p>To move stretch roles into medium over 6&ndash;12 months: ship one RL project end-to-end publicly (blog, GH, or preprint), contribute to CleanRL / Stable-Baselines3 / Prime Intellect&rsquo;s stack, and target <strong>research residencies that don&rsquo;t require a PhD</strong> &mdash; Cohere, AI2, and past Anthropic residencies have taken non-PhD candidates with strong portfolios.</p>
+      <p>Network-wise: Zindi leaderboards and Data Science Nigeria are how Lagos ML teams quietly hire. Two strong competition placements beats most cold applications.</p>
+    </div>
+  </section>
+
+  <div class="signoff">End of today&rsquo;s run</div>
+
+</div>
+<script>
+(function () {
+  var SENIORITY_LABEL = {
+    entry: 'Entry',
+    junior: 'Junior',
+    graduate: 'Graduate',
+    intern: 'Intern',
+    mid: 'Mid',
+    unknown: 'Unclear'
+  };
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function locTagHtml(tag) {
+    var cls = tag === 'lagos' ? 'tag-lagos' : (tag === 'remote' ? 'tag-remote' : 'tag-uk');
+    var lab = tag === 'lagos' ? 'Lagos' : (tag === 'remote' ? 'Remote' : 'UK');
+    return '<span class="loc-tag ' + cls + '">' + lab + '</span>';
+  }
+
+  function seniorityPill(sen) {
+    var label = SENIORITY_LABEL[sen] || SENIORITY_LABEL.unknown;
+    var cls = sen && sen !== 'unknown' ? sen : 'unknown';
+    return '<span class="seniority-pill ' + cls + '">' + escapeHtml(label) + '</span>';
+  }
+
+  function scoreClass(tier, score) {
+    if (tier === 'apply_anyway') return 'score-apply_anyway';
+    if (score >= 80) return 'score-high';
+    if (score >= 65) return 'score-medium';
+    return 'score-stretch';
+  }
+
+  function companyNote(job) {
+    var parts = [];
+    if (job.flags && job.flags.length) parts.push(job.flags.join(' · '));
+    return parts.length ? '<span class="company-note">' + escapeHtml(parts.join(' ')) + '</span>' : '';
+  }
+
+  function roleSub(job) {
+    var bits = [];
+    if (job.posted_at) bits.push('Posted ' + job.posted_at);
+    if (job.location_tag) bits.push(job.location_tag);
+    return bits.length ? '<div class="role-sub">' + escapeHtml(bits.join(' · ')) + '</div>' : '';
+  }
+
+  function tableRow(job) {
+    var salary = job.salary && String(job.salary).trim() ? escapeHtml(job.salary) : '—';
+    var skills = (job.skills && job.skills.length) ? escapeHtml(job.skills.join(', ')) : '—';
+    var host = '';
+    try { host = new URL(job.apply_url).hostname.replace(/^www\./, ''); } catch (e) { host = 'Apply'; }
+    var sc = scoreClass(job.tier, job.match_score);
+    return (
+      '<tr data-loc="' + escapeHtml(job.location_tag || '') + '" data-sen="' + escapeHtml(job.seniority || '') + '">' +
+        '<td class="col-role" data-label="Role">' +
+          '<div class="role-title">' + escapeHtml(job.title) + seniorityPill(job.seniority || 'unknown') + '</div>' +
+          roleSub(job) +
+        '</td>' +
+        '<td class="col-company" data-label="Company">' +
+          '<span class="company">' + escapeHtml(job.company) + '</span>' +
+          companyNote(job) +
+        '</td>' +
+        '<td class="col-location" data-label="Location">' +
+          '<div class="loc-primary">' + escapeHtml(job.location) + '</div>' +
+          locTagHtml(job.location_tag || 'uk') +
+        '</td>' +
+        '<td class="col-salary" data-label="Salary">' + salary + '</td>' +
+        '<td class="col-skills" data-label="Skills">' + skills + '</td>' +
+        '<td class="col-link" data-label="Apply"><a href="' + escapeHtml(job.apply_url) + '" target="_blank" rel="noopener">' + escapeHtml(host) + ' →</a></td>' +
+        '<td class="col-score ' + sc + '" data-label="Match">' + String(job.match_score | 0) + '<small>/100</small></td>' +
+      '</tr>'
+    );
+  }
+
+  function topFiveItem(job, rank) {
+    var why = job.match_reasoning ? '<div class="t5-why">' + escapeHtml(job.match_reasoning) + '</div>' : '';
+    return (
+      '<li>' +
+        '<div>' +
+          '<div class="t5-role"><a href="' + escapeHtml(job.apply_url) + '" target="_blank" rel="noopener">' + escapeHtml(job.title) + '</a>' + seniorityPill(job.seniority || 'unknown') + '</div>' +
+          '<div class="t5-meta">' + escapeHtml(job.company) + ' <span class="pipe">·</span> ' + escapeHtml(job.location) + '</div>' +
+          why +
+        '</div>' +
+        '<div class="t5-score">' + String(job.match_score | 0) + '<small>Match</small></div>' +
+      '</li>'
+    );
+  }
+
+  function passesFilter(job, mode) {
+    if (mode === 'all') return true;
+    if (mode === 'junior') return ['entry', 'junior', 'intern'].indexOf(job.seniority) !== -1;
+    if (mode === 'graduate') {
+      if (job.seniority === 'graduate') return true;
+      return /\bgraduate\b|fellow/i.test(job.title || '');
+    }
+    if (mode === 'remote') return job.location_tag === 'remote';
+    return true;
+  }
+
+  function sortByScore(a, b) { return (b.match_score | 0) - (a.match_score | 0); }
+
+  function render(data, filterMode) {
+    var jobs = (data.jobs || []).filter(function (j) { return passesFilter(j, filterMode); });
+    var high = jobs.filter(function (j) { return j.tier === 'high'; }).sort(sortByScore);
+    var med = jobs.filter(function (j) { return j.tier === 'medium'; }).sort(sortByScore);
+    var str = jobs.filter(function (j) { return j.tier === 'stretch'; }).sort(sortByScore);
+    var anyway = jobs.filter(function (j) { return j.tier === 'apply_anyway'; }).sort(sortByScore);
+
+    document.getElementById('tbody-high').innerHTML = high.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">No roles in this tier for the current filter.</td></tr>';
+    document.getElementById('tbody-medium').innerHTML = med.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">No roles in this tier for the current filter.</td></tr>';
+    document.getElementById('tbody-stretch').innerHTML = str.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">No roles in this tier for the current filter.</td></tr>';
+    document.getElementById('tbody-apply-anyway').innerHTML = anyway.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">None right now — needs Claude scores &lt;40 on junior-tagged roles.</td></tr>';
+
+    document.getElementById('meta-high').textContent = high.length + ' roles';
+    document.getElementById('meta-medium').textContent = med.length + ' roles';
+    document.getElementById('meta-stretch').textContent = str.length + ' roles';
+    document.getElementById('meta-apply-anyway').textContent = anyway.length + ' roles';
+
+    var top5 = high.slice(0, 5);
+    var badge = document.getElementById('top5-badge');
+    var ol = document.getElementById('top5-list');
+    var anyHighInDataset = (data.jobs || []).some(function (j) { return j.tier === 'high'; });
+    if (top5.length) {
+      badge.textContent = 'Top ' + top5.length + ' of high tier (80+)';
+      ol.innerHTML = top5.map(topFiveItem).join('');
+    } else if (!jobs.length) {
+      ol.innerHTML = '<li style="list-style:none;"><div><div class="t5-role">No roles for this filter.</div><div class="t5-meta">Widen the filter or re-run the scraper.</div></div></li>';
+      badge.textContent = 'Empty';
+    } else if (anyHighInDataset && filterMode !== 'all') {
+      ol.innerHTML = '<li style="list-style:none;"><div><div class="t5-role">No high-tier roles match this filter.</div><div class="t5-meta">Switch to &ldquo;All matching roles&rdquo; or another filter.</div></div></li>';
+      badge.textContent = 'High tier hidden by filter';
+    } else if (!anyHighInDataset) {
+      top5 = jobs.slice().sort(sortByScore).slice(0, 5);
+      badge.textContent = 'Best scores in this run (no 80+ yet)';
+      ol.innerHTML = top5.map(topFiveItem).join('');
+    } else {
+      ol.innerHTML = '<li style="list-style:none;"><div><div class="t5-role">No high-tier rows to show.</div></div></li>';
+      badge.textContent = 'High tier';
+    }
+
+    var sum = document.getElementById('apply-anyway-summary');
+    if (anyway.length) {
+      sum.textContent = 'Show ' + anyway.length + ' apply-anyway role' + (anyway.length === 1 ? '' : 's') + ' (collapsed)';
+      document.getElementById('apply-anyway-note').textContent = 'Scores under 40 with explicit junior / graduate / intern / entry tagging — worth a speculative application when the scheme itself is the opportunity.';
+    } else {
+      sum.textContent = 'No apply-anyway bucket yet';
+      document.getElementById('apply-anyway-note').textContent = '';
+    }
+  }
+
+  function countSeniority(data) {
+    var jobs = data.jobs || [];
+    var c = { junior: 0, graduate: 0, intern: 0 };
+    jobs.forEach(function (j) {
+      if (j.seniority === 'junior') c.junior++;
+      else if (j.seniority === 'graduate') c.graduate++;
+      else if (j.seniority === 'intern') c.intern++;
+    });
+    return c;
+  }
+
+  function formatMasthead(data) {
+    var ga = data.generated_at || '';
+    document.getElementById('mh-stamp').innerHTML = '&nbsp;Live — jobs.json&nbsp;';
+    document.getElementById('mh-generated').textContent = 'Generated ' + ga + ' (UTC)';
+    document.getElementById('mh-counts').textContent = (data.total_matched | 0) + ' roles · ' + (data.total_scraped | 0) + ' scraped';
+    var c = countSeniority(data);
+    document.getElementById('mh-seniority').textContent =
+      c.junior + ' junior · ' + c.graduate + ' graduate · ' + c.intern + ' intern';
+  }
+
+  var allData = null;
+  function refreshView() {
+    if (!allData) return;
+    var mode = document.getElementById('view-filter').value;
+    render(allData, mode);
+  }
+
+  fetch('jobs.json', { cache: 'no-store' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('jobs.json ' + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      allData = data;
+      formatMasthead(data);
+      refreshView();
+      document.getElementById('view-filter').addEventListener('change', refreshView);
+    })
+    .catch(function (e) {
+      document.getElementById('mh-stamp').textContent = ' Error ';
+      document.getElementById('mh-generated').textContent = String(e.message || e);
+      document.getElementById('mh-counts').textContent = 'Serve via http://localhost:8000 with jobs.json alongside index.html';
+    });
+})();
+</script>
+</body>
+</html>
