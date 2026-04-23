@@ -424,6 +424,7 @@
   .score-high { color: var(--green); }
   .score-medium { color: var(--amber); }
   .score-stretch { color: var(--coral); }
+  .score-unscored { color: var(--ink-faint); }
   .col-score small {
     display: block;
     font-family: 'JetBrains Mono', monospace;
@@ -804,9 +805,26 @@
 
   function scoreClass(tier, score) {
     if (tier === 'apply_anyway') return 'score-apply_anyway';
-    if (score >= 80) return 'score-high';
-    if (score >= 65) return 'score-medium';
+    if (score == null || score === '') return 'score-unscored';
+    var n = Number(score);
+    if (!Number.isFinite(n)) return 'score-unscored';
+    if (n >= 80) return 'score-high';
+    if (n >= 65) return 'score-medium';
     return 'score-stretch';
+  }
+
+  function formatMatchCell(score) {
+    if (score == null || score === '') return '—<small>not scored</small>';
+    var n = Number(score);
+    if (!Number.isFinite(n)) return '—<small>not scored</small>';
+    return String(Math.round(n)) + '<small>/100</small>';
+  }
+
+  function formatTop5Match(score) {
+    if (score == null || score === '') return '—<small>No score</small>';
+    var n = Number(score);
+    if (!Number.isFinite(n)) return '—<small>No score</small>';
+    return String(Math.round(n)) + '<small>Match</small>';
   }
 
   function companyNote(job) {
@@ -845,7 +863,7 @@
         '<td class="col-salary" data-label="Salary">' + salary + '</td>' +
         '<td class="col-skills" data-label="Skills">' + skills + '</td>' +
         '<td class="col-link" data-label="Apply"><a href="' + escapeHtml(job.apply_url) + '" target="_blank" rel="noopener">' + escapeHtml(host) + ' →</a></td>' +
-        '<td class="col-score ' + sc + '" data-label="Match">' + String(job.match_score | 0) + '<small>/100</small></td>' +
+        '<td class="col-score ' + sc + '" data-label="Match">' + formatMatchCell(job.match_score) + '</td>' +
       '</tr>'
     );
   }
@@ -859,7 +877,7 @@
           '<div class="t5-meta">' + escapeHtml(job.company) + ' <span class="pipe">·</span> ' + escapeHtml(job.location) + '</div>' +
           why +
         '</div>' +
-        '<div class="t5-score">' + String(job.match_score | 0) + '<small>Match</small></div>' +
+        '<div class="t5-score">' + formatTop5Match(job.match_score) + '</div>' +
       '</li>'
     );
   }
@@ -875,7 +893,13 @@
     return true;
   }
 
-  function sortByScore(a, b) { return (b.match_score | 0) - (a.match_score | 0); }
+  function sortByScore(a, b) {
+    var x = a.match_score;
+    var y = b.match_score;
+    var nx = x == null || x === '' || !Number.isFinite(Number(x)) ? -1 : Number(x);
+    var ny = y == null || y === '' || !Number.isFinite(Number(y)) ? -1 : Number(y);
+    return ny - nx;
+  }
 
   function render(data, filterMode) {
     var jobs = (data.jobs || []).filter(function (j) { return passesFilter(j, filterMode); });

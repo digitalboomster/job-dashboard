@@ -15,6 +15,9 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    # Required for Environment secrets: the job must use the same Environment name as in
+    # Settings → Secrets and variables → Actions. Repository secrets do not need this line.
+    environment: OPENAI_SECRET_KEY
     steps:
       - name: Checkout
         uses: actions/checkout@v4

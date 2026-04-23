@@ -24,6 +24,7 @@ from sources import SOURCES
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "jobs.json"
 CV_PATH = ROOT / "cv.txt"
+ENV_PATH = ROOT / ".env"
 
 MAX_JD_CHARS = 8000
 # Cheap default; override with OPENAI_MODEL (e.g. gpt-4.1-mini if your org uses it).
@@ -33,6 +34,20 @@ OPENAI_MODEL_DEFAULT = "gpt-4o-mini"
 def openai_key() -> str | None:
     k = (os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_SECRET_KEY") or "").strip()
     return k or None
+
+
+def load_env_file(path: Path) -> None:
+    """Populate os.environ from a simple KEY=VAL file (no python-dotenv dependency)."""
+    if not path.is_file():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key, val = key.strip(), val.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = val
 
 
 def strict_junior_filters() -> bool:
@@ -331,7 +346,9 @@ def infer_seniority(title: str, description: str) -> str:
     return "unknown"
 
 
-def compute_tier(score: int, seniority: str) -> str:
+def compute_tier(score: int | None, seniority: str) -> str:
+    if score is None:
+        return "stretch"
     if score < 40 and seniority in JUNIOR_TAGS:
         return "apply_anyway"
     if score >= 80:
@@ -447,7 +464,26 @@ def _truncate_jd(text: str, max_chars: int = MAX_JD_CHARS) -> str:
     return t[: max_chars - 3] + "..."
 
 
-def _parse_score_json(text: str) -> tuple[int, str]:
+def _coerce_score_value(raw: Any) -> int | None:
+    if raw is None or isinstance(raw, bool):
+        return None
+    if isinstance(raw, (int, float)):
+        s = int(round(float(raw)))
+        return max(0, min(100, s))
+    if isinstance(raw, str):
+        v = raw.strip()
+        if v.isdigit():
+            return _coerce_score_value(int(v))
+        try:
+            return _coerce_score_value(float(v))
+        except ValueError:
+            m = re.search(r"\b(\d{1,3})\b", v)
+            if m:
+                return _coerce_score_value(int(m.group(1)))
+    return None
+
+
+def _parse_score_json(text: str) -> tuple[int | None, str]:
     t = text.strip()
     if t.startswith("```"):
         t = re.sub(r"^```(?:json)?\s*", "", t, flags=re.IGNORECASE)
@@ -458,21 +494,75 @@ def _parse_score_json(text: str) -> tuple[int, str]:
     except json.JSONDecodeError:
         start, end = blob.find("{"), blob.rfind("}")
         if start == -1 or end <= start:
-            return 50, "Score unavailable."
+            return None, "Score unavailable (no JSON object)."
         try:
             data = json.loads(blob[start : end + 1])
         except json.JSONDecodeError:
-            return 50, "Score unavailable."
+            return None, "Score unavailable (invalid JSON)."
+    if not isinstance(data, dict):
+        return None, "Score unavailable (expected a JSON object)."
+
+    raw_score = None
+    for key in ("score", "match_score", "fit_score", "overall_score", "match"):
+        if key in data:
+            raw_score = data.get(key)
+            break
+    score = _coerce_score_value(raw_score)
+    if score is None:
+        m = re.search(
+            r'"(?:score|match_score|fit_score)"\s*:\s*(\d{1,3})',
+            blob,
+        )
+        if m:
+            score = _coerce_score_value(int(m.group(1)))
+
+    reason_raw = data.get("reasoning", data.get("reason", data.get("explanation", "")))
+    reason = str(reason_raw or "").strip()
+    words = reason.split()
+    if len(words) > 20:
+        reason = " ".join(words[:20])
+    if score is None:
+        return None, reason or "Score unavailable (missing numeric score)."
+    return score, reason or "No reasoning returned."
+
+
+def _chat_score_completion(client: Any, model: str, system: str, user_msg: str) -> str:
+    kwargs: dict[str, Any] = dict(
+        model=model,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user_msg},
+        ],
+        max_tokens=200,
+    )
     try:
-        score = int(data["score"])
-        score = max(0, min(100, score))
-        reason = str(data.get("reasoning", "")).strip()
-        words = reason.split()
-        if len(words) > 20:
-            reason = " ".join(words[:20])
-        return score, reason or "No reasoning returned."
-    except (KeyError, TypeError, ValueError):
-        return 50, "Score unavailable."
+        completion = client.chat.completions.create(
+            **kwargs,
+            response_format={"type": "json_object"},
+        )
+    except Exception as e:
+        err = str(e).lower()
+        if any(
+            x in err
+            for x in (
+                "response_format",
+                "json_object",
+                "not support",
+                "unsupported",
+                "invalid_parameter",
+            )
+        ):
+            completion = client.chat.completions.create(**kwargs)
+        else:
+            raise
+    return completion.choices[0].message.content or ""
+
+
+def _mark_jobs_unscored(jobs: list[dict[str, Any]], message: str) -> None:
+    for row in jobs:
+        row["match_score"] = None
+        row["match_reasoning"] = message
+        row["tier"] = compute_tier(None, str(row.get("seniority") or "unknown"))
 
 
 def score_jobs(jobs: list[dict[str, Any]]) -> None:
@@ -480,15 +570,27 @@ def score_jobs(jobs: list[dict[str, Any]]) -> None:
         from openai import OpenAI
     except ImportError:
         print("openai package not installed; skipping scoring")
+        _mark_jobs_unscored(
+            jobs,
+            "Not scored: install the OpenAI SDK (`pip install -r scraper/requirements.txt`).",
+        )
         return
 
     api_key = openai_key()
     if not api_key:
         print("No OpenAI key (OPENAI_API_KEY or OPENAI_SECRET_KEY); skipping scoring")
+        _mark_jobs_unscored(
+            jobs,
+            "Not scored: OpenAI key missing at scoring time (unexpected).",
+        )
         return
 
     if not CV_PATH.is_file():
         print(f"cv.txt not found at {CV_PATH}; skipping scoring")
+        _mark_jobs_unscored(
+            jobs,
+            f"Not scored: add {CV_PATH.name} next to jobs.json (plain text CV).",
+        )
         return
 
     cv_text = CV_PATH.read_text(encoding="utf-8").strip()
@@ -506,7 +608,10 @@ def score_jobs(jobs: list[dict[str, Any]]) -> None:
     model = (os.environ.get("OPENAI_MODEL") or "").strip() or OPENAI_MODEL_DEFAULT
     max_n_raw = os.environ.get("MAX_SCORE_JOBS", "").strip()
     max_n = int(max_n_raw) if max_n_raw.isdigit() else None
+    n_target = len(jobs) if max_n is None else min(max_n, len(jobs))
+    print(f"OpenAI scoring: model={model}, jobs={n_target} (of {len(jobs)} matched)")
 
+    ok = fail = 0
     for idx, job in enumerate(jobs):
         if max_n is not None and idx >= max_n:
             break
@@ -518,25 +623,32 @@ def score_jobs(jobs: list[dict[str, Any]]) -> None:
             f"Job description (may be truncated):\n{jd}"
         )
         try:
-            completion = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": system},
-                    {"role": "user", "content": user_msg},
-                ],
-                max_tokens=200,
-                response_format={"type": "json_object"},
-            )
-            raw = completion.choices[0].message.content or ""
+            raw = _chat_score_completion(client, model, system, user_msg)
             score, reason = _parse_score_json(raw)
+            if score is None:
+                fail += 1
+            else:
+                ok += 1
         except Exception as exc:
             print(f"[score error] {job.get('title', '')[:50]}: {exc}")
-            score, reason = 50, "Score unavailable."
+            score, reason = None, f"API error: {exc}"[:280]
+            fail += 1
 
         job["match_score"] = score
         job["match_reasoning"] = reason
         job["tier"] = compute_tier(score, str(job.get("seniority") or "unknown"))
         time.sleep(0.15)
+
+    if max_n is not None:
+        lim_msg = (
+            "Not scored: row is beyond MAX_SCORE_JOBS (only the first N matched jobs are sent to the API)."
+        )
+        for job in jobs[max_n:]:
+            job["match_score"] = None
+            job["match_reasoning"] = lim_msg
+            job["tier"] = compute_tier(None, str(job.get("seniority") or "unknown"))
+
+    print(f"OpenAI scoring done: {ok} scored, {fail} failed/unparsed (this batch).")
 
 
 def _row_common(
@@ -551,8 +663,7 @@ def _row_common(
     scoring_text: str,
     salary: str = "",
 ) -> dict[str, Any]:
-    score = 50
-    tier = compute_tier(score, seniority)
+    tier = compute_tier(None, seniority)
     return {
         "title": title,
         "company": company,
@@ -562,8 +673,8 @@ def _row_common(
         "skills": _guess_skills(full_text),
         "apply_url": apply_url,
         "posted_at": posted,
-        "match_score": score,
-        "match_reasoning": "Pending AI scoring.",
+        "match_score": None,
+        "match_reasoning": "",
         "tier": tier,
         "seniority": seniority,
         "flags": flags,
@@ -650,6 +761,8 @@ def run() -> None:
     global _GH_DETAIL_CACHE
     _GH_DETAIL_CACHE = {}
 
+    load_env_file(ENV_PATH)
+
     print(
         f"Filters: STRICT_JUNIOR_FILTERS={strict_junior_filters()}, "
         f"TITLE_FILTER_MODE={title_filter_mode()}, boards={len(SOURCES)}"
@@ -689,10 +802,21 @@ def run() -> None:
         jobs.append(row)
 
     skip = os.environ.get("SKIP_SCORING", "").lower() in ("1", "true", "yes")
+    no_key_msg = (
+        "Not scored: no OPENAI_API_KEY or OPENAI_SECRET_KEY in the environment. "
+        "Locally: export the key or add job dash/.env with OPENAI_API_KEY=sk-... "
+        "GitHub Actions: Repository Settings → Secrets and variables → Actions → "
+        "add OPENAI_API_KEY as a repository secret (workflows that omit `environment:` "
+        "do not see Environment-only secrets)."
+    )
     if openai_key() and not skip:
         score_jobs(jobs)
+    elif skip:
+        print("SKIP_SCORING set; skipping OpenAI.")
+        _mark_jobs_unscored(jobs, "Not scored: SKIP_SCORING is enabled.")
     elif not openai_key():
-        print("OpenAI key not set (OPENAI_API_KEY or OPENAI_SECRET_KEY); placeholder scores")
+        print("OpenAI key not set; jobs will show — instead of a match score.")
+        _mark_jobs_unscored(jobs, no_key_msg)
 
     for row in jobs:
         row.pop("_scoring_text", None)

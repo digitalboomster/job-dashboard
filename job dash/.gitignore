@@ -1,5 +1,6 @@
 # Optional: keep Word exports local; cv.txt is what the scraper uses
 *.docx
+.env
 
 scraper/.deps/
 __pycache__/
