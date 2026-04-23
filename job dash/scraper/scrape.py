@@ -1,6 +1,8 @@
 """
-Fetch Lever + Greenhouse jobs, filter (keyword → seniority), write jobs.json.
-Optional OpenAI chat scoring for match_score / tier (see score_jobs).
+Fetch Lever + Greenhouse jobs, filter by location + AI/ML keywords, optional OpenAI scoring.
+
+Broad mode (default): many companies, no “junior-only” gate — CV-based scorer down-ranks poor fits.
+Set STRICT_JUNIOR_FILTERS=1 to restore the previous fellowship/grad-heavy pipeline.
 """
 
 from __future__ import annotations
@@ -32,8 +34,25 @@ def openai_key() -> str | None:
     k = (os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_SECRET_KEY") or "").strip()
     return k or None
 
+
+def strict_junior_filters() -> bool:
+    return os.environ.get("STRICT_JUNIOR_FILTERS", "").lower() in ("1", "true", "yes")
+
+
+def title_filter_mode() -> str:
+    """none | exec (default) | strict — how aggressively to drop roles by title."""
+    m = (os.environ.get("TITLE_FILTER_MODE") or "exec").strip().lower()
+    if m in ("none", "off", "0"):
+        return "none"
+    if m in ("strict", "all"):
+        return "strict"
+    return "exec"
+
+
 KEYWORD_RE = re.compile(
-    r"\b(ai|ml|rl)\b|research|machine learning|reinforcement",
+    r"\b(ai|ml|rl)\b|research|machine learning|reinforcement|artificial intelligence|"
+    r"data scientist|applied scientist|deep learning|\bnlp\b|computer vision|\bllm\b|"
+    r"generative ai|genai|foundation model|post-?training|alignment|eval|evaluation",
     re.IGNORECASE,
 )
 
@@ -69,6 +88,37 @@ UK_HINTS = (
     " wales",
 )
 
+EU_HINTS = (
+    "ireland",
+    "dublin",
+    "berlin",
+    "munich",
+    "frankfurt",
+    "hamburg",
+    "amsterdam",
+    "rotterdam",
+    "paris",
+    "lyon",
+    "madrid",
+    "barcelona",
+    "lisbon",
+    "porto",
+    "stockholm",
+    "zurich",
+    "geneva",
+    "brussels",
+    "warsaw",
+    "krakow",
+    "prague",
+    "vienna",
+    "copenhagen",
+    "europe",
+    "emea",
+    ", eu",
+    " eu,",
+    " europe",
+)
+
 JUNIOR_TAGS = frozenset({"entry", "junior", "graduate", "intern"})
 
 _GH_DETAIL_CACHE: dict[tuple[str, int], dict[str, Any]] = {}
@@ -80,7 +130,7 @@ def _blob_for_location(job_location: str) -> str:
 
 def location_matches(job_location: str) -> bool:
     L = _blob_for_location(job_location)
-    if any(x in L for x in ("remote", "distributed", "anywhere", "fully remote")):
+    if any(x in L for x in ("remote", "distributed", "anywhere", "fully remote", "work from home")):
         return True
     if "lagos" in L or "nigeria" in L:
         return True
@@ -88,18 +138,22 @@ def location_matches(job_location: str) -> bool:
         return True
     if L.rstrip().endswith(" uk"):
         return True
+    if any(h in L for h in EU_HINTS):
+        return True
     return False
 
 
 def location_tag(job_location: str) -> str:
     L = _blob_for_location(job_location)
-    if any(x in L for x in ("remote", "distributed", "anywhere", "fully remote")):
+    if any(x in L for x in ("remote", "distributed", "anywhere", "fully remote", "work from home")):
         return "remote"
     if "lagos" in L or "nigeria" in L:
         return "lagos"
     if any(h in L for h in UK_HINTS) or L.rstrip().endswith(" uk"):
         return "uk"
-    return "uk"
+    if any(h in L for h in EU_HINTS):
+        return "eu"
+    return "eu"
 
 
 def keyword_matches(text: str) -> bool:
@@ -139,6 +193,20 @@ def title_non_stem_noise(title: str) -> bool:
     )
 
 
+def title_exec_rejects(title: str) -> bool:
+    """Drop obvious exec / leadership titles; keep IC 'Senior' / 'Lead' / 'Staff' for breadth."""
+    t = title.lower()
+    if re.search(r"\bvice president\b", t) or re.search(r"\bvp\b", t):
+        return True
+    if re.search(r"\bchief\b", t) or re.search(r"\bcto\b", t) or re.search(r"\bcio\b", t) or re.search(r"\bcfo\b", t):
+        return True
+    if re.search(r"\bhead of\b", t):
+        return True
+    if re.search(r"\bdirector\b", t):
+        return True
+    return False
+
+
 def title_auto_rejects(title: str) -> bool:
     t = title.lower()
     if re.search(r"\b(senior|sr\.)\b", t):
@@ -164,6 +232,15 @@ def title_auto_rejects(title: str) -> bool:
     if re.search(r"\b5\s*\+\s*years\b", t) or re.search(r"\b7\s*\+\s*years\b", t) or re.search(r"\b10\s*\+\s*years\b", t):
         return True
     return False
+
+
+def title_filter_rejects(title: str) -> bool:
+    mode = title_filter_mode()
+    if mode == "none":
+        return False
+    if mode == "strict":
+        return title_auto_rejects(title)
+    return title_exec_rejects(title)
 
 
 def has_entry_level_signal(blob: str) -> bool:
@@ -241,6 +318,10 @@ def infer_seniority(title: str, description: str) -> str:
         return "entry"
     if re.search(r"\bjunior\b", t):
         return "junior"
+    if re.search(r"\bsenior\b", t) or re.search(r"\bstaff\b", t) or re.search(r"\bprincipal\b", t):
+        return "mid"
+    if re.search(r"\blead\b", t) and not re.search(r"lead gen|lead generation", t):
+        return "mid"
     if "industrial placement" in t or re.search(r"\bplacement\s+year\b", t):
         return "entry"
     if re.search(r"\b(student|undergraduate)\s+researcher\b", t):
@@ -482,7 +563,7 @@ def _row_common(
         "apply_url": apply_url,
         "posted_at": posted,
         "match_score": score,
-        "match_reasoning": "Placeholder until Claude scoring is enabled.",
+        "match_reasoning": "Pending AI scoring.",
         "tier": tier,
         "seniority": seniority,
         "flags": flags,
@@ -495,7 +576,7 @@ def normalize_lever(raw: dict[str, Any], company: str, flags: list[str]) -> dict
     if not location_matches(loc):
         return None
     title = (raw.get("text") or "").strip()
-    if title_auto_rejects(title):
+    if title_filter_rejects(title):
         return None
     body = lever_body_text(raw)
     if not (keyword_matches(title) or LEVER_DESC_STRONG_RE.search(body)):
@@ -504,7 +585,7 @@ def normalize_lever(raw: dict[str, Any], company: str, flags: list[str]) -> dict
         return None
     if title_non_stem_noise(title) and not STRONG_DOMAIN_RE.search(body):
         return None
-    if not has_entry_level_signal(body):
+    if strict_junior_filters() and not has_entry_level_signal(body):
         return None
     desc_only = (raw.get("descriptionPlain") or "").strip()
     seniority = infer_seniority(title, desc_only)
@@ -529,7 +610,7 @@ def normalize_greenhouse(
     if not location_matches(loc):
         return None
     title = (raw.get("title") or "").strip()
-    if title_auto_rejects(title):
+    if title_filter_rejects(title):
         return None
 
     jid = raw.get("id")
@@ -539,7 +620,9 @@ def normalize_greenhouse(
         except (TypeError, ValueError):
             return None
 
-    need_detail = (not keyword_matches(title)) or (not has_entry_level_signal(title))
+    need_detail = not keyword_matches(title)
+    if strict_junior_filters() and not has_entry_level_signal(title):
+        need_detail = True
     desc_plain = ""
     if need_detail:
         desc_plain = greenhouse_description_plain(session, board, jid)
@@ -549,7 +632,7 @@ def normalize_greenhouse(
         return None
     if title_non_stem_noise(title) and not STRONG_DOMAIN_RE.search(blob):
         return None
-    if not has_entry_level_signal(blob):
+    if strict_junior_filters() and not has_entry_level_signal(blob):
         return None
 
     seniority = infer_seniority(title, desc_plain)
@@ -566,6 +649,11 @@ def dedupe_key(row: dict[str, Any]) -> str:
 def run() -> None:
     global _GH_DETAIL_CACHE
     _GH_DETAIL_CACHE = {}
+
+    print(
+        f"Filters: STRICT_JUNIOR_FILTERS={strict_junior_filters()}, "
+        f"TITLE_FILTER_MODE={title_filter_mode()}, boards={len(SOURCES)}"
+    )
 
     session = requests.Session()
     session.headers.update({"User-Agent": "job-dashboard-scraper/1.0"})

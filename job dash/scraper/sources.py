@@ -46,16 +46,26 @@ def greenhouse(
     return s
 
 
+# Greenhouse board tokens verified via public Job Board API (404 = remove or fix token).
 SOURCES: list[Source] = [
     lever("InstaDeep", "instadeep", region="eu"),
-    greenhouse("Anthropic", "anthropic", flags=["residency_pipeline"]),
+    greenhouse("Anthropic", "anthropic"),
+    greenhouse("DeepMind", "deepmind"),
+    greenhouse("Databricks", "databricks"),
+    greenhouse("Scale AI", "scaleai"),
+    greenhouse("Snorkel AI", "snorkelai"),
+    greenhouse("Runpod", "runpod"),
+    greenhouse("Comet", "comet"),
+    greenhouse("Stability AI", "stabilityai"),
+    greenhouse("Lightricks", "lightricks"),
+    greenhouse("CoreWeave", "coreweave"),
+    greenhouse("Waymo", "waymo"),
+    greenhouse("Applied Intuition", "appliedintuition"),
+    greenhouse("Airbnb", "airbnb"),
+    greenhouse("Robinhood", "robinhood"),
+    greenhouse("Duolingo", "duolingo"),
     greenhouse("Monzo", "monzo"),
     greenhouse("Canonical", "canonical"),
     greenhouse("Stripe", "stripe"),
     greenhouse("Cleo", "cleo"),
-    # Greenhouse tokens below return 404 as of 2026-04 — replace when you have working slugs.
-    # greenhouse("Wise", "wise"),
-    # greenhouse("Deliveroo", "deliveroo"),
-    # greenhouse("Zilch", "zilch"),
-    # Octopus Energy: no public Lever/Greenhouse slug found here — add when known.
 ]

@@ -380,6 +380,7 @@
   }
   .tag-lagos { background: var(--green-soft); color: var(--green); }
   .tag-uk { background: #7ab7d41a; color: var(--blue); }
+  .tag-eu { background: #9b8cff1a; color: #b8a9ff; }
   .tag-remote { background: #d6ff4b1a; color: var(--accent); }
 
   .col-salary {
@@ -790,8 +791,8 @@
   }
 
   function locTagHtml(tag) {
-    var cls = tag === 'lagos' ? 'tag-lagos' : (tag === 'remote' ? 'tag-remote' : 'tag-uk');
-    var lab = tag === 'lagos' ? 'Lagos' : (tag === 'remote' ? 'Remote' : 'UK');
+    var cls = tag === 'lagos' ? 'tag-lagos' : (tag === 'remote' ? 'tag-remote' : (tag === 'eu' ? 'tag-eu' : 'tag-uk'));
+    var lab = tag === 'lagos' ? 'Lagos' : (tag === 'remote' ? 'Remote' : (tag === 'eu' ? 'EU' : 'UK'));
     return '<span class="loc-tag ' + cls + '">' + lab + '</span>';
   }
 
@@ -839,7 +840,7 @@
         '</td>' +
         '<td class="col-location" data-label="Location">' +
           '<div class="loc-primary">' + escapeHtml(job.location) + '</div>' +
-          locTagHtml(job.location_tag || 'uk') +
+          locTagHtml(job.location_tag || 'remote') +
         '</td>' +
         '<td class="col-salary" data-label="Salary">' + salary + '</td>' +
         '<td class="col-skills" data-label="Skills">' + skills + '</td>' +

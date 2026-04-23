@@ -1,6 +1,8 @@
 # Daily job dashboard
 
-Static site (`index.html`) that loads [`jobs.json`](jobs.json), produced by [`scraper/scrape.py`](scraper/scrape.py) from Lever and Greenhouse sources defined in [`scraper/sources.py`](scraper/sources.py).
+Static site (`index.html`) that loads [`jobs.json`](jobs.json), produced by [`scraper/scrape.py`](scraper/scrape.py) from **public Lever and Greenhouse JSON APIs** listed in [`scraper/sources.py`](scraper/sources.py). It does not crawl the whole web — it aggregates ATS feeds you add there, then ranks matches with your CV via OpenAI.
+
+**Default behaviour:** broad AI/ML + location filter across many companies; **junior/grad-only** mode is opt-in (see below).
 
 ## Prerequisites
 
@@ -96,3 +98,7 @@ The workflow uses `permissions: contents: write` and the default `GITHUB_TOKEN`.
 | `OPENAI_MODEL` | Chat model (default `gpt-4o-mini`). |
 | `SKIP_SCORING` | If `1` / `true` / `yes`, skip API calls even if the key is set. |
 | `MAX_SCORE_JOBS` | If set to a positive integer, only the first N jobs are scored (cost control). |
+| `STRICT_JUNIOR_FILTERS` | If `1` / `true` / `yes`, only keep roles with explicit intern/grad/fellow/etc. signals (narrow feed). **Default: off.** |
+| `TITLE_FILTER_MODE` | `exec` (default): drop VP/Director/Head/Chief titles only. `none`: no title drops. `strict`: also drop Senior/Lead/Staff/Principal/Manager (very narrow). |
+
+Add more companies by editing [`scraper/sources.py`](scraper/sources.py) (one line per Greenhouse/Lever board).
