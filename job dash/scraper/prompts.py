@@ -1,7 +1,5 @@
 """
-Instructions for Claude job scoring (used when ANTHROPIC_API_KEY is wired in).
-
-Merge `SCORING_SYSTEM_ADDENDUM` into the system prompt alongside the candidate CV.
+Instructions for LLM job scoring (OpenAI chat; merge into system prompt with candidate CV).
 """
 
 SCORING_SYSTEM_ADDENDUM = """

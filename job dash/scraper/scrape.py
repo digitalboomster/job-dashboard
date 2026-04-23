@@ -1,6 +1,6 @@
 """
 Fetch Lever + Greenhouse jobs, filter (keyword → seniority), write jobs.json.
-Claude scoring optional later; match_score placeholder drives tier including apply_anyway.
+Optional OpenAI chat scoring for match_score / tier (see score_jobs).
 """
 
 from __future__ import annotations
@@ -24,7 +24,13 @@ OUT_PATH = ROOT / "jobs.json"
 CV_PATH = ROOT / "cv.txt"
 
 MAX_JD_CHARS = 8000
-CLAUDE_MODEL_DEFAULT = "claude-haiku-4-5"
+# Cheap default; override with OPENAI_MODEL (e.g. gpt-4.1-mini if your org uses it).
+OPENAI_MODEL_DEFAULT = "gpt-4o-mini"
+
+
+def openai_key() -> str | None:
+    k = (os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_SECRET_KEY") or "").strip()
+    return k or None
 
 KEYWORD_RE = re.compile(
     r"\b(ai|ml|rl)\b|research|machine learning|reinforcement",
@@ -390,13 +396,18 @@ def _parse_score_json(text: str) -> tuple[int, str]:
 
 def score_jobs(jobs: list[dict[str, Any]]) -> None:
     try:
-        from anthropic import Anthropic
+        from openai import OpenAI
     except ImportError:
-        print("anthropic package not installed; skipping scoring")
+        print("openai package not installed; skipping scoring")
+        return
+
+    api_key = openai_key()
+    if not api_key:
+        print("No OpenAI key (OPENAI_API_KEY or OPENAI_SECRET_KEY); skipping scoring")
         return
 
     if not CV_PATH.is_file():
-        print(f"cv.txt not found at {CV_PATH}; skipping Claude scoring")
+        print(f"cv.txt not found at {CV_PATH}; skipping scoring")
         return
 
     cv_text = CV_PATH.read_text(encoding="utf-8").strip()
@@ -406,12 +417,12 @@ def score_jobs(jobs: list[dict[str, Any]]) -> None:
         f"{cv_text}\n\n"
         "--- SCORING RULES ---\n"
         f"{SCORING_SYSTEM_ADDENDUM}\n\n"
-        'Respond with ONLY valid JSON (no markdown fences): '
-        '{"score": <integer 0-100>, "reasoning": "<string, max 20 words>"}'
+        "Return a JSON object with exactly two keys: "
+        '"score" (integer 0-100) and "reasoning" (string, max 20 words).'
     )
 
-    client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
-    model = (os.environ.get("ANTHROPIC_MODEL") or "").strip() or CLAUDE_MODEL_DEFAULT
+    client = OpenAI(api_key=api_key)
+    model = (os.environ.get("OPENAI_MODEL") or "").strip() or OPENAI_MODEL_DEFAULT
     max_n_raw = os.environ.get("MAX_SCORE_JOBS", "").strip()
     max_n = int(max_n_raw) if max_n_raw.isdigit() else None
 
@@ -426,17 +437,16 @@ def score_jobs(jobs: list[dict[str, Any]]) -> None:
             f"Job description (may be truncated):\n{jd}"
         )
         try:
-            msg = client.messages.create(
+            completion = client.chat.completions.create(
                 model=model,
-                max_tokens=256,
-                system=system,
-                messages=[{"role": "user", "content": user_msg}],
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user_msg},
+                ],
+                max_tokens=200,
+                response_format={"type": "json_object"},
             )
-            parts: list[str] = []
-            for block in msg.content:
-                if getattr(block, "type", None) == "text":
-                    parts.append(getattr(block, "text", ""))
-            raw = "".join(parts)
+            raw = completion.choices[0].message.content or ""
             score, reason = _parse_score_json(raw)
         except Exception as exc:
             print(f"[score error] {job.get('title', '')[:50]}: {exc}")
@@ -591,10 +601,10 @@ def run() -> None:
         jobs.append(row)
 
     skip = os.environ.get("SKIP_SCORING", "").lower() in ("1", "true", "yes")
-    if os.environ.get("ANTHROPIC_API_KEY") and not skip:
+    if openai_key() and not skip:
         score_jobs(jobs)
-    elif not os.environ.get("ANTHROPIC_API_KEY"):
-        print("ANTHROPIC_API_KEY not set; wrote jobs with placeholder scores")
+    elif not openai_key():
+        print("OpenAI key not set (OPENAI_API_KEY or OPENAI_SECRET_KEY); placeholder scores")
 
     for row in jobs:
         row.pop("_scoring_text", None)

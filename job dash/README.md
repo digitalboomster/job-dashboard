@@ -22,20 +22,24 @@ export SKIP_SCORING=1
 python scraper/scrape.py
 ```
 
-**Full run with Claude Haiku scoring:**
+**Full run with OpenAI scoring:**
 
 ```bash
-export ANTHROPIC_API_KEY="sk-ant-..."
-# optional: pin model (default claude-haiku-4-5)
-export ANTHROPIC_MODEL="claude-haiku-4-5"
+export OPENAI_API_KEY="sk-..."   # or: export OPENAI_SECRET_KEY="sk-..."
+# optional: model (default gpt-4o-mini — cheap and enough for JSON scores)
+export OPENAI_MODEL="gpt-4o-mini"
 # optional: score only first N jobs (testing)
 export MAX_SCORE_JOBS=5
 python scraper/scrape.py
 ```
 
-Keep [`cv.txt`](cv.txt) up to date; it is injected into the Claude system prompt together with the rules in [`scraper/prompts.py`](scraper/prompts.py).
+Keep [`cv.txt`](cv.txt) up to date; it is injected into the system prompt together with the rules in [`scraper/prompts.py`](scraper/prompts.py).
 
-If `ANTHROPIC_API_KEY` is unset, the scraper still writes `jobs.json` with placeholder scores and a short notice on stderr.
+If no OpenAI key is set, the scraper still writes `jobs.json` with placeholder scores.
+
+**Model suggestion:** use **`gpt-4o-mini`** (default) for cost. If you want a bit more nuance for similar price, try **`gpt-4.1-mini`** when your OpenAI account has access. Avoid large models (`gpt-4o`, `gpt-5`, etc.) for this unless you need them — they cost much more per job.
+
+**Security:** store the API key as an Actions **secret**, not a **variable** (variables are not masked in logs).
 
 **View the dashboard:** Browsers block `fetch()` on `file://`. Serve the folder over HTTP:
 
@@ -52,13 +56,17 @@ Workflow: [`.github/workflows/daily.yml`](../.github/workflows/daily.yml) (repo 
 - Runs **daily at 07:00 UTC** and on **workflow_dispatch**.
 - Executes the scraper from `job dash/`, then commits **`job dash/jobs.json`** with message `Daily scrape YYYY-MM-DD` when there are changes.
 
-### Repository secret
+### Repository secrets and variables
 
-1. GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
-2. Name: `ANTHROPIC_API_KEY`
-3. Value: your Anthropic API key
+1. **Secret (required for scoring):** **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
+   - Name: **`OPENAI_API_KEY`** (recommended), **or** **`OPENAI_SECRET_KEY`** if you already created that name — the scraper accepts either.
+   - Value: your OpenAI API key (`sk-...`).
 
-Optional: under **Variables**, add `ANTHROPIC_MODEL` (e.g. `claude-haiku-4-5-20251001`) to override the default.
+2. **Variable (optional):** **Variables** → **New repository variable**
+   - Name: **`OPENAI_MODEL`**
+   - Value: e.g. **`gpt-4o-mini`** (default if unset) or **`gpt-4.1-mini`**.
+
+Do **not** put the API key in **Variables** — use **Secrets** only.
 
 ### Pushing from Actions
 
@@ -77,14 +85,14 @@ The workflow uses `permissions: contents: write` and the default `GITHUB_TOKEN`.
 |--------|----------------|
 | Empty or tiny `jobs.json` | Filters in `scraper/scrape.py` (keyword + junior signals + title exclusions). Loosen carefully. |
 | `fetch` fails in the browser | Serve over `http://`, not `file://`. |
-| Claude errors / `Score unavailable.` | API key, model name, network; see Action logs. Partial failures keep score 50 for that row. |
+| OpenAI errors / `Score unavailable.` | API key, model name, billing; see Action logs. Partial failures keep score 50 for that row. |
 | Workflow does not commit | No diff on `jobs.json`, or token/branch protection blocking push. |
 
 ## Environment reference
 
 | Variable | Effect |
 |----------|--------|
-| `ANTHROPIC_API_KEY` | Enables Claude scoring when set (and `SKIP_SCORING` is not set). |
+| `OPENAI_API_KEY` or `OPENAI_SECRET_KEY` | Enables OpenAI scoring when set (and `SKIP_SCORING` is not). |
+| `OPENAI_MODEL` | Chat model (default `gpt-4o-mini`). |
 | `SKIP_SCORING` | If `1` / `true` / `yes`, skip API calls even if the key is set. |
-| `ANTHROPIC_MODEL` | Model id (default `claude-haiku-4-5`). |
 | `MAX_SCORE_JOBS` | If set to a positive integer, only the first N jobs are scored (cost control). |

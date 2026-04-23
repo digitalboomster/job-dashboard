@@ -33,8 +33,10 @@ jobs:
       - name: Run scraper
         working-directory: job dash
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          # Prefer repository secret OPENAI_API_KEY; OPENAI_SECRET_KEY is an alias if you named it that way.
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_SECRET_KEY: ${{ secrets.OPENAI_SECRET_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
         run: python scraper/scrape.py
 
       - name: Commit jobs.json if changed

@@ -886,7 +886,7 @@
     document.getElementById('tbody-high').innerHTML = high.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">No roles in this tier for the current filter.</td></tr>';
     document.getElementById('tbody-medium').innerHTML = med.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">No roles in this tier for the current filter.</td></tr>';
     document.getElementById('tbody-stretch').innerHTML = str.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">No roles in this tier for the current filter.</td></tr>';
-    document.getElementById('tbody-apply-anyway').innerHTML = anyway.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">None right now — needs Claude scores &lt;40 on junior-tagged roles.</td></tr>';
+    document.getElementById('tbody-apply-anyway').innerHTML = anyway.map(tableRow).join('') || '<tr><td colspan="7" style="padding:20px;color:var(--ink-dim);">None right now — needs scores &lt;40 on junior-tagged roles.</td></tr>';
 
     document.getElementById('meta-high').textContent = high.length + ' roles';
     document.getElementById('meta-medium').textContent = med.length + ' roles';
