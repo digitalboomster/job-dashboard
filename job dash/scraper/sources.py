@@ -49,6 +49,9 @@ def greenhouse(
 # Greenhouse board tokens verified via public Job Board API (404 = remove or fix token).
 SOURCES: list[Source] = [
     lever("InstaDeep", "instadeep", region="eu"),
+    greenhouse("Baringa", "baringa", flags=["consulting"]),
+    greenhouse("Watershed", "watershed", flags=["energy", "climate"]),
+    greenhouse("Sunnova", "sunnova", flags=["energy"]),
     greenhouse("Anthropic", "anthropic"),
     greenhouse("DeepMind", "deepmind"),
     greenhouse("Databricks", "databricks"),

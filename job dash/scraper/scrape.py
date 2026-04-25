@@ -67,7 +67,8 @@ def title_filter_mode() -> str:
 KEYWORD_RE = re.compile(
     r"\b(ai|ml|rl)\b|research|machine learning|reinforcement|artificial intelligence|"
     r"data scientist|applied scientist|deep learning|\bnlp\b|computer vision|\bllm\b|"
-    r"generative ai|genai|foundation model|post-?training|alignment|eval|evaluation",
+    r"generative ai|genai|foundation model|post-?training|alignment|eval|evaluation|"
+    r"data analyst|analytics|business analyst|technology consultant|digital consultant",
     re.IGNORECASE,
 )
 
@@ -76,6 +77,13 @@ STRONG_DOMAIN_RE = re.compile(
     r"machine learning|reinforcement learning|\brl\b|deep learning|\bml\b|"
     r"research engineer|research scientist|applied scientist|ai engineer|"
     r"mle\b|llm|large language model|generative ai|pytorch|tensorflow|jax\b",
+    re.IGNORECASE,
+)
+
+GENERALIST_EARLY_RE = re.compile(
+    r"data analyst|analytics consultant|business analyst|technology consultant|"
+    r"digital consultant|operations analyst|strategy analyst|energy analyst|"
+    r"graduate (program|scheme)|trainee|early career",
     re.IGNORECASE,
 )
 
@@ -180,6 +188,9 @@ def keyword_pass(title: str, blob: str) -> bool:
         return True
     if keyword_matches(blob) and STRONG_DOMAIN_RE.search(blob):
         return True
+    # Keep a broad lane for entry-level generalist roles (consulting/energy/analytics).
+    if has_entry_level_signal(f"{title}\n{blob}") and GENERALIST_EARLY_RE.search(f"{title}\n{blob}"):
+        return True
     return False
 
 
@@ -282,6 +293,8 @@ def has_entry_level_signal(blob: str) -> bool:
         return True
     if re.search(r"0\s*[-–]\s*2\s*years", b) or re.search(r"1\s*[-–]\s*2\s*years", b) or re.search(r"1\s*[-–]\s*3\s*years", b):
         return True
+    if re.search(r"\b0\s*(?:\+)?\s*years?\b", b) or re.search(r"\bzero\s+years?\b", b):
+        return True
     if "no experience required" in b or "no prior experience" in b:
         return True
     if (
@@ -322,6 +335,8 @@ def infer_seniority(title: str, description: str) -> str:
         or re.search(r"0\s*[-–]\s*2\s*years", t)
         or re.search(r"1\s*[-–]\s*2\s*years", t)
         or re.search(r"1\s*[-–]\s*3\s*years", t)
+        or re.search(r"\b0\s*(?:\+)?\s*years?\b", t)
+        or re.search(r"\bzero\s+years?\b", t)
         or "no experience required" in t
         or "no prior experience" in t
         or re.search(r"level\s*1\b", t)
@@ -777,20 +792,24 @@ def run() -> None:
     for src in SOURCES:
         flags = list(src.get("flags") or [])
         kind = src["kind"]
-        if kind == "lever":
-            raw_jobs = fetch_lever(session, src["slug"], src["region"])
-            total_scraped += len(raw_jobs)
-            for raw in raw_jobs:
-                row = normalize_lever(raw, src["company"], flags)
-                if row:
-                    all_rows.append(row)
-        elif kind == "greenhouse":
-            raw_jobs = fetch_greenhouse(session, src["board"])
-            total_scraped += len(raw_jobs)
-            for raw in raw_jobs:
-                row = normalize_greenhouse(session, src["board"], raw, src["company"], flags)
-                if row:
-                    all_rows.append(row)
+        try:
+            if kind == "lever":
+                raw_jobs = fetch_lever(session, src["slug"], src["region"])
+                total_scraped += len(raw_jobs)
+                for raw in raw_jobs:
+                    row = normalize_lever(raw, src["company"], flags)
+                    if row:
+                        all_rows.append(row)
+            elif kind == "greenhouse":
+                raw_jobs = fetch_greenhouse(session, src["board"])
+                total_scraped += len(raw_jobs)
+                for raw in raw_jobs:
+                    row = normalize_greenhouse(session, src["board"], raw, src["company"], flags)
+                    if row:
+                        all_rows.append(row)
+        except Exception as exc:
+            print(f"[source error] {src.get('company', 'unknown')} ({kind}): {exc}")
+            continue
 
     seen: set[str] = set()
     jobs: list[dict[str, Any]] = []
