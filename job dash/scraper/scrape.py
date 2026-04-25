@@ -152,18 +152,8 @@ def _blob_for_location(job_location: str) -> str:
 
 
 def location_matches(job_location: str) -> bool:
-    L = _blob_for_location(job_location)
-    if any(x in L for x in ("remote", "distributed", "anywhere", "fully remote", "work from home")):
-        return True
-    if "lagos" in L or "nigeria" in L:
-        return True
-    if any(h in L for h in UK_HINTS):
-        return True
-    if L.rstrip().endswith(" uk"):
-        return True
-    if any(h in L for h in EU_HINTS):
-        return True
-    return False
+    # Worldwide mode: keep all locations instead of restricting to Lagos/UK/EU/remote.
+    return True
 
 
 def location_tag(job_location: str) -> str:
@@ -176,7 +166,7 @@ def location_tag(job_location: str) -> str:
         return "uk"
     if any(h in L for h in EU_HINTS):
         return "eu"
-    return "eu"
+    return "global"
 
 
 def keyword_matches(text: str) -> bool:

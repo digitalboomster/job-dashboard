@@ -382,6 +382,7 @@
   .tag-uk { background: #7ab7d41a; color: var(--blue); }
   .tag-eu { background: #9b8cff1a; color: #b8a9ff; }
   .tag-remote { background: #d6ff4b1a; color: var(--accent); }
+  .tag-global { background: #ffffff12; color: #d0d0cb; }
 
   .col-salary {
     font-family: 'JetBrains Mono', monospace;
@@ -792,8 +793,8 @@
   }
 
   function locTagHtml(tag) {
-    var cls = tag === 'lagos' ? 'tag-lagos' : (tag === 'remote' ? 'tag-remote' : (tag === 'eu' ? 'tag-eu' : 'tag-uk'));
-    var lab = tag === 'lagos' ? 'Lagos' : (tag === 'remote' ? 'Remote' : (tag === 'eu' ? 'EU' : 'UK'));
+    var cls = tag === 'lagos' ? 'tag-lagos' : (tag === 'remote' ? 'tag-remote' : (tag === 'eu' ? 'tag-eu' : (tag === 'uk' ? 'tag-uk' : 'tag-global')));
+    var lab = tag === 'lagos' ? 'Lagos' : (tag === 'remote' ? 'Remote' : (tag === 'eu' ? 'EU' : (tag === 'uk' ? 'UK' : 'Global')));
     return '<span class="loc-tag ' + cls + '">' + lab + '</span>';
   }
 
@@ -978,7 +979,7 @@
     render(allData, mode);
   }
 
-  fetch('jobs.json', { cache: 'no-store' })
+  fetch('jobs.json?v=' + Date.now(), { cache: 'no-store' })
     .then(function (r) {
       if (!r.ok) throw new Error('jobs.json ' + r.status);
       return r.json();
