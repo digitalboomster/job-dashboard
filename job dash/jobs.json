@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-07T11:03:54Z",
-  "total_scraped": 3430,
-  "total_matched": 1354,
+  "generated_at": "2026-07-08T10:04:49Z",
+  "total_scraped": 3438,
+  "total_matched": 1368,
   "jobs": [
     {
       "title": "Data Engineering Consultant",
@@ -156,6 +156,23 @@
       "skills": [],
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4895221101",
       "posted_at": "2026-06-15",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": [
+        "consulting"
+      ]
+    },
+    {
+      "title": "Senior Manager, Forward Deployed AI Engineer",
+      "company": "Baringa",
+      "location": "London, United Kingdom",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4922242101",
+      "posted_at": "2026-07-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -446,6 +463,21 @@
     {
       "title": "Applied AI Architect, Partnerships",
       "company": "Anthropic",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5283616008",
+      "posted_at": "2026-06-26",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Applied AI Architect, Partnerships",
+      "company": "Anthropic",
       "location": "Paris, France",
       "location_tag": "eu",
       "salary": "",
@@ -461,27 +493,12 @@
     {
       "title": "Applied AI Architect, Partnerships",
       "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "location": "San Francisco, CA | New York City, NY",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4950664008",
-      "posted_at": "2025-10-19",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Applied AI Architect, Partnerships",
-      "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5283616008",
-      "posted_at": "2026-06-26",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5300430008",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -641,12 +658,12 @@
     {
       "title": "Commercial Counsel, EMEA",
       "company": "Anthropic",
-      "location": "Dublin, IE",
-      "location_tag": "eu",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142971008",
-      "posted_at": "2026-03-09",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
+      "posted_at": "2026-03-10",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -656,12 +673,12 @@
     {
       "title": "Commercial Counsel, EMEA",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Dublin, IE",
+      "location_tag": "eu",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
-      "posted_at": "2026-03-10",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142971008",
+      "posted_at": "2026-03-09",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -855,11 +872,11 @@
     {
       "title": "Data Center Electrical Engineer",
       "company": "Anthropic",
-      "location": "Tokyo, Japan",
+      "location": "Sydney, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227415008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227411008",
       "posted_at": "2026-05-21",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -870,11 +887,11 @@
     {
       "title": "Data Center Electrical Engineer",
       "company": "Anthropic",
-      "location": "Sydney, Australia",
+      "location": "Tokyo, Japan",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227411008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227415008",
       "posted_at": "2026-05-21",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -925,6 +942,21 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Data Scientist, Developer Productivity",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197529008",
+      "posted_at": "2026-05-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
       "flags": []
     },
     {
@@ -1991,6 +2023,21 @@
       "flags": []
     },
     {
+      "title": "Product Manager, Safeguards Generalist-2",
+      "company": "Anthropic",
+      "location": "San Francisco, CA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5164820008",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Product Manager, Safeguards Rare Harms",
       "company": "Anthropic",
       "location": "San Francisco, CA",
@@ -2035,6 +2082,21 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Product Operations Manager, Research Product",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5179891008",
+      "posted_at": "2026-04-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
       "flags": []
     },
     {
@@ -2088,11 +2150,11 @@
     {
       "title": "Regional Research Economist, Economic Research",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Singapore",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008",
       "posted_at": "2026-06-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -2103,11 +2165,11 @@
     {
       "title": "Regional Research Economist, Economic Research",
       "company": "Anthropic",
-      "location": "Singapore",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008",
       "posted_at": "2026-06-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -2612,6 +2674,21 @@
       "flags": []
     },
     {
+      "title": "Researcher, Education Labs",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5286441008",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Research Lead, Training Insights",
       "company": "Anthropic",
       "location": "Remote-Friendly (Travel Required) | San Francisco, CA; San Francisco, CA | New York City, NY",
@@ -2853,14 +2930,14 @@
     {
       "title": "Senior Manager, Accounts Receivable, Credit & Collections",
       "company": "Anthropic",
-      "location": "Dublin, IE",
-      "location_tag": "eu",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "LLM"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197551008",
-      "posted_at": "2026-06-10",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197549008",
+      "posted_at": "2026-04-27",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -2870,14 +2947,14 @@
     {
       "title": "Senior Manager, Accounts Receivable, Credit & Collections",
       "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "location_tag": "global",
+      "location": "Dublin, IE",
+      "location_tag": "eu",
       "salary": "",
       "skills": [
         "LLM"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197549008",
-      "posted_at": "2026-04-27",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197551008",
+      "posted_at": "2026-06-10",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -3034,14 +3111,14 @@
     {
       "title": "Senior Staff+ Software Engineer, Node Infra",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5211498008",
-      "posted_at": "2026-05-07",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5203868008",
+      "posted_at": "2026-04-28",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -3051,14 +3128,14 @@
     {
       "title": "Senior Staff+ Software Engineer, Node Infra",
       "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5203868008",
-      "posted_at": "2026-04-28",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5211498008",
+      "posted_at": "2026-05-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -3115,8 +3192,8 @@
     {
       "title": "Software Engineer, RL Data",
       "company": "Anthropic",
-      "location": "London, UK; San Francisco, CA | New York City, NY",
-      "location_tag": "uk",
+      "location": "San Francisco, CA | New York City, NY",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "RL"
@@ -3383,8 +3460,8 @@
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5281592008",
-      "posted_at": "2026-06-25",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5301737008",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -3413,8 +3490,8 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5151069008",
-      "posted_at": "2026-03-11",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5301750008",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -3802,6 +3879,23 @@
       "flags": []
     },
     {
+      "title": "Technical Architect",
+      "company": "Anthropic",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198999008",
+      "posted_at": "2026-06-25",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Technical CBRN-E  Threat Investigator",
       "company": "Anthropic",
       "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Washington, DC",
@@ -3915,6 +4009,23 @@
       "flags": []
     },
     {
+      "title": "Technical Program Manager, Recruiting Technology",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5298359008",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Technical Program Manager, Research",
       "company": "Anthropic",
       "location": "San Francisco, CA | New York City, NY",
@@ -3962,23 +4073,6 @@
     {
       "title": "Technical Specialist, Claude Code",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198999008",
-      "posted_at": "2026-06-25",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Technical Specialist, Claude Code",
-      "company": "Anthropic",
       "location": "San Francisco, CA",
       "location_tag": "global",
       "salary": "",
@@ -4003,6 +4097,24 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5074937008",
       "posted_at": "2026-01-20",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Threat Intel Manager, Influence Operations & Surveillance",
+      "company": "Anthropic",
+      "location": "San Francisco, CA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python",
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5302779008",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4224,12 +4336,12 @@
     {
       "title": "AI Engineer - FDE (Forward Deployed Engineer)",
       "company": "Databricks",
-      "location": "Remote - India",
-      "location_tag": "remote",
+      "location": "Singapore",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
-      "posted_at": "2025-07-31",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569390002",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4245,6 +4357,21 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8330188002",
       "posted_at": "2025-12-09",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+      "company": "Databricks",
+      "location": "Remote - India",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
+      "posted_at": "2025-07-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4288,7 +4415,7 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8431935002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8431927002",
       "posted_at": "2026-02-20",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -4303,7 +4430,7 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8431927002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8431935002",
       "posted_at": "2026-02-20",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -4541,6 +4668,23 @@
     {
       "title": "Forward Deployed Engineer",
       "company": "Databricks",
+      "location": "Amsterdam, Netherlands",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002",
+      "posted_at": "2026-03-13",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "company": "Databricks",
       "location": "Remote - India",
       "location_tag": "remote",
       "salary": "",
@@ -4566,23 +4710,6 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8540455002",
       "posted_at": "2026-05-13",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Forward Deployed Engineer",
-      "company": "Databricks",
-      "location": "Amsterdam, Netherlands",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002",
-      "posted_at": "2026-03-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4690,57 +4817,12 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Seoul, South Korea",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569592002",
-      "posted_at": "2026-06-08",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Lakebase Sales Specialist",
-      "company": "Databricks",
       "location": "Tokyo, Japan",
       "location_tag": "global",
       "salary": "",
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569572002",
       "posted_at": "2026-06-01",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Lakebase Sales Specialist",
-      "company": "Databricks",
-      "location": "Herzliya, Israel",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569558002",
-      "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Lakebase Sales Specialist",
-      "company": "Databricks",
-      "location": "Milan, Italy",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569554002",
-      "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4765,12 +4847,42 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Stockholm, Sweden",
-      "location_tag": "eu",
+      "location": "Herzliya, Israel",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569522002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569558002",
+      "posted_at": "2026-06-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lakebase Sales Specialist",
+      "company": "Databricks",
+      "location": "Seoul, South Korea",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569592002",
       "posted_at": "2026-06-08",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lakebase Sales Specialist",
+      "company": "Databricks",
+      "location": "Milan, Italy",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569554002",
+      "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4786,6 +4898,21 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569457002",
       "posted_at": "2026-06-25",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lakebase Sales Specialist",
+      "company": "Databricks",
+      "location": "Paris, France",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569552002",
+      "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -4825,12 +4952,12 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Paris, France",
+      "location": "Stockholm, Sweden",
       "location_tag": "eu",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569552002",
-      "posted_at": "2026-06-02",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569522002",
+      "posted_at": "2026-06-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5005,12 +5132,12 @@
     {
       "title": "Lakebase Specialist Sales",
       "company": "Databricks",
-      "location": "Singapore",
+      "location": "Melbourne, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569594002",
-      "posted_at": "2026-06-03",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569564002",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5035,12 +5162,12 @@
     {
       "title": "Lakebase Specialist Sales",
       "company": "Databricks",
-      "location": "Melbourne, Australia",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569564002",
-      "posted_at": "2026-06-04",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569594002",
+      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5452,11 +5579,11 @@
     {
       "title": "Principal Engineer, Authentication",
       "company": "Databricks",
-      "location": "Mountain View, California; San Francisco, California",
+      "location": "Bellevue, Washington; Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400559002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400563002",
       "posted_at": "2026-02-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -5467,11 +5594,11 @@
     {
       "title": "Principal Engineer, Authentication",
       "company": "Databricks",
-      "location": "Bellevue, Washington; Seattle, Washington",
+      "location": "Mountain View, California; San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400563002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400559002",
       "posted_at": "2026-02-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -5497,12 +5624,12 @@
     {
       "title": "Principal Engineer - Privacy",
       "company": "Databricks",
-      "location": "Amsterdam, Netherlands",
-      "location_tag": "eu",
+      "location": "Mountain View, California",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274875002",
-      "posted_at": "2024-03-06",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224828002",
+      "posted_at": "2025-10-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5527,12 +5654,12 @@
     {
       "title": "Principal Engineer - Privacy",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224828002",
-      "posted_at": "2025-10-23",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274619002",
+      "posted_at": "2024-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5542,11 +5669,11 @@
     {
       "title": "Principal Engineer - Privacy",
       "company": "Databricks",
-      "location": "Seattle, Washington",
-      "location_tag": "global",
+      "location": "Amsterdam, Netherlands",
+      "location_tag": "eu",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274619002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274875002",
       "posted_at": "2024-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -5741,14 +5868,14 @@
     {
       "title": "Senior Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Bengaluru, India",
-      "location_tag": "global",
+      "location": "London, United Kingdom",
+      "location_tag": "uk",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8501125002",
-      "posted_at": "2026-05-11",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367942002",
+      "posted_at": "2026-01-14",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5758,14 +5885,14 @@
     {
       "title": "Senior Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "London, United Kingdom",
-      "location_tag": "uk",
+      "location": "Bengaluru, India",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367942002",
-      "posted_at": "2026-01-14",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8501125002",
+      "posted_at": "2026-05-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -5884,11 +6011,11 @@
     {
       "title": "Senior Manager, Infrastructure Data Science",
       "company": "Databricks",
-      "location": "San Francisco, California",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002",
       "posted_at": "2024-11-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -5899,11 +6026,11 @@
     {
       "title": "Senior Manager, Infrastructure Data Science",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7641390002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7734812002",
       "posted_at": "2024-11-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -5959,6 +6086,21 @@
     {
       "title": "Senior Software Engineer - Backend",
       "company": "Databricks",
+      "location": "Mountain View, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
+      "posted_at": "2022-12-20",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Software Engineer - Backend",
+      "company": "Databricks",
       "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
@@ -5987,21 +6129,6 @@
       "flags": []
     },
     {
-      "title": "Senior Software Engineer - Backend",
-      "company": "Databricks",
-      "location": "Mountain View, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
-      "posted_at": "2022-12-20",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Senior Software Engineer (Backend) - AI/ML Environments",
       "company": "Databricks",
       "location": "Mountain View, California",
@@ -6010,6 +6137,21 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8233899002",
       "posted_at": "2025-10-29",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Software Engineer - Database Engine Internals",
+      "company": "Databricks",
+      "location": "Mountain View, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002",
+      "posted_at": "2023-06-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -6029,21 +6171,6 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "junior",
-      "flags": []
-    },
-    {
-      "title": "Senior Software Engineer - Database Engine Internals",
-      "company": "Databricks",
-      "location": "Mountain View, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544383002",
-      "posted_at": "2023-06-23",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -6259,74 +6386,6 @@
     {
       "title": "Senior Solutions Architect - Lakebase",
       "company": "Databricks",
-      "location": "Munich, Germany",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8570586002",
-      "posted_at": "2026-05-29",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Solutions Architect - Lakebase",
-      "company": "Databricks",
-      "location": "Amsterdam, Netherlands",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567991002",
-      "posted_at": "2026-06-11",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Solutions Architect - Lakebase",
-      "company": "Databricks",
-      "location": "Berlin, Germany",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8570587002",
-      "posted_at": "2026-05-29",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Solutions Architect - Lakebase",
-      "company": "Databricks",
-      "location": "Milan, Italy",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8587320002",
-      "posted_at": "2026-06-11",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Solutions Architect - Lakebase",
-      "company": "Databricks",
       "location": "Herzliya, Israel",
       "location_tag": "global",
       "salary": "",
@@ -6334,6 +6393,23 @@
         "Python"
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8587319002",
+      "posted_at": "2026-06-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Solutions Architect - Lakebase",
+      "company": "Databricks",
+      "location": "Paris, France",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568011002",
       "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -6361,14 +6437,65 @@
     {
       "title": "Senior Solutions Architect - Lakebase",
       "company": "Databricks",
-      "location": "Paris, France",
+      "location": "Amsterdam, Netherlands",
       "location_tag": "eu",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568011002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567991002",
       "posted_at": "2026-06-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Solutions Architect - Lakebase",
+      "company": "Databricks",
+      "location": "Munich, Germany",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8570586002",
+      "posted_at": "2026-05-29",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Solutions Architect - Lakebase",
+      "company": "Databricks",
+      "location": "Milan, Italy",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8587320002",
+      "posted_at": "2026-06-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Solutions Architect - Lakebase",
+      "company": "Databricks",
+      "location": "Berlin, Germany",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8570587002",
+      "posted_at": "2026-05-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -6617,35 +6744,18 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Mumbai, India",
+      "location": "Toronto, Canada",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438777002",
-      "posted_at": "2026-05-04",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5898477002",
+      "posted_at": "2022-04-05",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect",
-      "company": "Databricks",
-      "location": "Arizona; California; Utah",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8605160002",
-      "posted_at": "2026-06-29",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -6668,18 +6778,16 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Toronto, Canada",
+      "location": "Mexico City",
       "location_tag": "global",
       "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5898477002",
-      "posted_at": "2022-04-05",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7896350002",
+      "posted_at": "2025-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
-      "seniority": "unknown",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -6702,16 +6810,35 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Mexico City",
+      "location": "Arizona; California; Utah",
       "location_tag": "global",
       "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7896350002",
-      "posted_at": "2025-03-06",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8605160002",
+      "posted_at": "2026-06-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect",
+      "company": "Databricks",
+      "location": "Mumbai, India",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438777002",
+      "posted_at": "2026-05-04",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
       "flags": []
     },
     {
@@ -6872,14 +6999,14 @@
     {
       "title": "Solutions Architect - Healthcare/Life Sciences Team (HLS)",
       "company": "Databricks",
-      "location": "Remote - Illinois",
+      "location": "Remote - California",
       "location_tag": "remote",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8085877002",
-      "posted_at": "2025-07-21",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8231231002",
+      "posted_at": "2025-10-28",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -6889,14 +7016,14 @@
     {
       "title": "Solutions Architect - Healthcare/Life Sciences Team (HLS)",
       "company": "Databricks",
-      "location": "Remote - California",
+      "location": "Remote - Illinois",
       "location_tag": "remote",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8231231002",
-      "posted_at": "2025-10-28",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8085877002",
+      "posted_at": "2025-07-21",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -6942,23 +7069,6 @@
     {
       "title": "Solutions Architect (Lakebase)",
       "company": "Databricks",
-      "location": "Melbourne, Australia; Sydney, Australia",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568017002",
-      "posted_at": "2026-06-11",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect (Lakebase)",
-      "company": "Databricks",
       "location": "Seoul, South Korea",
       "location_tag": "global",
       "salary": "",
@@ -6976,13 +7086,13 @@
     {
       "title": "Solutions Architect (Lakebase)",
       "company": "Databricks",
-      "location": "Bengaluru, India",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568023002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002",
       "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -6993,13 +7103,30 @@
     {
       "title": "Solutions Architect (Lakebase)",
       "company": "Databricks",
-      "location": "Singapore",
+      "location": "Melbourne, Australia; Sydney, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568017002",
+      "posted_at": "2026-06-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect (Lakebase)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568023002",
       "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -7161,6 +7288,21 @@
     {
       "title": "Specialist Solutions Architect - AI/ML",
       "company": "Databricks",
+      "location": "Bengaluru, India",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585164002",
+      "posted_at": "2026-06-16",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Specialist Solutions Architect - AI/ML",
+      "company": "Databricks",
       "location": "Mumbai, India",
       "location_tag": "global",
       "salary": "",
@@ -7182,21 +7324,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8544533002",
       "posted_at": "2026-05-18",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Specialist Solutions Architect - AI/ML",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585164002",
-      "posted_at": "2026-06-16",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7330,14 +7457,14 @@
     {
       "title": "Sr. Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Singapore",
+      "location": "Tokyo, Japan",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8534142002",
-      "posted_at": "2026-06-09",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568173002",
+      "posted_at": "2026-06-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7347,14 +7474,14 @@
     {
       "title": "Sr. Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Tokyo, Japan",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568173002",
-      "posted_at": "2026-06-12",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8534142002",
+      "posted_at": "2026-06-09",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7381,13 +7508,13 @@
     {
       "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
       "company": "Databricks",
-      "location": "Seattle, Washington",
+      "location": "New York City, New York",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461193002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461226002",
       "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -7415,6 +7542,57 @@
     {
       "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
       "company": "Databricks",
+      "location": "Seattle, Washington",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461193002",
+      "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
+      "company": "Databricks",
+      "location": "Dallas, Texas",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461218002",
+      "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
+      "company": "Databricks",
+      "location": "Chicago, Illinois",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461220002",
+      "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
+      "company": "Databricks",
       "location": "Philadelphia, Pennsylvania",
       "location_tag": "global",
       "salary": "",
@@ -7432,14 +7610,31 @@
     {
       "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
       "company": "Databricks",
-      "location": "United States",
+      "location": "Washington, D.C.",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8341311002",
-      "posted_at": "2026-01-08",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461241002",
+      "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
+      "company": "Databricks",
+      "location": "Denver, Colorado",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461243002",
+      "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7483,82 +7678,14 @@
     {
       "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
       "company": "Databricks",
-      "location": "New York City, New York",
+      "location": "United States",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461226002",
-      "posted_at": "2026-03-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
-      "company": "Databricks",
-      "location": "Denver, Colorado",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461243002",
-      "posted_at": "2026-03-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
-      "company": "Databricks",
-      "location": "Washington, D.C.",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461241002",
-      "posted_at": "2026-03-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
-      "company": "Databricks",
-      "location": "Dallas, Texas",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461218002",
-      "posted_at": "2026-03-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer - Communications, Media, Entertainment & Games",
-      "company": "Databricks",
-      "location": "Chicago, Illinois",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461220002",
-      "posted_at": "2026-03-12",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8341311002",
+      "posted_at": "2026-01-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7593,40 +7720,6 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461222002",
       "posted_at": "2026-03-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "Boston, Massachusetts",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494142002",
-      "posted_at": "2026-04-03",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "Philadelphia, Pennsylvania",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494148002",
-      "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7702,6 +7795,40 @@
       "flags": []
     },
     {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
+      "company": "Databricks",
+      "location": "Boston, Massachusetts",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494142002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
+      "company": "Databricks",
+      "location": "Philadelphia, Pennsylvania",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494148002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Sr. Forward Deployed Engineer (FDE)- Healthcare & Life Sciences",
       "company": "Databricks",
       "location": "New York City, New York",
@@ -7738,13 +7865,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Manufacturing",
       "company": "Databricks",
-      "location": "Philadelphia, Pennsylvania",
+      "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494155002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494156002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -7755,13 +7882,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Manufacturing",
       "company": "Databricks",
-      "location": "Seattle, Washington",
+      "location": "Philadelphia, Pennsylvania",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494156002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494155002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -7789,91 +7916,6 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
-      "location": "Boston, Massachusetts",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8456973002",
-      "posted_at": "2026-03-10",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
-      "location": "Atlanta, Georgia",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494147002",
-      "posted_at": "2026-04-03",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
-      "location": "Washington, D.C.",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8356289002",
-      "posted_at": "2026-01-08",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
-      "location": "Philadelphia, Pennsylvania",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494149002",
-      "posted_at": "2026-04-03",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
-      "location": "Chicago, Illinois",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461321002",
-      "posted_at": "2026-03-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
       "location": "Maryland",
       "location_tag": "global",
       "salary": "",
@@ -7891,13 +7933,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
-      "location": "Virginia",
+      "location": "Washington, D.C.",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494107002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494128002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -7925,14 +7967,99 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
+      "location": "Boston, Massachusetts",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8456973002",
+      "posted_at": "2026-03-10",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
+      "location": "Virginia",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494107002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
+      "location": "Atlanta, Georgia",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494147002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
+      "location": "Philadelphia, Pennsylvania",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494149002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
       "location": "Washington, D.C.",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494128002",
-      "posted_at": "2026-04-03",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8356289002",
+      "posted_at": "2026-01-08",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
+      "location": "Chicago, Illinois",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461321002",
+      "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -7976,13 +8103,47 @@
     {
       "title": "Sr. Forward Deployed Engineer - Financial Services",
       "company": "Databricks",
-      "location": "Boston, Massachusetts",
+      "location": "New York City, New York",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592937002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592942002",
+      "posted_at": "2026-06-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer - Financial Services",
+      "company": "Databricks",
+      "location": "Philadelphia, Pennsylvania",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592939002",
+      "posted_at": "2026-06-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer - Financial Services",
+      "company": "Databricks",
+      "location": "Washington, D.C.",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592952002",
       "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8027,13 +8188,13 @@
     {
       "title": "Sr. Forward Deployed Engineer - Financial Services",
       "company": "Databricks",
-      "location": "New York City, New York",
+      "location": "Boston, Massachusetts",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592942002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592937002",
       "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8061,23 +8222,6 @@
     {
       "title": "Sr. Forward Deployed Engineer - Financial Services",
       "company": "Databricks",
-      "location": "Washington, D.C.",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592952002",
-      "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer - Financial Services",
-      "company": "Databricks",
       "location": "Central - United States",
       "location_tag": "global",
       "salary": "",
@@ -8085,23 +8229,6 @@
         "Python"
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438791002",
-      "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer - Financial Services",
-      "company": "Databricks",
-      "location": "Philadelphia, Pennsylvania",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592939002",
       "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8221,11 +8348,11 @@
     {
       "title": "Sr. Manager, Capability Engineering & AI Adoption — APJ",
       "company": "Databricks",
-      "location": "Melbourne, Australia",
+      "location": "Sydney, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8437449002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8428880002",
       "posted_at": "2026-02-25",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8251,11 +8378,11 @@
     {
       "title": "Sr. Manager, Capability Engineering & AI Adoption — APJ",
       "company": "Databricks",
-      "location": "Sydney, Australia",
+      "location": "Melbourne, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8428880002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8437449002",
       "posted_at": "2026-02-25",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8433,21 +8560,6 @@
     {
       "title": "Sr. Product Manager, Databricks AI",
       "company": "Databricks",
-      "location": "Seattle, Washington",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
-      "posted_at": "2025-08-25",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Sr. Product Manager, Databricks AI",
-      "company": "Databricks",
       "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
@@ -8461,16 +8573,14 @@
       "flags": []
     },
     {
-      "title": "Sr. Product Manager, Databricks Repos",
+      "title": "Sr. Product Manager, Databricks AI",
       "company": "Databricks",
       "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326570002",
-      "posted_at": "2025-12-05",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
+      "posted_at": "2025-08-25",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -8487,6 +8597,23 @@
         "Python"
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
+      "posted_at": "2025-12-05",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Sr. Product Manager, Databricks Repos",
+      "company": "Databricks",
+      "location": "Seattle, Washington",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326570002",
       "posted_at": "2025-12-05",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8512,11 +8639,11 @@
     {
       "title": "Sr. Product Manager, Data Governance",
       "company": "Databricks",
-      "location": "San Francisco, California",
+      "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863522002",
       "posted_at": "2025-02-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8527,11 +8654,11 @@
     {
       "title": "Sr. Product Manager, Data Governance",
       "company": "Databricks",
-      "location": "Seattle, Washington",
+      "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863522002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002",
       "posted_at": "2025-02-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -8842,23 +8969,6 @@
     {
       "title": "Sr. Solutions Engineer",
       "company": "Databricks",
-      "location": "Central - United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8450209002",
-      "posted_at": "2026-03-25",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Sr. Solutions Engineer",
-      "company": "Databricks",
       "location": "Toronto, Canada",
       "location_tag": "global",
       "salary": "",
@@ -8884,6 +8994,23 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8415130002",
       "posted_at": "2026-02-17",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Sr. Solutions Engineer",
+      "company": "Databricks",
+      "location": "Central - United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8450209002",
+      "posted_at": "2026-03-25",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -9125,21 +9252,6 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367021002",
-      "posted_at": "2026-03-31",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Backend Software Engineer- (AI Platform)",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367019002",
       "posted_at": "2026-03-31",
       "match_score": null,
@@ -9156,6 +9268,21 @@
       "salary": "",
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367023002",
+      "posted_at": "2026-03-31",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Backend Software Engineer- (AI Platform)",
+      "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367021002",
       "posted_at": "2026-03-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -9241,13 +9368,13 @@
     {
       "title": "Staff Designated Support Engineer",
       "company": "Databricks",
-      "location": "Bengaluru, India",
+      "location": "Japan",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554463002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554477002",
       "posted_at": "2026-05-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -9275,13 +9402,13 @@
     {
       "title": "Staff Designated Support Engineer",
       "company": "Databricks",
-      "location": "Japan",
+      "location": "Bengaluru, India",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554477002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554463002",
       "posted_at": "2026-05-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -9448,6 +9575,36 @@
       "flags": []
     },
     {
+      "title": "Staff Security Software Engineer, AI Security",
+      "company": "Databricks",
+      "location": "Remote - California",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8026634002",
+      "posted_at": "2025-09-09",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Security Software Engineer, AI Security Engineering",
+      "company": "Databricks",
+      "location": "Remote - California",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7882009002",
+      "posted_at": "2025-06-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Staff Software Engineer - Agent Quality",
       "company": "Databricks",
       "location": "New York City, New York",
@@ -9558,27 +9715,12 @@
     {
       "title": "Staff Software Engineer - Backend",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Bellevue, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002",
-      "posted_at": "2022-12-27",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Software Engineer - Backend",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002",
-      "posted_at": "2022-12-27",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002",
+      "posted_at": "2023-05-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -9603,12 +9745,27 @@
     {
       "title": "Staff Software Engineer - Backend",
       "company": "Databricks",
-      "location": "Bellevue, Washington",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779233002",
-      "posted_at": "2023-05-31",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002",
+      "posted_at": "2022-12-27",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Software Engineer - Backend",
+      "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002",
+      "posted_at": "2022-12-27",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -9742,12 +9899,12 @@
     {
       "title": "Staff Software Engineer - Distributed Data Systems",
       "company": "Databricks",
-      "location": "San Francisco, California",
+      "location": "Bellevue, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
-      "posted_at": "2023-04-13",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002",
+      "posted_at": "2023-12-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -9757,12 +9914,12 @@
     {
       "title": "Staff Software Engineer - Distributed Data Systems",
       "company": "Databricks",
-      "location": "Bellevue, Washington",
+      "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6937001002",
-      "posted_at": "2023-12-11",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
+      "posted_at": "2023-04-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -9834,11 +9991,11 @@
     {
       "title": "Staff Software Engineer - IAM",
       "company": "Databricks",
-      "location": "Bellevue, Washington",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002",
       "posted_at": "2025-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -9849,11 +10006,11 @@
     {
       "title": "Staff Software Engineer - IAM",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Bellevue, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994801002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994790002",
       "posted_at": "2025-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -9992,11 +10149,11 @@
     {
       "title": "Staff Software Engineer - Security Infrastructure",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Bellevue, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994770002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994759002",
       "posted_at": "2025-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -10007,11 +10164,11 @@
     {
       "title": "Staff Software Engineer - Security Infrastructure",
       "company": "Databricks",
-      "location": "Bellevue, Washington",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994759002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994770002",
       "posted_at": "2025-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -10150,6 +10307,21 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4699458005",
       "posted_at": "2026-05-26",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "AI Deployment Strategist, Healthcare & Life Sciences",
+      "company": "Scale AI",
+      "location": "San Francisco, CA; New York, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4699574005",
+      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -11550,6 +11722,23 @@
       "flags": []
     },
     {
+      "title": "Senior Technical Program Manager, Robotics",
+      "company": "Scale AI",
+      "location": "San Francisco, CA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4712678005",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Software Engineer (Backend), Enterprise",
       "company": "Scale AI",
       "location": "Budapest, Hungary",
@@ -11633,6 +11822,21 @@
       "flags": []
     },
     {
+      "title": "Software Engineer, Gen AI",
+      "company": "Scale AI",
+      "location": "San Francisco, CA; New York, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4591300005",
+      "posted_at": "2025-08-05",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Software Engineer, Identity",
       "company": "Scale AI",
       "location": "San Francisco, CA; New York, NY",
@@ -11688,14 +11892,14 @@
     {
       "title": "Software Engineer, Robotics",
       "company": "Scale AI",
-      "location": "Argentina; Uruguay",
+      "location": "Mexico City, MX",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4612282005",
-      "posted_at": "2025-12-30",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4655050005",
+      "posted_at": "2026-01-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -11705,14 +11909,14 @@
     {
       "title": "Software Engineer, Robotics",
       "company": "Scale AI",
-      "location": "Mexico City, MX",
+      "location": "Argentina; Uruguay",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4655050005",
-      "posted_at": "2026-01-29",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4612282005",
+      "posted_at": "2025-12-30",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -11757,24 +11961,6 @@
     {
       "title": "Solutions Engineer, Enterprise",
       "company": "Scale AI",
-      "location": "San Francisco, CA; New York, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python",
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005",
-      "posted_at": "2025-04-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Solutions Engineer, Enterprise",
-      "company": "Scale AI",
       "location": "London, UK",
       "location_tag": "uk",
       "salary": "",
@@ -11784,6 +11970,24 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4642876005",
       "posted_at": "2025-12-29",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Solutions Engineer, Enterprise",
+      "company": "Scale AI",
+      "location": "San Francisco, CA; New York, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python",
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005",
+      "posted_at": "2025-04-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -11805,6 +12009,21 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Sr Staff ML Forward Deployed Engineer, Enterprise GenAI",
+      "company": "Scale AI",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4712145005",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -12051,23 +12270,6 @@
     {
       "title": "Strategic Projects Lead - Coding",
       "company": "Scale AI",
-      "location": "India",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4695258005",
-      "posted_at": "2026-05-14",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Strategic Projects Lead - Coding",
-      "company": "Scale AI",
       "location": "San Francisco, CA; New York, NY",
       "location_tag": "global",
       "salary": "",
@@ -12275,6 +12477,23 @@
       "flags": []
     },
     {
+      "title": "Technical Program Manager, Enterprise",
+      "company": "Scale AI",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4711993005",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Technical Program Manager, Gen AI Operations Planning",
       "company": "Scale AI",
       "location": "San Francisco, CA; New York, NY",
@@ -12287,6 +12506,23 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Technical Program Manager, Platform",
+      "company": "Scale AI",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4711995005",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -12309,14 +12545,14 @@
     {
       "title": "Technical Program Manager, Public Sector",
       "company": "Scale AI",
-      "location": "Washington, DC",
+      "location": "Columbia, MD",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4633072005",
-      "posted_at": "2025-11-21",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4711480005",
+      "posted_at": "2026-07-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -12326,14 +12562,14 @@
     {
       "title": "Technical Program Manager, Public Sector",
       "company": "Scale AI",
-      "location": "Columbia, MD",
+      "location": "Washington, DC",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4711480005",
-      "posted_at": "2026-07-01",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4633072005",
+      "posted_at": "2025-11-21",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -12643,6 +12879,23 @@
       "salary": "",
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6009489004",
+      "posted_at": "2026-05-29",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Research Scientist - RL Training",
+      "company": "Snorkel AI",
+      "location": "Redwood City, CA (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [
+        "RL"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6009496004",
       "posted_at": "2026-05-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -13158,7 +13411,7 @@
     {
       "title": "Account Solution Architect",
       "company": "CoreWeave",
-      "location": "Sunnyvale, CA",
+      "location": "New York, NY",
       "location_tag": "global",
       "salary": "",
       "skills": [
@@ -13166,30 +13419,12 @@
         "PyTorch",
         "LLM"
       ],
-      "apply_url": "https://coreweave.com/careers/job?4686701006&board=coreweave&gh_jid=4686701006",
-      "posted_at": "2026-06-04",
+      "apply_url": "https://coreweave.com/careers/job?4686914006&board=coreweave&gh_jid=4686914006",
+      "posted_at": "2026-06-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Account Solution Architect",
-      "company": "CoreWeave",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "apply_url": "https://coreweave.com/careers/job?4686665006&board=coreweave&gh_jid=4686665006",
-      "posted_at": "2026-06-04",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -13214,7 +13449,7 @@
     {
       "title": "Account Solution Architect",
       "company": "CoreWeave",
-      "location": "New York, NY",
+      "location": "Sunnyvale, CA",
       "location_tag": "global",
       "salary": "",
       "skills": [
@@ -13222,8 +13457,8 @@
         "PyTorch",
         "LLM"
       ],
-      "apply_url": "https://coreweave.com/careers/job?4686914006&board=coreweave&gh_jid=4686914006",
-      "posted_at": "2026-06-08",
+      "apply_url": "https://coreweave.com/careers/job?4686701006&board=coreweave&gh_jid=4686701006",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -13243,6 +13478,24 @@
       ],
       "apply_url": "https://coreweave.com/careers/job?4686692006&board=coreweave&gh_jid=4686692006",
       "posted_at": "2026-06-10",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Account Solution Architect",
+      "company": "CoreWeave",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "apply_url": "https://coreweave.com/careers/job?4686665006&board=coreweave&gh_jid=4686665006",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -13412,12 +13665,12 @@
     {
       "title": "Learning Partner- Technical Development",
       "company": "CoreWeave",
-      "location": "Livingston, NJ / Bellevue, WA / Sunnyvale, CA",
+      "location": "Dallas, Texas",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4689900006&board=coreweave&gh_jid=4689900006",
-      "posted_at": "2026-06-18",
+      "apply_url": "https://coreweave.com/careers/job?4693263006&board=coreweave&gh_jid=4693263006",
+      "posted_at": "2026-06-30",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -13427,12 +13680,12 @@
     {
       "title": "Learning Partner- Technical Development",
       "company": "CoreWeave",
-      "location": "Dallas, Texas",
+      "location": "Livingston, NJ / Bellevue, WA / Sunnyvale, CA",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4693263006&board=coreweave&gh_jid=4693263006",
-      "posted_at": "2026-06-30",
+      "apply_url": "https://coreweave.com/careers/job?4689900006&board=coreweave&gh_jid=4689900006",
+      "posted_at": "2026-06-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -13931,12 +14184,12 @@
     {
       "title": "Senior Specialist Field Engineer - Networking",
       "company": "CoreWeave",
-      "location": "Singapore",
+      "location": "Livingston, NJ / New York, NY",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4688579006&board=coreweave&gh_jid=4688579006",
-      "posted_at": "2026-06-12",
+      "apply_url": "https://coreweave.com/careers/job?4568528006&board=coreweave&gh_jid=4568528006",
+      "posted_at": "2025-05-16",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -13946,12 +14199,12 @@
     {
       "title": "Senior Specialist Field Engineer - Networking",
       "company": "CoreWeave",
-      "location": "Livingston, NJ / New York, NY",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4568528006&board=coreweave&gh_jid=4568528006",
-      "posted_at": "2025-05-16",
+      "apply_url": "https://coreweave.com/careers/job?4688579006&board=coreweave&gh_jid=4688579006",
+      "posted_at": "2026-06-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -13991,12 +14244,12 @@
     {
       "title": "Senior Specialist Field Engineer - Storage",
       "company": "CoreWeave",
-      "location": "San Francisco, CA / Sunnyvale, CA / Bellevue, WA",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4568531006&board=coreweave&gh_jid=4568531006",
-      "posted_at": "2025-05-16",
+      "apply_url": "https://coreweave.com/careers/job?4688583006&board=coreweave&gh_jid=4688583006",
+      "posted_at": "2026-06-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -14006,12 +14259,12 @@
     {
       "title": "Senior Specialist Field Engineer - Storage",
       "company": "CoreWeave",
-      "location": "Singapore",
+      "location": "San Francisco, CA / Sunnyvale, CA / Bellevue, WA",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4688583006&board=coreweave&gh_jid=4688583006",
-      "posted_at": "2026-06-12",
+      "apply_url": "https://coreweave.com/careers/job?4568531006&board=coreweave&gh_jid=4568531006",
+      "posted_at": "2025-05-16",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -14214,6 +14467,21 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Business Process & Systems Partner",
+      "company": "CoreWeave",
+      "location": "Livingston, NJ / New York, NY / Sunnyvale, CA / San Francisco, CA / Bellevue, WA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://coreweave.com/careers/job?4695140006&board=coreweave&gh_jid=4695140006",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "junior",
       "flags": []
     },
     {
@@ -14499,6 +14767,23 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Systems Engineer, VDI Platform",
+      "company": "CoreWeave",
+      "location": "Livingston, NJ / New York, NY / Sunnyvale, CA / San Francisco, CA / Bellevue, WA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://coreweave.com/careers/job?4695230006&board=coreweave&gh_jid=4695230006",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -14923,6 +15208,21 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "People Development Operations Specialist",
+      "company": "Waymo",
+      "location": "Mountain View, CA, USA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8042642",
+      "posted_at": "2026-07-07",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -15469,21 +15769,6 @@
       "flags": []
     },
     {
-      "title": "Senior Research Scientist, Foundation Model for Simulation",
-      "company": "Waymo",
-      "location": "Mountain View, CA USA; San Francisco, CA USA; Kirkland, WA, USA; New York, NY, USA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8003587",
-      "posted_at": "2026-06-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Senior Research Scientist, Perception",
       "company": "Waymo",
       "location": "Mountain View, CA, USA ; San Francisco, CA, USA ; Kirkland, WA, USA ; New York City, NY, USA",
@@ -15631,21 +15916,6 @@
       "skills": [],
       "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7703602",
       "posted_at": "2026-03-16",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Software Engineer (ML) - Car Experience",
-      "company": "Waymo",
-      "location": "Warsaw, Poland",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7028592",
-      "posted_at": "2025-07-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -16175,21 +16445,6 @@
       "flags": []
     },
     {
-      "title": "Software Engineer",
-      "company": "Waymo",
-      "location": "PERM - N/A",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7960517",
-      "posted_at": "2026-05-27",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "junior",
-      "flags": []
-    },
-    {
       "title": "Software Engineer, Backend",
       "company": "Waymo",
       "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -16383,6 +16638,21 @@
       "flags": []
     },
     {
+      "title": "Software Engineer, ML Tools",
+      "company": "Waymo",
+      "location": "Mountain View, CA, USA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7926984",
+      "posted_at": "2026-05-15",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Software Engineer, Multiverse",
       "company": "Waymo",
       "location": "San Francisco, CA, USA; Mountain View, CA, USA",
@@ -16526,6 +16796,40 @@
     {
       "title": "Software Quality Operations Specialist",
       "company": "Waymo",
+      "location": "Mountain View, CA, United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7456163",
+      "posted_at": "2025-12-17",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Software Quality Operations Specialist",
+      "company": "Waymo",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7458393",
+      "posted_at": "2026-02-09",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Software Quality Operations Specialist",
+      "company": "Waymo",
       "location": "Mountain View, CA, United States; San Francisco, CA, United States; Remote, United States",
       "location_tag": "remote",
       "salary": "",
@@ -16555,40 +16859,6 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Software Quality Operations Specialist",
-      "company": "Waymo",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7458393",
-      "posted_at": "2026-02-09",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Software Quality Operations Specialist",
-      "company": "Waymo",
-      "location": "Mountain View, CA, United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7456163",
-      "posted_at": "2025-12-17",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
       "flags": []
     },
     {
@@ -16782,12 +17052,12 @@
     {
       "title": "Staff Machine Learning Engineer",
       "company": "Waymo",
-      "location": "London, UK",
+      "location": "London, England, United Kingdom",
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7985945",
-      "posted_at": "2026-06-22",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7493959",
+      "posted_at": "2025-12-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -16797,12 +17067,12 @@
     {
       "title": "Staff Machine Learning Engineer",
       "company": "Waymo",
-      "location": "London, England, United Kingdom",
+      "location": "London, UK",
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7493959",
-      "posted_at": "2025-12-29",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7985945",
+      "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -16876,8 +17146,8 @@
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7947253",
-      "posted_at": "2026-06-01",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7942779",
+      "posted_at": "2026-05-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -16891,8 +17161,8 @@
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7942779",
-      "posted_at": "2026-05-29",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7947253",
+      "posted_at": "2026-06-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -16955,6 +17225,21 @@
       "skills": [],
       "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8027424",
       "posted_at": "2026-06-29",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Product Data Scientist, Digital Media",
+      "company": "Waymo",
+      "location": "Mountain View, CA; San Francisco, CA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8031521",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -17343,6 +17628,21 @@
       "flags": []
     },
     {
+      "title": "Staff Technical Lead Manager, Simulation, Machine Learning",
+      "company": "Waymo",
+      "location": "New York, NY, USA; Mountain View, CA, USA; San Francisco, CA, USA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7483051",
+      "posted_at": "2025-12-18",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Staff Technical Program Manager, Simulation Infrastructure Resource Management",
       "company": "Waymo",
       "location": "Mountain View, CA, USA; San Francisco, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York, NY, USA",
@@ -17405,21 +17705,6 @@
       ],
       "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7643458",
       "posted_at": "2026-02-20",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Supply Chain Program Manager",
-      "company": "Waymo",
-      "location": "Mountain View, CA, USA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7977261",
-      "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -17646,21 +17931,6 @@
       ],
       "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7947564",
       "posted_at": "2026-05-26",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Technical Lead Manager (TLM), ML Simulation",
-      "company": "Waymo",
-      "location": "New York, NY, USA; Mountain View, CA, USA; San Francisco, CA, USA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7483051",
-      "posted_at": "2025-12-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -18173,21 +18443,6 @@
       "flags": []
     },
     {
-      "title": "Senior Data Engineer, People Analytics",
-      "company": "Airbnb",
-      "location": "United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
-      "posted_at": "2026-06-08",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Senior Data Scientist, Guest & Host",
       "company": "Airbnb",
       "location": "Remote",
@@ -18544,6 +18799,21 @@
       "flags": []
     },
     {
+      "title": "Senior Staff Machine Learning Engineer, Trust",
+      "company": "Airbnb",
+      "location": "Remote - USA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.airbnb.com/positions/7592146?gh_jid=7592146",
+      "posted_at": "2026-02-05",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Senior Staff Software Engineer, Host Pricing & Settings",
       "company": "Airbnb",
       "location": "Remote - USA",
@@ -18571,21 +18841,6 @@
       ],
       "apply_url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
       "posted_at": "2026-04-21",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Technical Program Manager, Payments",
-      "company": "Airbnb",
-      "location": "United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/7980228?gh_jid=7980228",
-      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -18916,21 +19171,6 @@
       "flags": []
     },
     {
-      "title": "Senior Credit Business Analyst",
-      "company": "Robinhood",
-      "location": "Menlo Park, CA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7975475?t=gh_src=&gh_jid=7975475",
-      "posted_at": "2026-06-01",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Senior Engineering Manager, AI Research and Development",
       "company": "Robinhood",
       "location": "Bellevue, WA; Menlo Park, CA",
@@ -18939,21 +19179,6 @@
       "skills": [],
       "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7844218?t=gh_src=&gh_jid=7844218",
       "posted_at": "2026-04-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Machine Learning Engineer",
-      "company": "Robinhood",
-      "location": "Menlo Park, CA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7976529?t=gh_src=&gh_jid=7976529",
-      "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -19026,23 +19251,6 @@
       "flags": []
     },
     {
-      "title": "Senior Software Engineer, Data Engineering",
-      "company": "Robinhood",
-      "location": "Menlo Park, CA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://boards.greenhouse.io/robinhood/jobs/4738660?t=gh_src=&gh_jid=4738660",
-      "posted_at": "2022-12-08",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Senior Staff Software Developer, Developer Productivity & AI Tooling",
       "company": "Robinhood",
       "location": "Toronto, Canada",
@@ -19084,21 +19292,6 @@
         "Python"
       ],
       "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7975558?t=gh_src=&gh_jid=7975558",
-      "posted_at": "2026-06-01",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Software Engineer, Agentic AI",
-      "company": "Robinhood",
-      "location": "Bellevue, WA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7975477?t=gh_src=&gh_jid=7975477",
       "posted_at": "2026-06-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
@@ -19455,6 +19648,21 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/7457551",
       "posted_at": "2025-12-17",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lead Machine Learning Scientist, Search",
+      "company": "Monzo",
+      "location": "Cardiff, London or Remote (UK)",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8041029",
+      "posted_at": "2026-07-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -20514,12 +20722,12 @@
     {
       "title": "Data Analyst",
       "company": "Stripe",
-      "location": "Mexico City",
+      "location": "Canada",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=7978488",
-      "posted_at": "2026-06-03",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=5416444",
+      "posted_at": "2023-11-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -20529,12 +20737,12 @@
     {
       "title": "Data Analyst",
       "company": "Stripe",
-      "location": "Canada",
+      "location": "Mexico City",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=5416444",
-      "posted_at": "2023-11-01",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7978488",
+      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -20924,6 +21132,21 @@
       "skills": [],
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7983456",
       "posted_at": "2026-06-23",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "ML Engineer Manager, AI Conversation Platform",
+      "company": "Stripe",
+      "location": "Toronto, Canada",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8022713",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
