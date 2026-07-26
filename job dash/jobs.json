@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-25T10:16:00Z",
-  "total_scraped": 3565,
-  "total_matched": 1448,
+  "generated_at": "2026-07-26T09:58:38Z",
+  "total_scraped": 3567,
+  "total_matched": 1449,
   "jobs": [
     {
       "title": "Consultant- Central Government",
@@ -13,7 +13,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4825292101",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fd7a3c98a7",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": [
@@ -32,7 +32,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4873814101",
       "posted_at": "2026-06-04",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_da6ff49d0e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -51,7 +51,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4895138101",
       "posted_at": "2026-06-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_5175eb788b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -70,7 +70,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4913655101",
       "posted_at": "2026-07-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_92b485af0b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -87,7 +87,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4692220101",
       "posted_at": "2025-10-20",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b6481fcf04",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -106,7 +106,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4874997101",
       "posted_at": "2026-05-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b5056f65e0",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -123,7 +123,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4936803101",
       "posted_at": "2026-07-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6e3f0ed0f8",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -140,7 +140,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4863891101",
       "posted_at": "2026-06-06",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e1040f1a4d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -157,7 +157,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4869804101",
       "posted_at": "2026-05-18",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_0a8914ce4b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -174,7 +174,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4895221101",
       "posted_at": "2026-06-15",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_57fb695116",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -193,7 +193,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4756958101",
       "posted_at": "2026-01-28",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4e83f273da",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "junior",
       "flags": [
@@ -210,7 +210,7 @@
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4922242101",
       "posted_at": "2026-07-08",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_be807e8a5b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": [
@@ -227,7 +227,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5208218008",
       "posted_at": "2026-05-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e764e7fe50",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -242,7 +242,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5215052008",
       "posted_at": "2026-05-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e7ae198535",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -261,7 +261,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008",
       "posted_at": "2025-12-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_17410ce0a1",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -276,7 +276,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008",
       "posted_at": "2026-04-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c9d154ca43",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -291,7 +291,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008",
       "posted_at": "2025-12-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6d6411b966",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -306,7 +306,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008",
       "posted_at": "2026-04-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_32914bfa9a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -323,7 +323,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183052008",
       "posted_at": "2026-04-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_913affbea0",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -341,7 +341,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183053008",
       "posted_at": "2026-04-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9375f8de33",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -356,7 +356,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5076109008",
       "posted_at": "2026-01-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_78eaa3c21c",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -371,7 +371,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5226862008",
       "posted_at": "2026-05-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_21d6e98946",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -386,7 +386,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5192805008",
       "posted_at": "2026-04-17",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a8a1340e0f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -401,7 +401,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5065835008",
       "posted_at": "2026-01-12",
       "match_score": null,
-      "match_reasoning": "API error: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -416,7 +416,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5140405008",
       "posted_at": "2026-03-05",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fcbd893a78",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -431,7 +431,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
       "posted_at": "2024-12-20",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_8d23d8ff03",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -446,7 +446,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4977624008",
       "posted_at": "2025-11-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9d829deb5e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -461,7 +461,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5204086008",
       "posted_at": "2026-05-17",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c595bfcd8a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -476,7 +476,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5278230008",
       "posted_at": "2026-06-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c941447cfd",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -491,7 +491,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5300430008",
       "posted_at": "2026-07-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a91ca2c493",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -506,7 +506,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5140403008",
       "posted_at": "2026-03-05",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_34904ee35e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -521,7 +521,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227641008",
       "posted_at": "2026-06-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c214327d17",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -536,7 +536,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5116927008",
       "posted_at": "2026-02-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b7a44d0500",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -551,7 +551,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5186199008",
       "posted_at": "2026-04-14",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_187252fd30",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -566,7 +566,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5291731008",
       "posted_at": "2026-07-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_f42bda5e76",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -581,7 +581,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5237030008",
       "posted_at": "2026-05-31",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_f9cbc3fe59",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -598,7 +598,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5369181008",
       "posted_at": "2026-07-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_af58a68cb1",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -613,7 +613,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5270065008",
       "posted_at": "2026-06-18",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_74d84ad6ac",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -628,7 +628,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5270072008",
       "posted_at": "2026-06-18",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9db0645fe3",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -643,7 +643,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142971008",
       "posted_at": "2026-03-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6ad6dd316b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -658,7 +658,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
       "posted_at": "2026-03-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fe2b549672",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -673,7 +673,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5208289008",
       "posted_at": "2026-06-05",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a1acffffa1",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -688,7 +688,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5164551008",
       "posted_at": "2026-05-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d823200e58",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -703,7 +703,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5240487008",
       "posted_at": "2026-06-03",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a114eccc23",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -718,7 +718,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5175932008",
       "posted_at": "2026-04-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4736936ac2",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -733,7 +733,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5068570008",
       "posted_at": "2026-04-03",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d19064a5b9",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -748,7 +748,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5226954008",
       "posted_at": "2026-05-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a59d2c43e4",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -763,7 +763,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227415008",
       "posted_at": "2026-05-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_133370dfee",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -778,7 +778,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5227845008",
       "posted_at": "2026-06-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c90a0f6033",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -793,7 +793,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5218186008",
       "posted_at": "2026-05-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_81f4af8663",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -810,7 +810,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5240422008",
       "posted_at": "2026-07-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a104241059",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -827,7 +827,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5238460008",
       "posted_at": "2026-06-03",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_393fc79705",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -845,7 +845,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5184585008",
       "posted_at": "2026-04-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_01e30e678b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -860,7 +860,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197529008",
       "posted_at": "2026-05-06",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_48ed7636d9",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -875,7 +875,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5196852008",
       "posted_at": "2026-05-31",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_eb3ee7e588",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -890,7 +890,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5232055008",
       "posted_at": "2026-05-27",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_968c040f4e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -905,7 +905,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5209196008",
       "posted_at": "2026-06-02",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b2a0f3ce3a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -920,7 +920,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5212119008",
       "posted_at": "2026-05-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_55f911d466",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -937,7 +937,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5309805008",
       "posted_at": "2026-07-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_223b73cc89",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -952,7 +952,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5236531008",
       "posted_at": "2026-05-29",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_76855e763a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -967,7 +967,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5255912008",
       "posted_at": "2026-06-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fa45cd1384",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -982,7 +982,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4741104008",
       "posted_at": "2025-05-29",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e218085362",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1000,7 +1000,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4980335008",
       "posted_at": "2025-11-19",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_63ddf06377",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1015,7 +1015,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5361472008",
       "posted_at": "2026-07-17",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_51b0a70e40",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1030,7 +1030,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4741102008",
       "posted_at": "2025-05-29",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b7659ab78d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1045,7 +1045,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5297059008",
       "posted_at": "2026-07-06",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6608391acf",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1060,7 +1060,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5223093008",
       "posted_at": "2026-05-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_238f3545a4",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1075,7 +1075,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5322723008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2e6687506f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1090,7 +1090,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5013366008",
       "posted_at": "2026-06-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_619066b291",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1105,7 +1105,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5117296008",
       "posted_at": "2026-02-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d9c0e38322",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1120,7 +1120,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4493035008",
       "posted_at": "2025-01-17",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_45b0ee47b0",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1135,7 +1135,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4983646008",
       "posted_at": "2025-11-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_57fda10921",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1150,7 +1150,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5367417008",
       "posted_at": "2026-07-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9bdd379b47",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1165,7 +1165,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4610158008",
       "posted_at": "2025-03-31",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6869662cb0",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1180,7 +1180,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4980436008",
       "posted_at": "2025-11-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2b1843dfd2",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1195,7 +1195,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5344577008",
       "posted_at": "2026-07-15",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c6158ef59f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1210,7 +1210,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5079133008",
       "posted_at": "2026-01-21",
       "match_score": null,
-      "match_reasoning": "API error: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1228,7 +1228,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5315789008",
       "posted_at": "2026-07-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_004ac50e55",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1245,7 +1245,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5097186008",
       "posted_at": "2026-01-27",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_52c813916d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1262,7 +1262,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5186067008",
       "posted_at": "2026-04-14",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_f7a18347ce",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1277,7 +1277,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5079916008",
       "posted_at": "2026-01-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_0db2adf522",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "entry",
       "flags": []
@@ -1294,7 +1294,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5254908008",
       "posted_at": "2026-07-06",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_ad603a3f7e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1309,7 +1309,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5160459008",
       "posted_at": "2026-03-20",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_1c6db77692",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1326,7 +1326,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5366138008",
       "posted_at": "2026-07-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_de67a6a540",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1341,7 +1341,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5370555008",
       "posted_at": "2026-07-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c6d5b0a732",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1358,7 +1358,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5255853008",
       "posted_at": "2026-06-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_afd9efd11d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1373,7 +1373,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5116820008",
       "posted_at": "2026-05-25",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6aedddfb35",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1390,7 +1390,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5274117008",
       "posted_at": "2026-06-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d59374a9d1",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1407,7 +1407,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5274119008",
       "posted_at": "2026-06-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_1defb72cca",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1422,7 +1422,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5364804008",
       "posted_at": "2026-07-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c42fb72871",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1439,7 +1439,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5175782008",
       "posted_at": "2026-04-08",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_1e4cc9dd09",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1456,7 +1456,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5269583008",
       "posted_at": "2026-06-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_43751a8c1a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1471,7 +1471,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5289760008",
       "posted_at": "2026-07-02",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_cba738cf41",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1488,7 +1488,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5153377008",
       "posted_at": "2026-05-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_879ed9026b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1503,7 +1503,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5277834008",
       "posted_at": "2026-06-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_5aa50b3b94",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1518,7 +1518,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5097046008",
       "posted_at": "2026-02-27",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_17e0f3cb6a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1533,7 +1533,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4976328008",
       "posted_at": "2025-11-05",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_acc213bcf4",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1548,7 +1548,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5368074008",
       "posted_at": "2026-07-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_253ebab9cf",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1563,7 +1563,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5222289008",
       "posted_at": "2026-05-18",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fca2423db6",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1578,7 +1578,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197538008",
       "posted_at": "2026-04-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_1298a22b11",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1593,7 +1593,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5173031008",
       "posted_at": "2026-04-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_93b563187c",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1608,7 +1608,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5230755008",
       "posted_at": "2026-05-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6ba591ac54",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1623,7 +1623,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5229558008",
       "posted_at": "2026-06-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d393e9a7c4",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1638,7 +1638,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4949336008",
       "posted_at": "2025-10-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_c6e2e87772",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1656,7 +1656,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008",
       "posted_at": "2026-02-02",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_af1131f115",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1671,7 +1671,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5316565008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_dbe78dc163",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1686,7 +1686,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5216208008",
       "posted_at": "2026-05-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_7e3bec6bf3",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1701,7 +1701,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5310996008",
       "posted_at": "2026-07-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_3bd6478014",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1718,7 +1718,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5277044008",
       "posted_at": "2026-07-02",
       "match_score": null,
-      "match_reasoning": "API error: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1733,7 +1733,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5222908008",
       "posted_at": "2026-05-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_5e166aba8b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1748,7 +1748,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5257820008",
       "posted_at": "2026-06-15",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_63c6f77e19",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1763,7 +1763,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5362838008",
       "posted_at": "2026-07-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_ffe999b100",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1780,7 +1780,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4020350008",
       "posted_at": "2024-04-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9f8a0a9624",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1798,7 +1798,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4926227008",
       "posted_at": "2025-09-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4e12a18b02",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1816,7 +1816,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5224564008",
       "posted_at": "2026-05-20",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_83caf0a383",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1831,7 +1831,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5324349008",
       "posted_at": "2026-07-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_889c575a78",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1846,7 +1846,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5257689008",
       "posted_at": "2026-06-15",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a9d863780e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1863,7 +1863,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5271346008",
       "posted_at": "2026-06-18",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fb8c9006c9",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1878,7 +1878,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5368076008",
       "posted_at": "2026-07-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6792a66945",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1893,7 +1893,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5195866008",
       "posted_at": "2026-04-29",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_3d72765639",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1908,7 +1908,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5123082008",
       "posted_at": "2026-02-17",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_138a2489ae",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -1923,7 +1923,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5124623008",
       "posted_at": "2026-02-19",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e03a7db0a3",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1938,7 +1938,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5220143008",
       "posted_at": "2026-05-19",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_df29151132",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1953,7 +1953,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5253339008",
       "posted_at": "2026-06-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9012e8ecd5",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "graduate",
       "flags": []
@@ -1968,7 +1968,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5164820008",
       "posted_at": "2026-07-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_425da3339b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1983,7 +1983,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5139628008",
       "posted_at": "2026-06-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_81bde82227",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -1998,7 +1998,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5097490008",
       "posted_at": "2026-02-03",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_07c6892882",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2013,7 +2013,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198991008",
       "posted_at": "2026-04-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_37bc390204",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2028,7 +2028,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5179891008",
       "posted_at": "2026-04-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_26543f2c81",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2046,7 +2046,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4979585008",
       "posted_at": "2025-11-06",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2bd326628f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2061,7 +2061,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5239772008",
       "posted_at": "2026-06-03",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9fb848b799",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2079,7 +2079,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5290838008",
       "posted_at": "2026-07-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_aaa7aa8789",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2096,7 +2096,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5320469008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2111,7 +2111,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008",
       "posted_at": "2026-06-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6aa7bfba0c",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2126,7 +2126,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008",
       "posted_at": "2026-06-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_49fe23671c",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2141,7 +2141,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5018472008",
       "posted_at": "2026-01-21",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_311cfaa0d4",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2156,7 +2156,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4017544008",
       "posted_at": "2024-04-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_ea7cdf6e4a",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2173,7 +2173,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5231612008",
       "posted_at": "2026-07-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2bbfea23c7",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2190,7 +2190,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5254364008",
       "posted_at": "2026-06-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_356a750f8e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2205,7 +2205,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5285246008",
       "posted_at": "2026-06-30",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_3180c74397",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2222,7 +2222,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
       "posted_at": "2025-12-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_52e6a6d6d6",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2237,7 +2237,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4669581008",
       "posted_at": "2025-05-14",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_228058da31",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2252,7 +2252,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5271380008",
       "posted_at": "2026-06-19",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e2287b6546",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2267,7 +2267,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5071132008",
       "posted_at": "2026-01-16",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_582b189c3d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2282,7 +2282,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4980430008",
       "posted_at": "2025-11-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_3633f8aa0d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2297,7 +2297,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197337008",
       "posted_at": "2026-04-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_f8f356d0af",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2312,7 +2312,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4017331008",
       "posted_at": "2024-04-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4cc7c6edae",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2327,7 +2327,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5265365008",
       "posted_at": "2026-07-03",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d7d060cfaf",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2344,7 +2344,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008",
       "posted_at": "2026-02-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4e42928f4c",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2361,7 +2361,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4613568008",
       "posted_at": "2025-04-01",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_0a52e0af78",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2378,7 +2378,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
       "posted_at": "2026-04-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e409f109d5",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2395,7 +2395,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
       "posted_at": "2026-04-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_855620081f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2410,7 +2410,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198255008",
       "posted_at": "2026-04-28",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_54bb9ba1cd",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2427,7 +2427,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5160330008",
       "posted_at": "2026-03-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_89b28bca94",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2442,7 +2442,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008",
       "posted_at": "2026-02-16",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_3f406a6936",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2457,7 +2457,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4938432008",
       "posted_at": "2025-09-30",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_469b976c85",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2472,7 +2472,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008",
       "posted_at": "2025-09-30",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_74eff4a516",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2487,7 +2487,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5112018008",
       "posted_at": "2026-02-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9277df4333",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2502,7 +2502,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4613592008",
       "posted_at": "2025-04-01",
       "match_score": null,
-      "match_reasoning": "API error: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2517,7 +2517,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5135168008",
       "posted_at": "2026-02-27",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_57ab5e5aa0",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2532,7 +2532,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4616971008",
       "posted_at": "2025-07-18",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_dc88c55dc3",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2547,7 +2547,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4951814008",
       "posted_at": "2025-10-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e7241916d4",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2564,7 +2564,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008",
       "posted_at": "2026-06-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_dcce23b405",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2579,7 +2579,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4631822008",
       "posted_at": "2025-04-14",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_6279c0443f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2594,7 +2594,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5076477008",
       "posted_at": "2026-01-23",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_44a188ca6d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2609,7 +2609,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5191785008",
       "posted_at": "2026-04-17",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b091686d15",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2624,7 +2624,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5061517008",
       "posted_at": "2026-01-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_fc232254e2",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2639,7 +2639,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5074217008",
       "posted_at": "2026-01-16",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9dd1a9f919",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2654,7 +2654,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5286441008",
       "posted_at": "2026-07-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_9166c6d9d8",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2669,7 +2669,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5139654008",
       "posted_at": "2026-03-06",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_07d72d0dbf",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2684,7 +2684,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5188237008",
       "posted_at": "2026-04-14",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_01ed9efe91",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2699,7 +2699,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5208278008",
       "posted_at": "2026-05-05",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_ad55ddfdd9",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2714,7 +2714,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5304242008",
       "posted_at": "2026-07-08",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_230505fa4f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2729,7 +2729,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008",
       "posted_at": "2026-01-26",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4cc4e29792",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2744,7 +2744,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5247407008",
       "posted_at": "2026-06-22",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_3db8b7c84b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2759,7 +2759,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5066977008",
       "posted_at": "2026-01-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a33907f6a3",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2774,7 +2774,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4980427008",
       "posted_at": "2025-11-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_7992829581",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2789,7 +2789,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5239733008",
       "posted_at": "2026-06-02",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_78f107411c",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2804,7 +2804,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5357739008",
       "posted_at": "2026-07-16",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_e07d352f68",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2819,7 +2819,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5370669008",
       "posted_at": "2026-07-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_17586e8eb0",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -2834,7 +2834,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319626008",
       "posted_at": "2026-07-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b19298fc24",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2849,7 +2849,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319624008",
       "posted_at": "2026-07-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_b1afb437bb",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2864,7 +2864,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5311234008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_deb159352e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2879,7 +2879,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319592008",
       "posted_at": "2026-07-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_4b401ec7b6",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2894,7 +2894,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319696008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a08470d475",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2909,7 +2909,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319700008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d3cc9080c6",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2926,7 +2926,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5311237008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2a7044a56e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2944,7 +2944,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5311159008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_ba8ea5ba27",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2959,7 +2959,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319554008",
       "posted_at": "2026-07-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_de6fa08d5b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2977,7 +2977,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5311149008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_dbf3d2f1bf",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -2992,7 +2992,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5319702008",
       "posted_at": "2026-07-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a977de8928",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3007,7 +3007,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5137183008",
       "posted_at": "2026-03-09",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2fa5ff5cdb",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
       "flags": []
@@ -3025,7 +3025,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5343907008",
       "posted_at": "2026-07-14",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_cb2a357d0f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3042,7 +3042,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5174857008",
       "posted_at": "2026-04-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_68250ec95b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3057,7 +3057,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5182887008",
       "posted_at": "2026-04-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_a0fe3ac826",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3074,7 +3074,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5250063008",
       "posted_at": "2026-06-08",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_53e3499e4f",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3092,7 +3092,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4982193008",
       "posted_at": "2025-11-10",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_d6661dd37b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3109,7 +3109,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4595463008",
       "posted_at": "2025-03-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_f173a48a6d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3124,7 +3124,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5215130008",
       "posted_at": "2026-05-13",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_f1eaa32b6b",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3141,7 +3141,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197549008",
       "posted_at": "2026-04-27",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_2361232d07",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3158,7 +3158,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5365762008",
       "posted_at": "2026-07-22",
       "match_score": null,
-      "match_reasoning": "API error: upstream connect error or disconnect/reset before headers. reset reason: connection termination",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3173,7 +3173,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5197714008",
       "posted_at": "2026-04-24",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_0f363ab411",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3188,7 +3188,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008",
       "posted_at": "2026-04-08",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_496cebe757",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3206,7 +3206,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4641822008",
       "posted_at": "2025-05-20",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_91e335af5e",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3224,7 +3224,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5152348008",
       "posted_at": "2026-03-12",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_67b7795928",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3239,7 +3239,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4981828008",
       "posted_at": "2025-11-07",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_791ec2664d",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -3256,7 +3256,7 @@
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5252342008",
       "posted_at": "2026-06-11",
       "match_score": null,
-      "match_reasoning": "API error: Error code: 500 - {'error': {'message': 'The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_07a26d60ff",
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "mid",
       "flags": []
@@ -14313,6 +14313,21 @@
       "flags": []
     },
     {
+      "title": "Community Engagement Manager, Audio",
+      "company": "Stability AI",
+      "location": "United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "http://stability.ai/careers?gh_jid=4937754101",
+      "posted_at": "2026-07-25",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Product Design Engineer - Audio",
       "company": "Stability AI",
       "location": "United States",
@@ -14471,7 +14486,25 @@
     {
       "title": "Account Solution Architect",
       "company": "CoreWeave",
-      "location": "New York, NY",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "apply_url": "https://coreweave.com/careers/job?4686665006&board=coreweave&gh_jid=4686665006",
+      "posted_at": "2026-06-04",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Account Solution Architect",
+      "company": "CoreWeave",
+      "location": "Sunnyvale, CA",
       "location_tag": "global",
       "salary": "",
       "skills": [
@@ -14479,8 +14512,8 @@
         "PyTorch",
         "LLM"
       ],
-      "apply_url": "https://coreweave.com/careers/job?4686914006&board=coreweave&gh_jid=4686914006",
-      "posted_at": "2026-06-08",
+      "apply_url": "https://coreweave.com/careers/job?4686701006&board=coreweave&gh_jid=4686701006",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -14509,7 +14542,7 @@
     {
       "title": "Account Solution Architect",
       "company": "CoreWeave",
-      "location": "Sunnyvale, CA",
+      "location": "New York, NY",
       "location_tag": "global",
       "salary": "",
       "skills": [
@@ -14517,30 +14550,12 @@
         "PyTorch",
         "LLM"
       ],
-      "apply_url": "https://coreweave.com/careers/job?4686701006&board=coreweave&gh_jid=4686701006",
-      "posted_at": "2026-06-04",
+      "apply_url": "https://coreweave.com/careers/job?4686914006&board=coreweave&gh_jid=4686914006",
+      "posted_at": "2026-06-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
       "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Account Solution Architect",
-      "company": "CoreWeave",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "apply_url": "https://coreweave.com/careers/job?4686665006&board=coreweave&gh_jid=4686665006",
-      "posted_at": "2026-06-04",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -15306,6 +15321,21 @@
     {
       "title": "Senior Specialist Field Engineer - Networking",
       "company": "CoreWeave",
+      "location": "Singapore",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://coreweave.com/careers/job?4688579006&board=coreweave&gh_jid=4688579006",
+      "posted_at": "2026-06-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Specialist Field Engineer - Networking",
+      "company": "CoreWeave",
       "location": "London, UK",
       "location_tag": "uk",
       "salary": "",
@@ -15327,21 +15357,6 @@
       "skills": [],
       "apply_url": "https://coreweave.com/careers/job?4568528006&board=coreweave&gh_jid=4568528006",
       "posted_at": "2025-05-16",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Specialist Field Engineer - Networking",
-      "company": "CoreWeave",
-      "location": "Singapore",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4688579006&board=coreweave&gh_jid=4688579006",
-      "posted_at": "2026-06-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -21898,12 +21913,12 @@
     {
       "title": "Data Analyst",
       "company": "Stripe",
-      "location": "Mexico City",
+      "location": "Canada",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=7978488",
-      "posted_at": "2026-06-03",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=5416444",
+      "posted_at": "2023-11-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -21913,12 +21928,12 @@
     {
       "title": "Data Analyst",
       "company": "Stripe",
-      "location": "Canada",
+      "location": "Mexico City",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=5416444",
-      "posted_at": "2023-11-01",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7978488",
+      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -22742,23 +22757,6 @@
     {
       "title": "Staff Software Engineer, Data Engineering Solutions",
       "company": "Stripe",
-      "location": "Seattle",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=8013220",
-      "posted_at": "2026-06-17",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Software Engineer, Data Engineering Solutions",
-      "company": "Stripe",
       "location": "Bengaluru",
       "location_tag": "global",
       "salary": "",
@@ -22768,6 +22766,23 @@
       ],
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7548037",
       "posted_at": "2026-01-20",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Software Engineer, Data Engineering Solutions",
+      "company": "Stripe",
+      "location": "Seattle",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8013220",
+      "posted_at": "2026-06-17",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -22792,12 +22807,12 @@
     {
       "title": "Staff Software Engineer, Machine Learning Platform",
       "company": "Stripe",
-      "location": "San Francisco, Seattle",
+      "location": "Toronto",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=7939868",
-      "posted_at": "2026-06-02",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7712852",
+      "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
@@ -22807,12 +22822,12 @@
     {
       "title": "Staff Software Engineer, Machine Learning Platform",
       "company": "Stripe",
-      "location": "Toronto",
+      "location": "San Francisco, Seattle",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=7712852",
-      "posted_at": "2026-03-12",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7939868",
+      "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'par",
       "tier": "stretch",
