@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T10:20:44Z",
-  "total_scraped": 3596,
-  "total_matched": 1442,
+  "generated_at": "2026-08-07T09:12:30Z",
+  "total_scraped": 3591,
+  "total_matched": 1423,
   "jobs": [
     {
       "title": "Consultant - Government, AI",
@@ -122,23 +122,6 @@
       ],
       "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4874997101",
       "posted_at": "2026-05-26",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": [
-        "consulting"
-      ]
-    },
-    {
-      "title": "Senior Business Analyst",
-      "company": "Baringa",
-      "location": "Remote, United Kingdom",
-      "location_tag": "remote",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.eu.greenhouse.io/baringa/jobs/4936803101",
-      "posted_at": "2026-07-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -405,21 +388,6 @@
     {
       "title": "Applied AI Architect, Industries",
       "company": "Anthropic",
-      "location": "Munich, Germany",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4977624008",
-      "posted_at": "2025-11-10",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Applied AI Architect, Industries",
-      "company": "Anthropic",
       "location": "New York City, NY; San Francisco, CA | New York City, NY | Seattle, WA",
       "location_tag": "global",
       "salary": "",
@@ -478,6 +446,21 @@
       "flags": []
     },
     {
+      "title": "Applied AI Engineer, Enterprise Tech",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5057647008",
+      "posted_at": "2026-01-08",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Applied AI Security Architect",
       "company": "Anthropic",
       "location": "London, UK",
@@ -505,21 +488,6 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
       "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Business Development Representative",
-      "company": "Anthropic",
-      "location": "Seoul, South Korea",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5186199008",
-      "posted_at": "2026-04-14",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -572,21 +540,6 @@
     {
       "title": "Commercial Counsel, APAC",
       "company": "Anthropic",
-      "location": "Sydney, Australia",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5270065008",
-      "posted_at": "2026-06-18",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Commercial Counsel, APAC",
-      "company": "Anthropic",
       "location": "Singapore",
       "location_tag": "global",
       "salary": "",
@@ -600,14 +553,14 @@
       "flags": []
     },
     {
-      "title": "Commercial Counsel, EMEA",
+      "title": "Commercial Counsel, APAC",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Sydney, Australia",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
-      "posted_at": "2026-03-10",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5270065008",
+      "posted_at": "2026-06-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -623,6 +576,21 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142971008",
       "posted_at": "2026-03-09",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Commercial Counsel, EMEA",
+      "company": "Anthropic",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5142966008",
+      "posted_at": "2026-03-10",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -730,23 +698,6 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5240422008",
       "posted_at": "2026-07-01",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Data Operations Manager, Human Data",
-      "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5238460008",
-      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -1124,24 +1075,6 @@
       "flags": []
     },
     {
-      "title": "Finance Systems Integration Engineer",
-      "company": "Anthropic",
-      "location": "San Francisco, CA | Seattle, WA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python",
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5315789008",
-      "posted_at": "2026-07-09",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Full Stack Engineer, Education Labs",
       "company": "Anthropic",
       "location": "San Francisco, CA | New York City, NY",
@@ -1464,21 +1397,6 @@
       "flags": []
     },
     {
-      "title": "Manager, IT Support",
-      "company": "Anthropic",
-      "location": "New York City, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5368074008",
-      "posted_at": "2026-07-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Manager of Applied AI Architecture, Enterprise Tech",
       "company": "Anthropic",
       "location": "San Francisco, CA | New York City, NY",
@@ -1595,21 +1513,6 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5316565008",
       "posted_at": "2026-07-10",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Operations Sourcing Manager, Data Center",
-      "company": "Anthropic",
-      "location": "Remote-Friendly, United States",
-      "location_tag": "remote",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5216208008",
-      "posted_at": "2026-05-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -2234,13 +2137,13 @@
     {
       "title": "Research Engineer, Machine Learning (RL Velocity)",
       "company": "Anthropic",
-      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",
-      "location_tag": "remote",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [
         "RL"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
       "posted_at": "2026-04-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -2251,13 +2154,13 @@
     {
       "title": "Research Engineer, Machine Learning (RL Velocity)",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",
+      "location_tag": "remote",
       "salary": "",
       "skills": [
         "RL"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
       "posted_at": "2026-04-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -2520,21 +2423,6 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5074217008",
       "posted_at": "2026-01-16",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Researcher, Cybersecurity Products",
-      "company": "Anthropic",
-      "location": "San Francisco, CA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5380359008",
-      "posted_at": "2026-08-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3048,24 +2936,6 @@
     {
       "title": "Senior Software Engineer, Inference",
       "company": "Anthropic",
-      "location": "Dublin, IE",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [
-        "Python",
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4641822008",
-      "posted_at": "2025-05-20",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Software Engineer, Inference",
-      "company": "Anthropic",
       "location": "London, UK",
       "location_tag": "uk",
       "salary": "",
@@ -3075,6 +2945,24 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5152348008",
       "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Software Engineer, Inference",
+      "company": "Anthropic",
+      "location": "Dublin, IE",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [
+        "Python",
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4641822008",
+      "posted_at": "2025-05-20",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3133,14 +3021,14 @@
     {
       "title": "Senior Staff+ Software Engineer, Node Infra",
       "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5203868008",
-      "posted_at": "2026-04-28",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5211498008",
+      "posted_at": "2026-05-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3150,14 +3038,14 @@
     {
       "title": "Senior Staff+ Software Engineer, Node Infra",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5211498008",
-      "posted_at": "2026-05-07",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5203868008",
+      "posted_at": "2026-04-28",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3188,21 +3076,6 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4926242008",
       "posted_at": "2025-09-23",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Software Engineer, Research Infrastructure",
-      "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5283063008",
-      "posted_at": "2026-07-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3271,6 +3144,21 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4593216008",
       "posted_at": "2025-04-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff+ Researcher, Cybersecurity Products",
+      "company": "Anthropic",
+      "location": "San Francisco, CA",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5380359008",
+      "posted_at": "2026-08-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3383,12 +3271,12 @@
     {
       "title": "Staff Software Engineer, AI Reliability Engineering",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Dublin, IE",
+      "location_tag": "eu",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101173008",
-      "posted_at": "2026-02-03",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
+      "posted_at": "2026-02-05",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3398,12 +3286,12 @@
     {
       "title": "Staff Software Engineer, AI Reliability Engineering",
       "company": "Anthropic",
-      "location": "Dublin, IE",
-      "location_tag": "eu",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101169008",
-      "posted_at": "2026-02-05",
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101173008",
+      "posted_at": "2026-02-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3625,24 +3513,6 @@
     {
       "title": "Staff Software Engineer, Inference",
       "company": "Anthropic",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "Python",
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
-      "posted_at": "2026-02-02",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Software Engineer, Inference",
-      "company": "Anthropic",
       "location": "Dublin, IE",
       "location_tag": "eu",
       "salary": "",
@@ -3652,6 +3522,24 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
       "posted_at": "2026-03-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Software Engineer, Inference",
+      "company": "Anthropic",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "Python",
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
+      "posted_at": "2026-02-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -3812,21 +3700,6 @@
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5342935008",
       "posted_at": "2026-07-13",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff+ Software Engineer, Vertical AI Products (Multiple Roles)",
-      "company": "Anthropic",
-      "location": "San Francisco, CA | New York City, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5289450008",
-      "posted_at": "2026-07-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -4221,6 +4094,21 @@
       "flags": []
     },
     {
+      "title": "Technical Program Manager, Silicon",
+      "company": "Anthropic",
+      "location": "San Francisco, CA | New York City, NY",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5380377008",
+      "posted_at": "2026-08-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Technical Recruiter, Infrastructure",
       "company": "Anthropic",
       "location": "San Francisco, CA",
@@ -4366,21 +4254,6 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/4720576008",
       "posted_at": "2025-05-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Transaction Principal",
-      "company": "Anthropic",
-      "location": "Tokyo, Japan",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5233507008",
-      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -4555,12 +4428,12 @@
     {
       "title": "AI Engineer - FDE (Forward Deployed Engineer)",
       "company": "Databricks",
-      "location": "Melbourne, Australia",
-      "location_tag": "global",
+      "location": "Remote - India",
+      "location_tag": "remote",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8330188002",
-      "posted_at": "2025-12-09",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
+      "posted_at": "2025-07-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -4600,42 +4473,42 @@
     {
       "title": "AI Engineer - FDE (Forward Deployed Engineer)",
       "company": "Databricks",
-      "location": "Remote - India",
-      "location_tag": "remote",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
-      "posted_at": "2025-07-31",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-      "company": "Databricks",
-      "location": "Seoul, South Korea",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002",
-      "posted_at": "2026-06-04",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-      "company": "Databricks",
       "location": "Remote - United Kingdom",
       "location_tag": "remote",
       "salary": "",
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593713002",
       "posted_at": "2026-07-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+      "company": "Databricks",
+      "location": "Melbourne, Australia",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8330188002",
+      "posted_at": "2025-12-09",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+      "company": "Databricks",
+      "location": "Singapore",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569390002",
+      "posted_at": "2026-07-07",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -4660,12 +4533,12 @@
     {
       "title": "AI Engineer - FDE (Forward Deployed Engineer)",
       "company": "Databricks",
-      "location": "Singapore",
+      "location": "Seoul, South Korea",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569390002",
-      "posted_at": "2026-07-07",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -4726,7 +4599,7 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8431935002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8431927002",
       "posted_at": "2026-02-20",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -4934,14 +4807,14 @@
     {
       "title": "Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Seoul, South Korea",
-      "location_tag": "global",
+      "location": "Amsterdam, Netherlands",
+      "location_tag": "eu",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8540455002",
-      "posted_at": "2026-05-13",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002",
+      "posted_at": "2026-03-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -4951,14 +4824,14 @@
     {
       "title": "Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Amsterdam, Netherlands",
-      "location_tag": "eu",
+      "location": "Seoul, South Korea",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8462016002",
-      "posted_at": "2026-03-13",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8540455002",
+      "posted_at": "2026-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5066,12 +4939,12 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Stockholm, Sweden",
-      "location_tag": "eu",
+      "location": "Herzliya, Israel",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569522002",
-      "posted_at": "2026-06-08",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569558002",
+      "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5087,21 +4960,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569552002",
       "posted_at": "2026-06-02",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Lakebase Sales Specialist",
-      "company": "Databricks",
-      "location": "Seoul, South Korea",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569592002",
-      "posted_at": "2026-06-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5141,27 +4999,12 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Herzliya, Israel",
+      "location": "Milan, Italy",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569558002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569554002",
       "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Lakebase Sales Specialist",
-      "company": "Databricks",
-      "location": "United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569410002",
-      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5186,12 +5029,42 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Amsterdam, Netherlands",
+      "location": "Stockholm, Sweden",
       "location_tag": "eu",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569524002",
-      "posted_at": "2026-06-23",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569522002",
+      "posted_at": "2026-06-08",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lakebase Sales Specialist",
+      "company": "Databricks",
+      "location": "United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569410002",
+      "posted_at": "2026-06-04",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lakebase Sales Specialist",
+      "company": "Databricks",
+      "location": "Seoul, South Korea",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569592002",
+      "posted_at": "2026-06-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5216,12 +5089,12 @@
     {
       "title": "Lakebase Sales Specialist",
       "company": "Databricks",
-      "location": "Milan, Italy",
-      "location_tag": "global",
+      "location": "Amsterdam, Netherlands",
+      "location_tag": "eu",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569554002",
-      "posted_at": "2026-06-22",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569524002",
+      "posted_at": "2026-06-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5289,21 +5162,6 @@
       "flags": []
     },
     {
-      "title": "Lakebase Sales Specialist, Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "Central - United States; Northeast - United States; Southeast - United States; United States; West Coast - United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569461002",
-      "posted_at": "2026-06-02",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Lakebase Sales Specialist - MEA",
       "company": "Databricks",
       "location": "London, United Kingdom",
@@ -5351,6 +5209,21 @@
     {
       "title": "Lakebase Specialist Sales",
       "company": "Databricks",
+      "location": "Singapore",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569594002",
+      "posted_at": "2026-06-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Lakebase Specialist Sales",
+      "company": "Databricks",
       "location": "Melbourne, Australia",
       "location_tag": "global",
       "salary": "",
@@ -5372,21 +5245,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569566002",
       "posted_at": "2026-06-04",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Lakebase Specialist Sales",
-      "company": "Databricks",
-      "location": "Singapore",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569594002",
-      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5535,21 +5393,6 @@
     {
       "title": "Manager, Forward Deployed Engineering",
       "company": "Databricks",
-      "location": "Amsterdam, Netherlands",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
-      "posted_at": "2026-07-02",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Manager, Forward Deployed Engineering",
-      "company": "Databricks",
       "location": "Singapore",
       "location_tag": "global",
       "salary": "",
@@ -5571,6 +5414,21 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8445817002",
       "posted_at": "2026-03-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Manager, Forward Deployed Engineering",
+      "company": "Databricks",
+      "location": "Amsterdam, Netherlands",
+      "location_tag": "eu",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8613192002",
+      "posted_at": "2026-07-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5780,11 +5638,11 @@
     {
       "title": "Principal Engineer, Authentication",
       "company": "Databricks",
-      "location": "Bellevue, Washington; Seattle, Washington",
+      "location": "Mountain View, California; San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400563002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400559002",
       "posted_at": "2026-02-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -5795,11 +5653,11 @@
     {
       "title": "Principal Engineer, Authentication",
       "company": "Databricks",
-      "location": "Mountain View, California; San Francisco, California",
+      "location": "Bellevue, Washington; Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400559002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8400563002",
       "posted_at": "2026-02-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -5816,6 +5674,21 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8334738002",
       "posted_at": "2025-12-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Principal Engineer - Privacy",
+      "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274488002",
+      "posted_at": "2024-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -5846,21 +5719,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8224828002",
       "posted_at": "2025-10-23",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Principal Engineer - Privacy",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274488002",
-      "posted_at": "2024-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6101,14 +5959,14 @@
     {
       "title": "Senior Forward Deployed Engineer - Full stack",
       "company": "Databricks",
-      "location": "London, United Kingdom",
-      "location_tag": "uk",
+      "location": "Paris, France",
+      "location_tag": "eu",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8598430002",
-      "posted_at": "2026-06-18",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8556371002",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6118,14 +5976,14 @@
     {
       "title": "Senior Forward Deployed Engineer - Full stack",
       "company": "Databricks",
-      "location": "Paris, France",
-      "location_tag": "eu",
+      "location": "London, United Kingdom",
+      "location_tag": "uk",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8556371002",
-      "posted_at": "2026-06-04",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8598430002",
+      "posted_at": "2026-06-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6190,21 +6048,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569518002",
       "posted_at": "2026-06-05",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Machine Learning Engineer - GenAI Platform",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6954585002",
-      "posted_at": "2023-09-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6319,6 +6162,21 @@
     {
       "title": "Senior Software Engineer - Backend",
       "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002",
+      "posted_at": "2021-10-21",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Software Engineer - Backend",
+      "company": "Databricks",
       "location": "Bellevue, Washington",
       "location_tag": "global",
       "salary": "",
@@ -6340,21 +6198,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544435002",
       "posted_at": "2022-12-20",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Software Engineer - Backend",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=4799387002",
-      "posted_at": "2021-10-21",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6424,21 +6267,6 @@
     {
       "title": "Senior Software Engineer - Distributed Data Systems",
       "company": "Databricks",
-      "location": "Mountain View, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
-      "posted_at": "2023-06-23",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Software Engineer - Distributed Data Systems",
-      "company": "Databricks",
       "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
@@ -6460,6 +6288,21 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6936994002",
       "posted_at": "2023-12-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Senior Software Engineer - Distributed Data Systems",
+      "company": "Databricks",
+      "location": "Mountain View, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544325002",
+      "posted_at": "2023-06-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6732,11 +6575,11 @@
     {
       "title": "Senior Staff Software Engineer - IAM",
       "company": "Databricks",
-      "location": "Seattle, Washington",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002",
       "posted_at": "2024-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -6747,11 +6590,11 @@
     {
       "title": "Senior Staff Software Engineer - IAM",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274563002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7274557002",
       "posted_at": "2024-03-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -6877,6 +6720,23 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
+      "location": "Arizona; California; Utah",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8605160002",
+      "posted_at": "2026-06-29",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect",
+      "company": "Databricks",
       "location": "Toronto, Canada",
       "location_tag": "global",
       "salary": "",
@@ -6894,48 +6754,14 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Pune, India",
-      "location_tag": "global",
+      "location": "Colorado; Denver, Colorado; Remote - Colorado",
+      "location_tag": "remote",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8641892002",
-      "posted_at": "2026-07-23",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect",
-      "company": "Databricks",
-      "location": "Delhi, India",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637783002",
-      "posted_at": "2026-07-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect",
-      "company": "Databricks",
-      "location": "Central - United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8633227002",
-      "posted_at": "2026-07-20",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569633002",
+      "posted_at": "2026-07-27",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6945,14 +6771,14 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Central - United States",
-      "location_tag": "global",
+      "location": "Stockholm, Sweden",
+      "location_tag": "eu",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8633225002",
-      "posted_at": "2026-07-20",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8531153002",
+      "posted_at": "2026-06-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6979,14 +6805,14 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Colorado; Denver, Colorado; Remote - Colorado",
-      "location_tag": "remote",
+      "location": "Central - United States",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8569633002",
-      "posted_at": "2026-07-27",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8633225002",
+      "posted_at": "2026-07-20",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -6996,18 +6822,52 @@
     {
       "title": "Solutions Architect",
       "company": "Databricks",
-      "location": "Arizona; California; Utah",
+      "location": "Central - United States",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8605160002",
-      "posted_at": "2026-06-29",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8633227002",
+      "posted_at": "2026-07-20",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
       "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect",
+      "company": "Databricks",
+      "location": "Delhi, India",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637783002",
+      "posted_at": "2026-07-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect",
+      "company": "Databricks",
+      "location": "Pune, India",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8641892002",
+      "posted_at": "2026-07-23",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
       "flags": []
     },
     {
@@ -7019,23 +6879,6 @@
       "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7896350002",
       "posted_at": "2025-03-06",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect",
-      "company": "Databricks",
-      "location": "Stockholm, Sweden",
-      "location_tag": "eu",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8531153002",
-      "posted_at": "2026-06-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -7300,23 +7143,6 @@
     {
       "title": "Solutions Architect - Lakebase",
       "company": "Databricks",
-      "location": "Milan, Italy",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568009002",
-      "posted_at": "2026-07-30",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect - Lakebase",
-      "company": "Databricks",
       "location": "Sao Paulo, Brazil",
       "location_tag": "global",
       "salary": "",
@@ -7334,6 +7160,23 @@
     {
       "title": "Solutions Architect - Lakebase",
       "company": "Databricks",
+      "location": "Milan, Italy",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568009002",
+      "posted_at": "2026-07-30",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect - Lakebase",
+      "company": "Databricks",
       "location": "London, United Kingdom",
       "location_tag": "uk",
       "salary": "",
@@ -7342,23 +7185,6 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568015002",
       "posted_at": "2026-06-10",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Solutions Architect (Lakebase)",
-      "company": "Databricks",
-      "location": "Singapore",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002",
-      "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -7392,6 +7218,23 @@
         "Python"
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568023002",
+      "posted_at": "2026-06-11",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Solutions Architect (Lakebase)",
+      "company": "Databricks",
+      "location": "Singapore",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002",
       "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -7587,12 +7430,12 @@
     {
       "title": "Specialist Solutions Architect - AI/ML",
       "company": "Databricks",
-      "location": "Sao Paulo, Brazil",
+      "location": "Bengaluru, India",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7811355002",
-      "posted_at": "2025-01-13",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585164002",
+      "posted_at": "2026-06-16",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -7602,12 +7445,12 @@
     {
       "title": "Specialist Solutions Architect - AI/ML",
       "company": "Databricks",
-      "location": "Bengaluru, India",
+      "location": "Sao Paulo, Brazil",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8585164002",
-      "posted_at": "2026-06-16",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7811355002",
+      "posted_at": "2025-01-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -7724,13 +7567,13 @@
     {
       "title": "Sr. Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Stockholm, Sweden",
-      "location_tag": "eu",
+      "location": "USCA",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645054002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8632188002",
       "posted_at": "2026-07-28",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -7741,30 +7584,13 @@
     {
       "title": "Sr. Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Melbourne, Australia; Sydney, Australia",
-      "location_tag": "global",
+      "location": "Stockholm, Sweden",
+      "location_tag": "eu",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8516116002",
-      "posted_at": "2026-05-19",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer",
-      "company": "Databricks",
-      "location": "USCA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8632188002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645054002",
       "posted_at": "2026-07-28",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -7807,16 +7633,16 @@
       "flags": []
     },
     {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+      "title": "Sr. Forward Deployed Engineer",
       "company": "Databricks",
-      "location": "Raleigh, North Carolina",
+      "location": "Melbourne, Australia; Sydney, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461258002",
-      "posted_at": "2026-03-12",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8516116002",
+      "posted_at": "2026-05-19",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -7826,30 +7652,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
       "company": "Databricks",
-      "location": "Philadelphia, Pennsylvania",
+      "location": "Dallas, Texas",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494153002",
-      "posted_at": "2026-04-03",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
-      "company": "Databricks",
-      "location": "Los Angeles, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461168002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461218002",
       "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -7877,13 +7686,30 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
       "company": "Databricks",
-      "location": "Dallas, Texas",
+      "location": "Los Angeles, California",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461218002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461168002",
+      "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+      "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461163002",
       "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -7902,6 +7728,23 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461220002",
       "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
+      "company": "Databricks",
+      "location": "Philadelphia, Pennsylvania",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494153002",
+      "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -7996,13 +7839,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Communications, Media, Entertainment & Games",
       "company": "Databricks",
-      "location": "San Francisco, California",
+      "location": "Raleigh, North Carolina",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461163002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461258002",
       "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8030,6 +7873,23 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
       "company": "Databricks",
+      "location": "Washington, D.C.",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592952002",
+      "posted_at": "2026-06-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+      "company": "Databricks",
       "location": "Charlotte, North Carolina",
       "location_tag": "global",
       "salary": "",
@@ -8037,6 +7897,23 @@
         "Python"
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592951002",
+      "posted_at": "2026-06-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+      "company": "Databricks",
+      "location": "Boston, Massachusetts",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592937002",
       "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8081,13 +7958,30 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
       "company": "Databricks",
-      "location": "Washington, D.C.",
+      "location": "Chicago, Illinois",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592952002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592938002",
+      "posted_at": "2026-06-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
+      "company": "Databricks",
+      "location": "Central - United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438791002",
       "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8115,40 +8009,6 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
       "company": "Databricks",
-      "location": "Chicago, Illinois",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592938002",
-      "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-      "company": "Databricks",
-      "location": "Boston, Massachusetts",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592937002",
-      "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-      "company": "Databricks",
       "location": "Dallas, Texas",
       "location_tag": "global",
       "salary": "",
@@ -8156,23 +8016,6 @@
         "Python"
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8592928002",
-      "posted_at": "2026-06-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Financial Services",
-      "company": "Databricks",
-      "location": "Central - United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438791002",
       "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8191,74 +8034,6 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8645052002",
       "posted_at": "2026-07-29",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "Boston, Massachusetts",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494142002",
-      "posted_at": "2026-04-03",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "New York City, New York",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8371312002",
-      "posted_at": "2026-03-06",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "Chicago, Illinois",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494143002",
-      "posted_at": "2026-04-03",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
-      "company": "Databricks",
-      "location": "Dallas, Texas",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494144002",
-      "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -8317,15 +8092,66 @@
       "flags": []
     },
     {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Manufacturing",
+      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
       "company": "Databricks",
-      "location": "Philadelphia, Pennsylvania",
+      "location": "Boston, Massachusetts",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494155002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494142002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
+      "company": "Databricks",
+      "location": "Chicago, Illinois",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494143002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
+      "company": "Databricks",
+      "location": "New York City, New York",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8371312002",
+      "posted_at": "2026-03-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Healthcare & Life Sciences",
+      "company": "Databricks",
+      "location": "Dallas, Texas",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494144002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8385,15 +8211,15 @@
       "flags": []
     },
     {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "title": "Sr. Forward Deployed Engineer (FDE) - Manufacturing",
       "company": "Databricks",
-      "location": "Austin, Texas",
+      "location": "Philadelphia, Pennsylvania",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494137002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494155002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8421,6 +8247,57 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
+      "location": "Austin, Texas",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494137002",
+      "posted_at": "2026-04-03",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
+      "location": "Washington, D.C.",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8356289002",
+      "posted_at": "2026-01-08",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
+      "location": "Central - United States; Northeast - United States; Southeast - United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423296002",
+      "posted_at": "2026-03-02",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
+      "company": "Databricks",
       "location": "Boston, Massachusetts",
       "location_tag": "global",
       "salary": "",
@@ -8438,14 +8315,14 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
-      "location": "New York City, New York",
+      "location": "Chicago, Illinois",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494130002",
-      "posted_at": "2026-04-03",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461321002",
+      "posted_at": "2026-03-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -8455,13 +8332,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
-      "location": "Washington, D.C.",
+      "location": "Virginia",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494128002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494107002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8495,24 +8372,7 @@
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8356289002",
-      "posted_at": "2026-01-08",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
-      "location": "Virginia",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494107002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494128002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8523,13 +8383,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
-      "location": "Atlanta, Georgia",
+      "location": "New York City, New York",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494147002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494130002",
       "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8557,31 +8417,14 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
       "company": "Databricks",
-      "location": "Central - United States; Northeast - United States; Southeast - United States",
+      "location": "Atlanta, Georgia",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8423296002",
-      "posted_at": "2026-03-02",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Sr. Forward Deployed Engineer (FDE) - Public Sector",
-      "company": "Databricks",
-      "location": "Chicago, Illinois",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8461321002",
-      "posted_at": "2026-03-12",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8494147002",
+      "posted_at": "2026-04-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -8591,13 +8434,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
       "company": "Databricks",
-      "location": "Denver, Colorado",
+      "location": "Austin, Texas",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647675002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647668002",
       "posted_at": "2026-07-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8642,13 +8485,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
       "company": "Databricks",
-      "location": "Austin, Texas",
-      "location_tag": "global",
+      "location": "Remote - California",
+      "location_tag": "remote",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647668002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647677002",
       "posted_at": "2026-07-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8659,13 +8502,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
       "company": "Databricks",
-      "location": "Chicago, Illinois",
+      "location": "Denver, Colorado",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647669002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647675002",
       "posted_at": "2026-07-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8693,13 +8536,13 @@
     {
       "title": "Sr. Forward Deployed Engineer (FDE) - Retail",
       "company": "Databricks",
-      "location": "Remote - California",
-      "location_tag": "remote",
+      "location": "Chicago, Illinois",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647677002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8647669002",
       "posted_at": "2026-07-23",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -8772,12 +8615,12 @@
     {
       "title": "Sr. Manager, Capability Engineering & AI Adoption — APJ",
       "company": "Databricks",
-      "location": "Sydney, Australia",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8428880002",
-      "posted_at": "2026-02-25",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8607647002",
+      "posted_at": "2026-06-25",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -8787,12 +8630,12 @@
     {
       "title": "Sr. Manager, Capability Engineering & AI Adoption — APJ",
       "company": "Databricks",
-      "location": "Singapore",
+      "location": "Sydney, Australia",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8607647002",
-      "posted_at": "2026-06-25",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8428880002",
+      "posted_at": "2026-02-25",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -8887,6 +8730,21 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
       "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Sr. Manager, Field Engineering - Financial Services (Banking and Payments)",
+      "company": "Databricks",
+      "location": "Illinois; Massachusetts; New York; Washington, D.C.",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568035002",
+      "posted_at": "2026-08-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -9187,6 +9045,24 @@
       "flags": []
     },
     {
+      "title": "Sr. Software Engineer- Backend",
+      "company": "Databricks",
+      "location": "New York City, New York",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python",
+        "PyTorch"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8379331002",
+      "posted_at": "2026-01-16",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Sr Software Engineer- Customer Experience Intelligence (CXI)",
       "company": "Databricks",
       "location": "Mountain View, California; San Francisco, California",
@@ -9221,14 +9097,14 @@
     {
       "title": "Sr. Solutions Architect",
       "company": "Databricks",
-      "location": "Remote - Texas",
-      "location_tag": "remote",
+      "location": "Bengaluru, India",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8417656002",
-      "posted_at": "2026-02-12",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476064002",
+      "posted_at": "2026-04-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -9255,14 +9131,14 @@
     {
       "title": "Sr. Solutions Architect",
       "company": "Databricks",
-      "location": "Bengaluru, India",
-      "location_tag": "global",
+      "location": "Remote - Texas",
+      "location_tag": "remote",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8476064002",
-      "posted_at": "2026-04-13",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8417656002",
+      "posted_at": "2026-02-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -9543,40 +9419,6 @@
     {
       "title": "Sr. Solutions Engineer",
       "company": "Databricks",
-      "location": "Mexico City",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8606312002",
-      "posted_at": "2026-07-22",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Sr. Solutions Engineer",
-      "company": "Databricks",
-      "location": "United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8415130002",
-      "posted_at": "2026-02-17",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Sr. Solutions Engineer",
-      "company": "Databricks",
       "location": "Toronto, Canada",
       "location_tag": "global",
       "salary": "",
@@ -9602,6 +9444,40 @@
       ],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8589187002",
       "posted_at": "2026-07-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Sr. Solutions Engineer",
+      "company": "Databricks",
+      "location": "Mexico City",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8606312002",
+      "posted_at": "2026-07-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Sr. Solutions Engineer",
+      "company": "Databricks",
+      "location": "United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8415130002",
+      "posted_at": "2026-02-17",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -9797,11 +9673,11 @@
     {
       "title": "Sr. Staff Software Engineer — Observability, Insights & Governance",
       "company": "Databricks",
-      "location": "Mountain View, California; San Francisco, California",
+      "location": "Bellevue, Washington; Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002",
       "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -9812,11 +9688,11 @@
     {
       "title": "Sr. Staff Software Engineer — Observability, Insights & Governance",
       "company": "Databricks",
-      "location": "Bellevue, Washington; Seattle, Washington",
+      "location": "Mountain View, California; San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575251002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8575248002",
       "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -9885,36 +9761,6 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367022002",
-      "posted_at": "2026-03-31",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Backend Software Engineer- (AI Platform)",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367023002",
-      "posted_at": "2026-03-31",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Backend Software Engineer- (AI Platform)",
-      "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367019002",
       "posted_at": "2026-03-31",
       "match_score": null,
@@ -9930,7 +9776,37 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367022002",
+      "posted_at": "2026-03-31",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Backend Software Engineer- (AI Platform)",
+      "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367021002",
+      "posted_at": "2026-03-31",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Backend Software Engineer- (AI Platform)",
+      "company": "Databricks",
+      "location": "San Francisco, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8367023002",
       "posted_at": "2026-03-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -9986,13 +9862,13 @@
     {
       "title": "Staff Designated Support Engineer",
       "company": "Databricks",
-      "location": "Japan",
+      "location": "Bengaluru, India",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554477002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554463002",
       "posted_at": "2026-05-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10003,13 +9879,13 @@
     {
       "title": "Staff Designated Support Engineer",
       "company": "Databricks",
-      "location": "Bengaluru, India",
+      "location": "Japan",
       "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554463002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8554477002",
       "posted_at": "2026-05-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10147,11 +10023,11 @@
     {
       "title": "Staff Product Manager, AI Platform",
       "company": "Databricks",
-      "location": "San Francisco, California",
+      "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8420609002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8427940002",
       "posted_at": "2026-02-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10162,11 +10038,11 @@
     {
       "title": "Staff Product Manager, AI Platform",
       "company": "Databricks",
-      "location": "Seattle, Washington",
+      "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8427940002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8420609002",
       "posted_at": "2026-02-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10261,8 +10137,8 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002",
-      "posted_at": "2026-06-11",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002",
+      "posted_at": "2026-07-15",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -10276,8 +10152,8 @@
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8635188002",
-      "posted_at": "2026-07-15",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560783002",
+      "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -10362,12 +10238,14 @@
     {
       "title": "Staff Software Engineer - Backend",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Bengaluru, India",
       "location_tag": "global",
       "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002",
-      "posted_at": "2022-12-27",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002",
+      "posted_at": "2025-12-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -10377,14 +10255,12 @@
     {
       "title": "Staff Software Engineer - Backend",
       "company": "Databricks",
-      "location": "Bengaluru, India",
+      "location": "Seattle, Washington",
       "location_tag": "global",
       "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002",
-      "posted_at": "2025-12-03",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002",
+      "posted_at": "2024-07-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -10409,11 +10285,11 @@
     {
       "title": "Staff Software Engineer - Backend",
       "company": "Databricks",
-      "location": "San Francisco, California",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544443002",
       "posted_at": "2022-12-27",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10424,12 +10300,12 @@
     {
       "title": "Staff Software Engineer - Backend",
       "company": "Databricks",
-      "location": "Seattle, Washington",
+      "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6779232002",
-      "posted_at": "2024-07-03",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5408888002",
+      "posted_at": "2022-12-27",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -10518,21 +10394,6 @@
     {
       "title": "Staff Software Engineer - Database Engine Internals",
       "company": "Databricks",
-      "location": "San Francisco, California",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002",
-      "posted_at": "2023-04-13",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Staff Software Engineer - Database Engine Internals",
-      "company": "Databricks",
       "location": "Belgrade, Serbia",
       "location_tag": "global",
       "salary": "",
@@ -10546,13 +10407,28 @@
       "flags": []
     },
     {
-      "title": "Staff Software Engineer - Distributed Data Systems",
+      "title": "Staff Software Engineer - Database Engine Internals",
       "company": "Databricks",
       "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646866002",
+      "posted_at": "2023-04-13",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Software Engineer - Distributed Data Systems",
+      "company": "Databricks",
+      "location": "Mountain View, California",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
       "posted_at": "2023-04-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10578,11 +10454,11 @@
     {
       "title": "Staff Software Engineer - Distributed Data Systems",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "San Francisco, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=6544364002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=5646855002",
       "posted_at": "2023-04-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10843,11 +10719,11 @@
     {
       "title": "Staff Software Engineer - Security Infrastructure",
       "company": "Databricks",
-      "location": "Mountain View, California",
+      "location": "Bellevue, Washington",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994770002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994759002",
       "posted_at": "2025-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -10858,11 +10734,11 @@
     {
       "title": "Staff Software Engineer - Security Infrastructure",
       "company": "Databricks",
-      "location": "Bellevue, Washington",
+      "location": "Mountain View, California",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994759002",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7994770002",
       "posted_at": "2025-05-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -11318,13 +11194,11 @@
     {
       "title": "Engagement Manager, Public Sector",
       "company": "Scale AI",
-      "location": "Hampton Roads, VA",
+      "location": "Washington, DC",
       "location_tag": "global",
       "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4692198005",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4692188005",
       "posted_at": "2026-05-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -11335,11 +11209,13 @@
     {
       "title": "Engagement Manager, Public Sector",
       "company": "Scale AI",
-      "location": "Washington, DC",
+      "location": "Hampton Roads, VA",
       "location_tag": "global",
       "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4692188005",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4692198005",
       "posted_at": "2026-05-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -11607,14 +11483,12 @@
     {
       "title": "Forward Deployed Product Manager, Enterprise",
       "company": "Scale AI",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "New York, NY",
+      "location_tag": "global",
       "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4644742005",
-      "posted_at": "2026-01-19",
+      "skills": [],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005",
+      "posted_at": "2026-03-13",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -11624,12 +11498,14 @@
     {
       "title": "Forward Deployed Product Manager, Enterprise",
       "company": "Scale AI",
-      "location": "New York, NY",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4673051005",
-      "posted_at": "2026-03-13",
+      "skills": [
+        "Python"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4644742005",
+      "posted_at": "2026-01-19",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -11813,7 +11689,7 @@
       "flags": []
     },
     {
-      "title": "Lead Counsel, Product and Intellectual Property",
+      "title": "Lead Counsel, Product and IP",
       "company": "Scale AI",
       "location": "San Francisco, CA",
       "location_tag": "global",
@@ -12084,36 +11960,6 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
       "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Operations Program Manager (Computer Vision), Public Sector",
-      "company": "Scale AI",
-      "location": "St. Louis, MO; Washington, DC",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4704555005",
-      "posted_at": "2026-06-12",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Platform Designer",
-      "company": "Scale AI",
-      "location": "San Francisco, CA; New York, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4718917005",
-      "posted_at": "2026-07-29",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -12506,13 +12352,13 @@
     {
       "title": "Senior Full-Stack Software Engineer, (Forward Deployed), GPS",
       "company": "Scale AI",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Doha, Qatar",
+      "location_tag": "global",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4673310005",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4676606005",
       "posted_at": "2026-03-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -12523,13 +12369,13 @@
     {
       "title": "Senior Full-Stack Software Engineer, (Forward Deployed), GPS",
       "company": "Scale AI",
-      "location": "Doha, Qatar",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [
         "Python"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4676606005",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4673310005",
       "posted_at": "2026-03-24",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -12578,23 +12424,6 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4720422005",
       "posted_at": "2026-07-31",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Software Engineer, Agent Oversight",
-      "company": "Scale AI",
-      "location": "San Francisco, CA; New York, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4714509005",
-      "posted_at": "2026-07-14",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -13021,24 +12850,6 @@
     {
       "title": "Solutions Engineer, Enterprise",
       "company": "Scale AI",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "Python",
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4642876005",
-      "posted_at": "2025-12-29",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Solutions Engineer, Enterprise",
-      "company": "Scale AI",
       "location": "San Francisco, CA; New York, NY",
       "location_tag": "global",
       "salary": "",
@@ -13048,6 +12859,24 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4554440005",
       "posted_at": "2025-04-22",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Solutions Engineer, Enterprise",
+      "company": "Scale AI",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "Python",
+        "LLM"
+      ],
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4642876005",
+      "posted_at": "2025-12-29",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -13342,40 +13171,6 @@
       "flags": []
     },
     {
-      "title": "Strategic Projects Lead - Coding",
-      "company": "Scale AI",
-      "location": "Mexico City, MX",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4664232005",
-      "posted_at": "2026-02-19",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Strategic Projects Lead - Coding",
-      "company": "Scale AI",
-      "location": "San Francisco, CA; New York, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4666036005",
-      "posted_at": "2026-02-24",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Strategic Projects Lead, Generative AI",
       "company": "Scale AI",
       "location": "San Francisco, CA; New York, NY",
@@ -13534,20 +13329,20 @@
       "flags": []
     },
     {
-      "title": "Technical Program Manager, Engineering",
+      "title": "Technical Program Manager, Enterprise",
       "company": "Scale AI",
-      "location": "San Francisco, CA; New York, NY",
+      "location": "New York, NY; San Francisco, CA; New York, NY",
       "location_tag": "global",
       "salary": "",
       "skills": [
-        "RL"
+        "LLM"
       ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4704879005",
-      "posted_at": "2026-06-11",
+      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4699806005",
+      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
-      "seniority": "mid",
+      "seniority": "unknown",
       "flags": []
     },
     {
@@ -13561,23 +13356,6 @@
       ],
       "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4711993005",
       "posted_at": "2026-07-07",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Technical Program Manager, Enterprise",
-      "company": "Scale AI",
-      "location": "New York, NY; San Francisco, CA; New York, NY",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4699806005",
-      "posted_at": "2026-06-03",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -14122,14 +13900,12 @@
       "flags": []
     },
     {
-      "title": "Software Engineer - Core Services",
+      "title": "Software Engineer — AI Infrastructure",
       "company": "Snorkel AI",
       "location": "Redwood City, CA (Hybrid); San Francisco, CA (Hybrid)",
       "location_tag": "global",
       "salary": "",
-      "skills": [
-        "Python"
-      ],
+      "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/snorkelai/jobs/5984577004",
       "posted_at": "2026-04-29",
       "match_score": null,
@@ -14413,7 +14189,7 @@
     {
       "title": "Account Solution Architect",
       "company": "CoreWeave",
-      "location": "San Francisco, CA",
+      "location": "Toronto, ON",
       "location_tag": "global",
       "salary": "",
       "skills": [
@@ -14421,12 +14197,30 @@
         "PyTorch",
         "LLM"
       ],
-      "apply_url": "https://coreweave.com/careers/job?4686696006&board=coreweave&gh_jid=4686696006",
+      "apply_url": "https://coreweave.com/careers/job?4686692006&board=coreweave&gh_jid=4686692006",
+      "posted_at": "2026-06-10",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Account Solution Architect",
+      "company": "CoreWeave",
+      "location": "London, UK",
+      "location_tag": "uk",
+      "salary": "",
+      "skills": [
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "apply_url": "https://coreweave.com/careers/job?4686665006&board=coreweave&gh_jid=4686665006",
       "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
-      "seniority": "unknown",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -14451,7 +14245,7 @@
     {
       "title": "Account Solution Architect",
       "company": "CoreWeave",
-      "location": "Toronto, ON",
+      "location": "San Francisco, CA",
       "location_tag": "global",
       "salary": "",
       "skills": [
@@ -14459,12 +14253,12 @@
         "PyTorch",
         "LLM"
       ],
-      "apply_url": "https://coreweave.com/careers/job?4686692006&board=coreweave&gh_jid=4686692006",
-      "posted_at": "2026-06-10",
+      "apply_url": "https://coreweave.com/careers/job?4686696006&board=coreweave&gh_jid=4686696006",
+      "posted_at": "2026-06-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
-      "seniority": "mid",
+      "seniority": "unknown",
       "flags": []
     },
     {
@@ -14484,24 +14278,6 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
       "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Account Solution Architect",
-      "company": "CoreWeave",
-      "location": "London, UK",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [
-        "PyTorch",
-        "TensorFlow"
-      ],
-      "apply_url": "https://coreweave.com/careers/job?4686665006&board=coreweave&gh_jid=4686665006",
-      "posted_at": "2026-06-04",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -14864,11 +14640,11 @@
     {
       "title": "Senior Analyst, RevOps - Field Planning and Performance",
       "company": "CoreWeave",
-      "location": "New York, NY",
+      "location": "San Francisco, CA",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4701465006&board=coreweave&gh_jid=4701465006",
+      "apply_url": "https://coreweave.com/careers/job?4701462006&board=coreweave&gh_jid=4701462006",
       "posted_at": "2026-07-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -14879,11 +14655,11 @@
     {
       "title": "Senior Analyst, RevOps - Field Planning and Performance",
       "company": "CoreWeave",
-      "location": "San Francisco, CA",
+      "location": "New York, NY",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4701462006&board=coreweave&gh_jid=4701462006",
+      "apply_url": "https://coreweave.com/careers/job?4701465006&board=coreweave&gh_jid=4701465006",
       "posted_at": "2026-07-31",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
@@ -15288,12 +15064,12 @@
     {
       "title": "Senior Specialist Field Engineer - Networking",
       "company": "CoreWeave",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Livingston, NJ / New York, NY",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4688572006&board=coreweave&gh_jid=4688572006",
-      "posted_at": "2026-06-11",
+      "apply_url": "https://coreweave.com/careers/job?4568528006&board=coreweave&gh_jid=4568528006",
+      "posted_at": "2025-05-16",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -15303,12 +15079,12 @@
     {
       "title": "Senior Specialist Field Engineer - Networking",
       "company": "CoreWeave",
-      "location": "Livingston, NJ / New York, NY",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4568528006&board=coreweave&gh_jid=4568528006",
-      "posted_at": "2025-05-16",
+      "apply_url": "https://coreweave.com/careers/job?4688572006&board=coreweave&gh_jid=4688572006",
+      "posted_at": "2026-06-11",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -15348,12 +15124,12 @@
     {
       "title": "Senior Specialist Field Engineer - Storage",
       "company": "CoreWeave",
-      "location": "San Francisco, CA / Sunnyvale, CA / Bellevue, WA",
+      "location": "Singapore",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4568531006&board=coreweave&gh_jid=4568531006",
-      "posted_at": "2025-05-16",
+      "apply_url": "https://coreweave.com/careers/job?4688583006&board=coreweave&gh_jid=4688583006",
+      "posted_at": "2026-06-12",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -15363,12 +15139,12 @@
     {
       "title": "Senior Specialist Field Engineer - Storage",
       "company": "CoreWeave",
-      "location": "Singapore",
+      "location": "San Francisco, CA / Sunnyvale, CA / Bellevue, WA",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://coreweave.com/careers/job?4688583006&board=coreweave&gh_jid=4688583006",
-      "posted_at": "2026-06-12",
+      "apply_url": "https://coreweave.com/careers/job?4568531006&board=coreweave&gh_jid=4568531006",
+      "posted_at": "2025-05-16",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -15630,23 +15406,6 @@
       "skills": [],
       "apply_url": "https://coreweave.com/careers/job?4695140006&board=coreweave&gh_jid=4695140006",
       "posted_at": "2026-07-07",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "junior",
-      "flags": []
-    },
-    {
-      "title": "Staff Engineer, Network Observability",
-      "company": "CoreWeave",
-      "location": "Livingston, NJ / New York, NY / Sunnyvale, CA / Bellevue, WA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "Python"
-      ],
-      "apply_url": "https://coreweave.com/careers/job?4693507006&board=coreweave&gh_jid=4693507006",
-      "posted_at": "2026-07-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -16569,21 +16328,6 @@
       "flags": []
     },
     {
-      "title": "Product Manager, Mapping (Real-time Disruptions)",
-      "company": "Waymo",
-      "location": "Mountain View, CA, US; San Francisco, CA, US",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7926309",
-      "posted_at": "2026-05-14",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
       "title": "Product Manager, New Geo Evaluation",
       "company": "Waymo",
       "location": "Mountain View, CA, US; San Francisco, CA, US",
@@ -16629,21 +16373,6 @@
       "flags": []
     },
     {
-      "title": "Recruiter, UK",
-      "company": "Waymo",
-      "location": "London, England",
-      "location_tag": "uk",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7980327",
-      "posted_at": "2026-06-04",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Research Scientist, RL for Autonomous Planning & World Modeling",
       "company": "Waymo",
       "location": "Mountain View, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York City, NY, USA",
@@ -16676,7 +16405,7 @@
       "flags": []
     },
     {
-      "title": "SAP Finance IT Business Analyst",
+      "title": "SAP Finance System Architect & Automation Lead",
       "company": "Waymo",
       "location": "Mountain View, California, USA",
       "location_tag": "global",
@@ -16687,7 +16416,7 @@
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
-      "seniority": "unknown",
+      "seniority": "mid",
       "flags": []
     },
     {
@@ -16774,8 +16503,8 @@
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7961704",
-      "posted_at": "2026-06-01",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7961706",
+      "posted_at": "2026-06-22",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -16789,8 +16518,8 @@
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7961706",
-      "posted_at": "2026-06-22",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7961704",
+      "posted_at": "2026-06-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -16847,12 +16576,12 @@
     {
       "title": "Senior Machine Learning Engineer, Simulation",
       "company": "Waymo",
-      "location": "Mountain View, CA, USA; New York, NY, USA",
-      "location_tag": "global",
+      "location": "London, UK",
+      "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7430187",
-      "posted_at": "2025-12-08",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=6563602",
+      "posted_at": "2025-01-27",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -16862,12 +16591,12 @@
     {
       "title": "Senior Machine Learning Engineer, Simulation",
       "company": "Waymo",
-      "location": "London, UK",
-      "location_tag": "uk",
+      "location": "Mountain View, CA, USA; New York, NY, USA",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=6563602",
-      "posted_at": "2025-01-27",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7430187",
+      "posted_at": "2025-12-08",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -17964,21 +17693,6 @@
       "flags": []
     },
     {
-      "title": "Software Engineer, System-on-Chip (SoC) Simulation",
-      "company": "Waymo",
-      "location": "Taipei, Taiwan; Hsinchu, Taiwan",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7708010",
-      "posted_at": "2026-03-16",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Software Engineer, System-on-Chip (SoC) Testing",
       "company": "Waymo",
       "location": "Bangalore, Karnataka, India",
@@ -17989,6 +17703,23 @@
       ],
       "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=8018436",
       "posted_at": "2026-06-19",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Software Quality Operations Specialist",
+      "company": "Waymo",
+      "location": "Mountain View, CA, United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7456163",
+      "posted_at": "2025-12-17",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -18023,23 +17754,6 @@
       ],
       "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7458393",
       "posted_at": "2026-02-09",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
-      "title": "Software Quality Operations Specialist",
-      "company": "Waymo",
-      "location": "Mountain View, CA, United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7456163",
-      "posted_at": "2025-12-17",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -18348,8 +18062,8 @@
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7947253",
-      "posted_at": "2026-06-01",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=6563711",
+      "posted_at": "2025-01-28",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -18363,8 +18077,8 @@
       "location_tag": "uk",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=6563711",
-      "posted_at": "2025-01-28",
+      "apply_url": "https://careers.withwaymo.com/jobs?gh_jid=7947253",
+      "posted_at": "2026-06-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -19422,21 +19136,6 @@
       "flags": []
     },
     {
-      "title": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems",
-      "company": "Airbnb",
-      "location": "United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/7955573?gh_jid=7955573",
-      "posted_at": "2026-05-24",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Principal Machine Learning Engineer- LLM Fine-tuning and Optimization",
       "company": "Airbnb",
       "location": "United States",
@@ -19447,21 +19146,6 @@
       ],
       "apply_url": "https://careers.airbnb.com/positions/7955579?gh_jid=7955579",
       "posted_at": "2026-05-24",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Principal Software Engineer, Performance",
-      "company": "Airbnb",
-      "location": "Remote-US",
-      "location_tag": "remote",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/7826679?gh_jid=7826679",
-      "posted_at": "2026-04-17",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -19549,6 +19233,21 @@
       "flags": []
     },
     {
+      "title": "Senior Data Scientist, Trust (Inference)",
+      "company": "Airbnb",
+      "location": "Remote - USA",
+      "location_tag": "remote",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.airbnb.com/positions/8059216?gh_jid=8059216",
+      "posted_at": "2026-07-15",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Senior Engineering Manager, Media Foundation",
       "company": "Airbnb",
       "location": "United States",
@@ -19598,12 +19297,12 @@
     {
       "title": "Senior Machine Learning Engineer, Customer Support Engineering",
       "company": "Airbnb",
-      "location": "Remote-USA",
-      "location_tag": "remote",
+      "location": "China",
+      "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/8014904?gh_jid=8014904",
-      "posted_at": "2026-06-18",
+      "apply_url": "https://careers.airbnb.com/positions/7975743?gh_jid=7975743",
+      "posted_at": "2026-06-02",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -19613,12 +19312,12 @@
     {
       "title": "Senior Machine Learning Engineer, Customer Support Engineering",
       "company": "Airbnb",
-      "location": "China",
-      "location_tag": "global",
+      "location": "Remote-USA",
+      "location_tag": "remote",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/7975743?gh_jid=7975743",
-      "posted_at": "2026-06-02",
+      "apply_url": "https://careers.airbnb.com/positions/8014904?gh_jid=8014904",
+      "posted_at": "2026-06-18",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -19709,21 +19408,6 @@
       "skills": [],
       "apply_url": "https://careers.airbnb.com/positions/8077683?gh_jid=8077683",
       "posted_at": "2026-07-21",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
-      "title": "Senior Platform Manager, Defense Platform",
-      "company": "Airbnb",
-      "location": "United States",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/7917687?gh_jid=7917687",
-      "posted_at": "2026-05-14",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -19919,23 +19603,6 @@
       "flags": []
     },
     {
-      "title": "Software Engineer, Community Support Engineering",
-      "company": "Airbnb",
-      "location": "San Francisco, CA",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://careers.airbnb.com/positions/8097917?gh_jid=8097917",
-      "posted_at": "2026-07-31",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "junior",
-      "flags": []
-    },
-    {
       "title": "Software Engineer, Quality Platform",
       "company": "Airbnb",
       "location": "Brazil",
@@ -20104,6 +19771,21 @@
       "flags": []
     },
     {
+      "title": "Staff Product Manager, AI Personalization",
+      "company": "Airbnb",
+      "location": "United States",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://careers.airbnb.com/positions/7834495?gh_jid=7834495",
+      "posted_at": "2026-04-28",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Staff Program Manager, Technical Education",
       "company": "Airbnb",
       "location": "San Francisco, California, United States",
@@ -20150,21 +19832,6 @@
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
       "seniority": "junior",
-      "flags": []
-    },
-    {
-      "title": "Staff Software Engineer, Guest & Host",
-      "company": "Airbnb",
-      "location": "Remote - USA",
-      "location_tag": "remote",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://careers.airbnb.com/positions/8077995?gh_jid=8077995",
-      "posted_at": "2026-07-21",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
       "flags": []
     },
     {
@@ -20624,12 +20291,12 @@
     {
       "title": "Senior Product Designer",
       "company": "Duolingo",
-      "location": "Beijing, China",
+      "location": "Pittsburgh, PA",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002",
-      "posted_at": "2026-08-04",
+      "apply_url": "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
+      "posted_at": "2026-04-01",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -20639,12 +20306,12 @@
     {
       "title": "Senior Product Designer",
       "company": "Duolingo",
-      "location": "Pittsburgh, PA",
+      "location": "Beijing, China",
       "location_tag": "global",
       "salary": "",
       "skills": [],
-      "apply_url": "https://careers.duolingo.com/jobs/8489189002?gh_jid=8489189002",
-      "posted_at": "2026-04-01",
+      "apply_url": "https://careers.duolingo.com/jobs/8675713002?gh_jid=8675713002",
+      "posted_at": "2026-08-04",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -20731,8 +20398,8 @@
     {
       "title": "Lead Machine Learning Scientist, Customer Operations",
       "company": "Monzo",
-      "location": "UK",
-      "location_tag": "global",
+      "location": "Cardiff, London or Remote (UK)",
+      "location_tag": "remote",
       "salary": "",
       "skills": [],
       "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8103509",
@@ -21939,21 +21606,6 @@
       "flags": []
     },
     {
-      "title": "Data Scientist",
-      "company": "Stripe",
-      "location": "Toronto",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=5895430",
-      "posted_at": "2024-04-30",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "unknown",
-      "flags": []
-    },
-    {
       "title": "Data Scientist, Core Infrastructure",
       "company": "Stripe",
       "location": "Seattle",
@@ -21969,6 +21621,21 @@
       "flags": []
     },
     {
+      "title": "Data Scientist, Fraud",
+      "company": "Stripe",
+      "location": "Toronto",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8113100",
+      "posted_at": "2026-08-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
       "title": "Data Scientist, Global Growth",
       "company": "Stripe",
       "location": "Singapore",
@@ -21977,6 +21644,21 @@
       "skills": [],
       "apply_url": "https://stripe.com/jobs/search?gh_jid=8043052",
       "posted_at": "2026-07-08",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "unknown",
+      "flags": []
+    },
+    {
+      "title": "Data Scientist, Link",
+      "company": "Stripe",
+      "location": "Toronto",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [],
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8112966",
+      "posted_at": "2026-08-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -22565,23 +22247,6 @@
       "flags": []
     },
     {
-      "title": "Staff Engineer, Agentic Commerce",
-      "company": "Stripe",
-      "location": "Singapore",
-      "location_tag": "global",
-      "salary": "",
-      "skills": [
-        "LLM"
-      ],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=8047789",
-      "posted_at": "2026-07-17",
-      "match_score": null,
-      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-      "tier": "stretch",
-      "seniority": "mid",
-      "flags": []
-    },
-    {
       "title": "Staff Full Stack Engineer, Identity",
       "company": "Stripe",
       "location": "Remote",
@@ -22659,7 +22324,7 @@
       "flags": []
     },
     {
-      "title": "Staff Software Engineer, Data Engineering Solutions",
+      "title": "Staff Software Engineer, Business Data",
       "company": "Stripe",
       "location": "Seattle",
       "location_tag": "global",
@@ -22667,8 +22332,8 @@
       "skills": [
         "LLM"
       ],
-      "apply_url": "https://stripe.com/jobs/search?gh_jid=8013220",
-      "posted_at": "2026-06-17",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8112037",
+      "posted_at": "2026-08-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
@@ -22709,6 +22374,23 @@
       "flags": []
     },
     {
+      "title": "Staff Software Engineer, Data Quality and Governance",
+      "company": "Stripe",
+      "location": "Seattle",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8112042",
+      "posted_at": "2026-08-06",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
       "title": "Staff Software Engineer, Machine Learning Platform",
       "company": "Stripe",
       "location": "San Francisco, Seattle",
@@ -22732,6 +22414,23 @@
       "skills": [],
       "apply_url": "https://stripe.com/jobs/search?gh_jid=7712852",
       "posted_at": "2026-03-12",
+      "match_score": null,
+      "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+      "tier": "stretch",
+      "seniority": "mid",
+      "flags": []
+    },
+    {
+      "title": "Staff Software Engineer, Product Risk",
+      "company": "Stripe",
+      "location": "Toronto",
+      "location_tag": "global",
+      "salary": "",
+      "skills": [
+        "LLM"
+      ],
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=8112043",
+      "posted_at": "2026-08-06",
       "match_score": null,
       "match_reasoning": "API error: Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
       "tier": "stretch",
